@@ -41,6 +41,11 @@ class QuestionBank{
         qList.append(Question(image: "happysmile.jpg", questionText: "What is the name of the host of the game show the Simpsons appear on during their trip to Japan?", choiceA: "Skip", choiceB: "Wink", choiceC: "Chuck", choiceD: "Bob", answer: 2))
         qList.append(Question(image: "curfew.jpg", questionText: "What is the name of the movie the kids of Springfield sneak off to see during a city-wide curfew?", choiceA: "The Shinning", choiceB: "Honk If You're Horny", choiceC: "The Bus That Wouldn't Slow Down", choiceD: "The Bloodening", answer: 4))
         qList.append(Question(image: "nessie.jpg", questionText: "Which character does NOT accompany Mr. Burns on his quest to capture the Loch Ness Monster?", choiceA: "Homer", choiceB: "Groundskeeper Willie", choiceC: "Smithers", choiceD: "Professor Frink", answer: 3))
+        qList.append(Question(image: "fearofflying.jpg", questionText: "What is the last name of the psychiatrist that helps Marge overcome her fear of flying?", choiceA: "Zweig", choiceB: "Lowenstein", choiceC: "Bancroft", choiceD: "Waxler", answer: 1))
+        qList.append(Question(image: "fattony.jpg", questionText: "Fat Tony is voiced by which actor?", choiceA: "Al Pacino", choiceB: "Joe Mantegna", choiceC: "Andy Garcia", choiceD: "Benicio del Toro", answer: 2))
+        qList.append(Question(image: "troymcclure.jpg", questionText: "Which of these is NOT a movie Troy McClure has starred in?", choiceA: "The Greatest Story Ever Hula-ed", choiceB: "The Verdict Was Mail Fraud", choiceC: "Dial M For Murderousness", choiceD: "McBain 4: Fatal Discharge", answer: 4))
+        qList.append(Question(image: "superbowl.jpg", questionText: "Which teams played in the Super Bowl that preceded the airing of the episode \"Sunday, Cruddy Sunday\"?", choiceA: "New England Patriots and St. Louis Rams", choiceB: "Denver Broncos and Seattle Seahawks", choiceC: "Denver Broncos and Atlanta Falcons", choiceD: "Green Bay Packers and New England Patriots", answer: 3))
+        qList.append(Question(image: "celltower.jpg", questionText: "What is the name of the company that installs a cell phone tower on the Simpsons' roof?", choiceA: "Qualbiz", choiceB: "OmniTouch", choiceC: "Verizzion", choiceD: "AT&T", answer: 2))
     }
     
 }
