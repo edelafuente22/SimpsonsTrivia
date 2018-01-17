@@ -24,7 +24,7 @@ class QuestionViewController: UIViewController {
     
     let allQuestions = QuestionBank()
     var questionNumber: Int = 0
-    var questionArray: [Int] = [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33]
+    var questionArray: [Int] = [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50]
     var questionIndex: Int = 0
     var correctResponses: Int = 0
     var rightAnswer: Int = 0
@@ -47,11 +47,12 @@ class QuestionViewController: UIViewController {
             // THIS CHOOSES QUESTION AT RANDOM
             questionIndex = Int(arc4random_uniform(UInt32(questionArray.count)))
             questionNumber = questionArray[questionIndex]
-            print(questionCount)
+            print(questionNumber)
             questionArray.remove(at: questionIndex)
             
             // REST OF QUESTION DISPLAY LOGIC
             imageView.image = UIImage(named:(allQuestions.qList[questionNumber].questionImage))
+            questionLabel.textColor = UIColor.black
             questionLabel.text = allQuestions.qList[questionNumber].question
             rightAnswer = allQuestions.qList[questionNumber].correctAnswer
             optionA.setTitle(allQuestions.qList[questionNumber].optionA, for: UIControlState.normal)
@@ -75,14 +76,24 @@ class QuestionViewController: UIViewController {
     @IBAction func answerPressed(_ sender: UIButton) {
         if sender.tag == rightAnswer{
             print("correct")
+            questionLabel.text = "CORRECT!"
+            questionLabel.textColor = UIColor.green
+         //   questionLabel.font = questionLabel.font.bold
             correctResponses += 1
             questionCount += 1
-            updateQuestion()
+            DispatchQueue.main.asyncAfter(deadline: .now() + 2.0, execute: {
+                self.updateQuestion()
+            })
         }
         else{
             print("incorrect")
+            questionLabel.text = "WRONG!"
+            questionLabel.textColor = UIColor.red
+         //   questionLabel.font = questionLabel.font.bold
             questionCount += 1
-            updateQuestion()
+            DispatchQueue.main.asyncAfter(deadline: .now() + 2.0, execute: {
+                self.updateQuestion()
+            })
         }
     }
     
@@ -94,4 +105,27 @@ class QuestionViewController: UIViewController {
             GameScore?.score = correctResponses
         }
     }
+}
+
+extension UIFont {
+    var bold: UIFont {
+        return with(traits: .traitBold)
+    } // bold
+    
+    var italic: UIFont {
+        return with(traits: .traitItalic)
+    } // italic
+    
+    var boldItalic: UIFont {
+        return with(traits: [.traitBold, .traitItalic])
+    } // boldItalic
+    
+    
+    func with(traits: UIFontDescriptorSymbolicTraits) -> UIFont {
+        guard let descriptor = self.fontDescriptor.withSymbolicTraits(traits) else {
+            return self
+        } // guard
+        
+        return UIFont(descriptor: descriptor, size: 0)
+    } // with(traits:)
 }
