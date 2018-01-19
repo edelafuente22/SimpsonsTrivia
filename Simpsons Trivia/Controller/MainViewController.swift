@@ -7,12 +7,29 @@
 //
 
 import UIKit
+import Foundation
 
 class MainViewController: UIViewController {
 
+    @IBOutlet weak var titleImage: UIImageView!
+    @IBOutlet weak var titleLabel: UILabel!
+    @IBOutlet weak var startGame: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        self.navigationController?.navigationBar.isHidden = true
+        
+        titleImage.alpha = 0.0
+        titleLabel.alpha = 0.0
+        startGame.alpha = 0.0
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        self.navigationController?.navigationBar.isHidden = true
+        
+        self.titleImage.fadeInTitle()
+        self.titleLabel.fadeInLabel()
+        self.startGame.fadeInButton()
     }
 
     override func didReceiveMemoryWarning() {
@@ -20,6 +37,26 @@ class MainViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+}
+
+extension UIView {
+    func fadeInTitle() {
+        UIView.animate(withDuration: 1.0, delay: 1.0, options: UIViewAnimationOptions.curveEaseIn, animations: {
+            self.alpha = 1.0
+        }, completion: nil)
+    }
+    
+    func fadeInLabel() {
+        UIView.animate(withDuration: 0.5, delay: 2.5, options: UIViewAnimationOptions.curveEaseIn, animations: {
+            self.alpha = 1.0
+        }, completion: nil)
+    }
+    
+    func fadeInButton() {
+        UIView.animate(withDuration: 2.0, delay: 4.5, options: UIViewAnimationOptions.curveEaseIn, animations: {
+            self.alpha = 1.0
+        }, completion: nil)
+    }
 
 }
 
