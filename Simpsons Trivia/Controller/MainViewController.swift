@@ -47,13 +47,13 @@ extension UIView {
     }
     
     func fadeInLabel() {
-        UIView.animate(withDuration: 0.5, delay: 2.5, options: UIViewAnimationOptions.curveEaseIn, animations: {
+        UIView.animate(withDuration: 0.2, delay: 2.5, options: UIViewAnimationOptions.curveEaseIn, animations: {
             self.alpha = 1.0
         }, completion: nil)
     }
     
     func fadeInButton() {
-        UIView.animate(withDuration: 2.0, delay: 4.5, options: UIViewAnimationOptions.curveEaseIn, animations: {
+        UIView.animate(withDuration: 1.5, delay: 4.0, options: UIViewAnimationOptions.curveEaseIn, animations: {
             self.alpha = 1.0
         }, completion: nil)
     }
