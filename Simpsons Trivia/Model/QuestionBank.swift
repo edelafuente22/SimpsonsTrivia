@@ -112,7 +112,7 @@ class QuestionBank{
         qList.append(Question(image: "sarasloane.jpg", questionText: "Sara Sloane, the Hollywood celebrity who becomes a love interest of Ned, is voiced by which Oscar-winning actress?", choiceA: "Marisa Tomei", choiceB: "Meryl Streep", choiceC: "Jodie Foster", choiceD: "Jennifer Lawrence", answer: 1))
         qList.append(Question(image: "thirdgrade.jpg", questionText: "What is the name of Springfield Elementary's third-grade teacher?", choiceA: "Audrey McConnell", choiceB: "Chloe Talbot", choiceC: "Hans Moleman", choiceD: "Edna Krabappel", answer: 1))
         qList.append(Question(image: "spellympics.jpg", questionText: "Which famous writer appeared in \"I'm Spelling As Fast As I Can\" as the host of the Spellympics?", choiceA: "Doris Kearns Goodwin", choiceB: "David Halberstam", choiceC: "George Plimpton", choiceD: "Jimmy Breslin", answer: 3))
-        qList.append(Question(image: "hatesflanders.jpg", questionText: "Homer teams up with which musician to produce a song called \"Everybody Hates Ned Flanders\"?", choiceA: "Peter Gabriel", choiceB: "David Byrne", choiceC: "Phil Collins", choiceD: "David Bowie", answer: 2))
+        qList.append(Question(image: "hatesflanders.jpg", questionText: "Which musician does Homer team up with to produce a song called \"Everybody Hates Ned Flanders\"?", choiceA: "Peter Gabriel", choiceB: "David Byrne", choiceC: "Phil Collins", choiceD: "David Bowie", answer: 2))
         
         // SEASON 15
         qList.append(Question(image: "lisaprez.jpg", questionText: "The episode \"The President Wore Pearls,\" in which Lisa becomes class president, is a parody of which Broadway musical?", choiceA: "Evita", choiceB: "Chicago", choiceC: "The Music Man", choiceD: "Phantom of the Opera", answer: 1))
@@ -129,8 +129,13 @@ class QuestionBank{
         
         
         // UNSORTED
-        
-        
+        qList.append(Question(image: "moerascals.jpg", questionText: "As a child, Moe performed with the Little Rascals under what stage name?", choiceA: "Smelly", choiceB: "Dopey", choiceC: "Chubby", choiceD: "Alfalfa", answer: 1))
+        qList.append(Question(image: "mediocrepresidents.jpg", questionText: "When Springfield Elementary hosts a Presidents Day pageant, what part does Milhouse play?", choiceA: "George Washington", choiceB: "Abraham Lincoln", choiceC: "John Wilkes Booth", choiceD: "William Henry Harrison", answer: 2))
+        qList.append(Question(image: "hurricane.jpg", questionText: "In what year did the Springfield Hall of Records mysteriously blow away, according to Lisa?", choiceA: "1958", choiceB: "1968", choiceC: "1978", choiceD: "1987", answer: 3))
+        qList.append(Question(image: "collectcall.jpg", questionText: "What is the name of the Australian boy who answers a collect call from Bart?", choiceA: "Tobias", choiceB: "Jackson", choiceC: "Ethan", choiceD: "Andy", answer: 1))
+        qList.append(Question(image: "kampkrusty.jpg", questionText: "Where does Krusty take the kids of Kamp Krusty to make up for the poor conditions they endured?", choiceA: "Disneyland", choiceB: "San Francisco", choiceC: "Tijuana, Mexico", choiceD: "Cape Canaveral", answer: 3))
+        qList.append(Question(image: "specialblend.jpg", questionText: "Which spice does Homer detect in Groundskeeper Willie's \"special blend\" of sawdust?", choiceA: "Allspice", choiceB: "Cloves", choiceC: "Cinnamon", choiceD: "Paprika", answer: 3))
+        qList.append(Question(image: "littlemissspringfield.jpg", questionText: "Lisa finishes as runner-up in the Little Miss Springfield pageant to who?", choiceA: "Amber Dempsey", choiceB: "Jessica Lovejoy", choiceC: "Allison Taylor", choiceD: "Greta Wolfcastle", answer: 1))
     }
     
 }

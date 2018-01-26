@@ -10,8 +10,8 @@ import UIKit
 
 class QuestionViewController: UIViewController {
     @IBOutlet weak var questionCounter: UILabel!
-    @IBOutlet weak var scoreLabel: UILabel!
     @IBOutlet weak var progressView: UIProgressView!
+    @IBOutlet weak var timerLabel: UILabel!
     
     @IBOutlet weak var imageView: UIImageView!
     
@@ -29,6 +29,10 @@ class QuestionViewController: UIViewController {
     var correctResponses: Int = 0
     var rightAnswer: Int = 0
     var questionCount: Int = 0
+    
+    var timer = Timer()
+    var timeLeft: Int = 0
+    var isTimerRunning = false
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -60,7 +64,10 @@ class QuestionViewController: UIViewController {
             optionC.setTitle(allQuestions.qList[questionNumber].optionC, for: UIControlState.normal)
             optionD.setTitle(allQuestions.qList[questionNumber].optionD, for: UIControlState.normal)
             
+            // UPDATING HEADER AND RESTARTING TIMER
             updateHeader()
+            startTimer()
+            
         } else {
             self.performSegue(withIdentifier: "Game Over", sender: Any?.self)
         }
@@ -68,7 +75,8 @@ class QuestionViewController: UIViewController {
     }
     
     func updateHeader(){
-        scoreLabel.text = "Correct: \(correctResponses)"
+        self.timeLeft = 30
+        timerLabel.text = ":\(timeLeft)"
         questionCounter.text = "\(questionCount + 1)/12"
         
     }
@@ -79,6 +87,7 @@ class QuestionViewController: UIViewController {
             questionLabel.text = "CORRECT!"
             questionLabel.textColor = UIColor.green
          //   questionLabel.font = questionLabel.font.bold
+            timer.invalidate()
             correctResponses += 1
             questionCount += 1
             DispatchQueue.main.asyncAfter(deadline: .now() + 2.0, execute: {
@@ -90,6 +99,26 @@ class QuestionViewController: UIViewController {
             questionLabel.text = "WRONG!"
             questionLabel.textColor = UIColor.red
          //   questionLabel.font = questionLabel.font.bold
+            timer.invalidate()
+            questionCount += 1
+            DispatchQueue.main.asyncAfter(deadline: .now() + 2.0, execute: {
+                self.updateQuestion()
+            })
+        }
+    }
+    
+    func startTimer() {
+        timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: (#selector(QuestionViewController.updateTimer)), userInfo: nil, repeats: true)
+    }
+    
+    @objc func updateTimer() {
+        timeLeft -= 1
+        timerLabel.text = ":\(timeLeft)"
+        if(timeLeft < 1){
+            questionLabel.text = "TIME'S UP!"
+            timerLabel.text = ""
+            timer.invalidate()
+            questionLabel.textColor = UIColor.red
             questionCount += 1
             DispatchQueue.main.asyncAfter(deadline: .now() + 2.0, execute: {
                 self.updateQuestion()
