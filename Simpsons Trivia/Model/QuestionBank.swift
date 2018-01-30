@@ -25,6 +25,8 @@ class QuestionBank{
         qList.append(Question(image: "judgeharm.jpg", questionText: "Judge Constance Harm is voiced by which actress?", choiceA: "Glenn Close", choiceB: "Patricia Heaton", choiceC: "Jane Kaczmarek", choiceD: "Jane Krakowski", answer: 3))
         qList.append(Question(image: "hsprincipal.jpg", questionText: "What is the last name of Springfield High School's principal during the period that Homer and Marge were students?", choiceA: "Peterson", choiceB: "Dondelinger", choiceC: "Chalmers", choiceD: "Pennyfeather", answer: 2))
         qList.append(Question(image: "carlcarlson.jpg", questionText: "Carl Carlson spent his childhood in which European country?", choiceA: "Ireland", choiceB: "Iceland", choiceC: "Albania", choiceD: "Luxembourg", answer: 2))
+        qList.append(Question(image: "krabappel.jpg", questionText: "Which of these characters has Edna Krabappel NOT dated?", choiceA: "Comic Book Guy", choiceB: "Superintendent Chalmers", choiceC: "Ned Flanders", choiceD: "Principal Skinner", answer: 2))
+        qList.append(Question(image: "author.jpg", questionText: "Which famous author has made several \"Simpsons\" appearances, always depicted with a bag on his head?", choiceA: "Thomas Pynchon", choiceB: "J.D. Salinger", choiceC: "Tom Wolfe", choiceD: "Michael Crichton", answer: 1))
         
         // SEASON 2
         qList.append(Question(image: "hooverlyme.jpg", questionText: "Lisa's teacher, Miss Hoover, took an extended leave of absence because she thought she had which ailment?", choiceA: "Lyme disease", choiceB: "Flesh-eating bacteria", choiceC: "Severe butt-rot", choiceD: "Ebola virus", answer: 1))
@@ -40,6 +42,9 @@ class QuestionBank{
         qList.append(Question(image: "coreyhotline.jpg", questionText: "Which of these is NOT cited on teen heartthrob Corey's hotline as a word that rhymes with his name?", choiceA: "Story", choiceB: "Hunky-Dory", choiceC: "Allegory", choiceD: "Montessori", answer: 2))
         qList.append(Question(image: "britishsmiles.jpg", questionText: "Which of Springfield's children is subjected to reading \"The Big Book of British Smiles\"?", choiceA: "Lisa", choiceB: "Ralph", choiceC: "Martin", choiceD: "Nelson", answer: 2))
         qList.append(Question(image: "drnick.jpg", questionText: "Dr. Nick Riviera advertises that he can perform any surgery for what price?", choiceA: "$5", choiceB: "$99.99", choiceC: "$129.95", choiceD: "$2,000", answer: 3))
+        qList.append(Question(image: "mediocrepresidents.jpg", questionText: "When Springfield Elementary hosts a Presidents Day pageant, what part does Milhouse play?", choiceA: "George Washington", choiceB: "Abraham Lincoln", choiceC: "John Wilkes Booth", choiceD: "William Henry Harrison", answer: 2))
+        qList.append(Question(image: "kampkrusty.jpg", questionText: "Where does Krusty take the kids of Kamp Krusty to make up for the poor conditions they endured?", choiceA: "Disneyland", choiceB: "San Francisco", choiceC: "Tijuana, Mexico", choiceD: "Cape Canaveral", answer: 3))
+        qList.append(Question(image: "littlemissspringfield.jpg", questionText: "Lisa finishes as runner-up in the Little Miss Springfield pageant to who?", choiceA: "Amber Dempsey", choiceB: "Jessica Lovejoy", choiceC: "Allison Taylor", choiceD: "Greta Wolfcastle", answer: 1))
         
         // SEASON 5
         qList.append(Question(image: "malibustacy.jpg", questionText: "What is the name of the doll Lisa designs to compete with Malibu Stacy?", choiceA: "Lisa the Brain", choiceB: "Lovely Lisa", choiceC: "Lisa Lionheart", choiceD: "Malibu Lisa", answer: 3))
@@ -47,13 +52,17 @@ class QuestionBank{
         qList.append(Question(image: "molloy.jpg", questionText: "Which actor provides the voice of Molloy, the charming burglar in the episode \"Homer The Vigilante\"?", choiceA: "Liam Neeson", choiceB: "Sam Neill", choiceC: "Kelsey Grammer", choiceD: "Gary Oldman", answer: 2))
         
         // SEASON 6
+        qList.append(Question(image: "treehouse5.jpg", questionText: "In \"Treehouse of Horror V\", which character is killed in every segment?", choiceA: "Principal Skinner", choiceB: "Groundskeeper Willie", choiceC: "Hans Moleman", choiceD: "Jimbo Jones", answer: 2))
+        qList.append(Question(image: "collectcall.jpg", questionText: "What is the name of the Australian boy who answers a collect phone call from Bart?", choiceA: "Tobias", choiceB: "Jackson", choiceC: "Ethan", choiceD: "Andy", answer: 1))
         qList.append(Question(image: "manfootball.jpg", questionText: "Which actor starred in the Oscar-winning remake of Hans Moleman's \"Man Getting Hit By Football\"?", choiceA: "Charles Bronson", choiceB: "Charlton Heston", choiceC: "Jimmy Stewart", choiceD: "George C. Scott", answer: 4))
         qList.append(Question(image: "moejukebox.jpg", questionText: "What is Homer's favorite song (which Moe angrily removes from the jukebox at his bar)?", choiceA: "\"Jingle Bells\"", choiceB: "\"It's Raining Men\"", choiceC: "\"I Touch Myself\"", choiceD: "\"Owner Of A Lonely Heart\"", answer: 2))
+        qList.append(Question(image: "algore.jpg", questionText: "What is the title of the book by Al Gore that Lisa purchases?", choiceA: "Me The Veep", choiceB: "The Assault On Reason", choiceC: "Sane Planning, Sensible Tomorrow", choiceD: "An Incorrigible Truth", answer: 3))
         qList.append(Question(image: "fearofflying.jpg", questionText: "What is the last name of the psychiatrist that helps Marge overcome her fear of flying?", choiceA: "Zweig", choiceB: "Lowenstein", choiceC: "Bancroft", choiceD: "Waxler", answer: 1))
         qList.append(Question(image: "barthockey.jpg", questionText: "What is the name of the peewee hockey team Bart plays on?", choiceA: "Kwik-E-Mart Gougers", choiceB: "Ice-Kickers", choiceC: "Springfield Wildcats", choiceD: "The Mighty Pigs", answer: 4))
         qList.append(Question(image: "homerinterview.jpg", questionText: "What news show does Homer appear on to defend himself against a sexual harassment claim?", choiceA: "Smartline", choiceB: "Rock Bottom", choiceC: "A Current Affair", choiceD: "Eyewitness Copy", answer: 2))
         
         // SEASON 7
+        qList.append(Question(image: "moerascals.jpg", questionText: "As a child, Moe performed with the Little Rascals under what stage name?", choiceA: "Smelly", choiceB: "Dopey", choiceC: "Chubby", choiceD: "Alfalfa", answer: 1))
         qList.append(Question(image: "nachosflanders.jpg", questionText: "What ingredients does Ned Flanders use in his version of nachos?", choiceA: "Potato chips with Velveeta", choiceB: "Broccoli with salt", choiceC: "Crackers with tomatoes", choiceD: "Cucumbers with cottage cheese", answer: 4))
         qList.append(Question(image: "lisavegetarian.jpg", questionText: "Lisa is teased for her vegetarianism by being asked if she will marry which vegetable?", choiceA: "Beet", choiceB: "Celery", choiceC: "Turnip", choiceD: "Carrot", answer: 4))
         qList.append(Question(image: "familyfeedbag.jpg", questionText: "When Moe decides to turn his bar into a family restaurant, he consults a book written by whom?", choiceA: "T.G.I. Friday", choiceB: "Bennigan and Fuddrucker", choiceC: "Denny and Mimi", choiceD: "Ronald McDonald", answer: 2))
@@ -72,11 +81,15 @@ class QuestionBank{
         qList.append(Question(image: "maisonderriere.jpg", questionText: "What is the name of the emcee Bart is asked to fill in for while working at the Maison Derriere?", choiceA: "Max Power", choiceB: "Trent Steele", choiceC: "Mel Zett", choiceD: "Hans Moleman", answer: 3))
         qList.append(Question(image: "burnsbio.jpg", questionText: "What is the title of Mr. Burns' biography?", choiceA: "A Man And A Nuclear Plant", choiceB: "Bobo and Me", choiceC: "Will There Ever Be A Rainbow?", choiceD: "The Rich Man Cometh", answer: 3))
         qList.append(Question(image: "spinoff.jpg", questionText: "Which of these is NOT the title of a show presented during the \"Simpsons Spin-Off Showcase\"?", choiceA: "\"The Simpson Family Smile-Time Variety Hour\"", choiceB: "\"Chief Wiggum, P.I.\"", choiceC: "\"Knight-Boat\"", choiceD: "\"The Love-Matic Grandpa\"", answer: 3))
+        qList.append(Question(image: "hurricane.jpg", questionText: "In what year did the Springfield Hall of Records mysteriously blow away, according to Lisa?", choiceA: "1958", choiceB: "1968", choiceC: "1978", choiceD: "1987", answer: 3))
+        qList.append(Question(image: "itchyvoice.jpg", questionText: "What is the name of the actress that provides the voices of Itchy and Scratchy?", choiceA: "Jane Cleaver", choiceB: "June Foray", choiceC: "June Bellamy", choiceD: "Barbara Billingsley", answer: 3))
+        qList.append(Question(image: "mrsparkle.jpg", questionText: "In which Japanese city is the Mr. Sparkle manufacturing plant located?", choiceA: "Tokyo", choiceB: "Hokkaido", choiceC: "Sapporo", choiceD: "Yokohama", answer: 2))
         
         // SEASON 9
         qList.append(Question(image: "broadway.jpg", questionText: "Which Broadway musical do Marge, Lisa and Bart watch during their visit to New York?", choiceA: "Checkin' In", choiceB: "Kickin' It", choiceC: "The Itchy and Scratchy Musical", choiceD: "Planet of the Apes", answer: 2))
         qList.append(Question(image: "cult.jpg", questionText: "The Movementarians, the cult that the Simpsons join, aim to settle on which planet?", choiceA: "Euphoriana", choiceB: "Blisstonia", choiceC: "Equalia", choiceD: "Pluto", answer: 2))
         qList.append(Question(image: "musicbox.jpg", questionText: "What is the name of the ancient Egyptian artifact that Lisa and Homer discover to be a music box?", choiceA: "King Tut's Chest", choiceB: "The Sphere of Cairo", choiceC: "Egyptian Disco Ball", choiceD: "The Orb of Isis", answer: 4))
+        qList.append(Question(image: "jeopardy.jpg", questionText: "When Marge appears on \"Jeopardy!\", what is her money total at the end of the game?", choiceA: "$10,999", choiceB: "$ -5200", choiceC: "$ -1", choiceD: "$0", answer: 2))
         qList.append(Question(image: "sanitation.jpg", questionText: "During his campaign for sanitation commissioner, Homer crashes a concert by which band?", choiceA: "Pearl Jam", choiceB: "U2", choiceC: "R.E.M.", choiceD: "Smashing Pumpkins", answer: 2))
         qList.append(Question(image: "kidznewz.jpg", questionText: "When Lisa becomes the anchor of a kids' news program, what name does the show's producer mistakenly call her?", choiceA: "Julie", choiceB: "Mary Ann", choiceC: "Terrylynne", choiceD: "Liz", answer: 2))
         qList.append(Question(image: "murderhorn.jpg", questionText: "What is the name of the nutritional bar company that sponsors Homer on his expedition to climb the Murderhorn?", choiceA: "PowerSauce", choiceB: "Vita-Peach Health Log", choiceC: "PowerBar", choiceD: "The Complete Cookie", answer: 1))
@@ -96,15 +109,22 @@ class QuestionBank{
         qList.append(Question(image: "maudedeath.jpg", questionText: "How did Maude Flanders die?", choiceA: "Run over by Homer's car", choiceB: "Fell into Springfield Gorge", choiceC: "Struck by lightning while praying", choiceD: "Struck by barrage of T-shirts", answer: 4))
         qList.append(Question(image: "springfieldu.jpg", questionText: "What is the nickname of the football team at Spingfield University?", choiceA: "Wildcats", choiceB: "Roughriders", choiceC: "Snortin' Swine", choiceD: "Nittany Tide", answer: 4))
         qList.append(Question(image: "pbsshow.jpg", questionText: "What is the name of the British sitcom Homer discovers on PBS?", choiceA: "\"Absolutely Crapulous\"", choiceB: "\"Do Shut Up\"", choiceC: "\"Shut Your Gob\"", choiceD: "\"Fawlty Towers\"", answer: 2))
+        qList.append(Question(image: "margebrokenleg.jpg", questionText: "When the Simpsons visit a ski resort, how does Marge break her leg?", choiceA: "Falling off a ski lift", choiceB: "Colliding with Ned Flanders", choiceC: "Being hit by a clock that fell off a wall", choiceD: "Tripping over a search and rescue dog", answer: 3))
+        qList.append(Question(image: "tango.jpg", questionText: "What is the name of the movie that inspires Lisa to enroll in dancing lessons?", choiceA: "\"The Dance of Death\"", choiceB: "\"Tango de la Muerte\"", choiceC: "\"Baila!\"", choiceD: "\"Lisabella the Ballerina\"", answer: 2))
         
         // SEASON 12
         qList.append(Question(image: "activist.jpg", questionText: "What is the name of the environmental activist that Lisa develops a crush on?", choiceA: "Jesse Grass", choiceB: "Jimmy Rainforest", choiceC: "Johnny Wilderness", choiceD: "Jack Elmtree", answer: 1))
         qList.append(Question(image: "grammarrobot.jpg", questionText: "What is the name Lisa gives to the grammar robot she builds for her school science fair?", choiceA: "Linguo", choiceB: "The Oxford Comma", choiceC: "LanguageBot", choiceD: "Speak 'n' Say", answer: 1))
         qList.append(Question(image: "partyposse.jpg", questionText: "Which of these is NOT a song sung by the Party Posse, Bart's boy band?", choiceA: "You're My Special Girl", choiceB: "Drop Da Bomb", choiceC: "No Strings Attached", choiceD: "Let's Re-Up Tonight", answer: 3))
         qList.append(Question(image: "duffstadium.jpg", questionText: "Which real-life minor-league baseball team has a name inspired by the episode \"Hungry, Hungry Homer\"?", choiceA: "Springfield Wildcats", choiceB: "Albuquerque Isotopes", choiceC: "Jacksonville Atoms", choiceD: "Illinois Bartmen", answer: 2))
+        qList.append(Question(image: "specialblend.jpg", questionText: "Which spice does Homer detect in Groundskeeper Willie's \"special blend\" of sawdust?", choiceA: "Allspice", choiceB: "Cloves", choiceC: "Cinnamon", choiceD: "Paprika", answer: 3))
+        qList.append(Question(image: "tennismenace.jpg", questionText: "Which of these tennis stars did NOT appear in the episode \"Tennis the Menace\"?", choiceA: "Andre Agassi", choiceB: "Serena Williams", choiceC: "Steffi Graf", choiceD: "Pete Sampras", answer: 3))
+        qList.append(Question(image: "sophie.jpg", questionText: "Sophie, Krusty's estranged daughter, is voiced by which actress?", choiceA: "Zooey Deschanel", choiceB: "Natalie Portman", choiceC: "Reese Witherspoon", choiceD: "Drew Barrymore", answer: 4))
         
         // SEASON 13
         qList.append(Question(image: "gloria.jpg", questionText: "Who was the ex-boyfriend of Gloria, Mr. Burns' love interest in \"A Hunka Hunka Burns In Love\"?", choiceA: "Moe", choiceB: "Snake", choiceC: "Barney", choiceD: "Lenny", answer: 2))
+        qList.append(Question(image: "ultrahouse.jpg", questionText: "Who provides the voice of the UltraHouse seen in \"Treehouse of Horror XII\"?", choiceA: "Sean Connery", choiceB: "Liam Neeson", choiceC: "Daniel Craig", choiceD: "Pierce Brosnan", answer: 4))
+        qList.append(Question(image: "bartbubble.jpg", questionText: "What virus forces Bart to live temporarily in a plastic bubble?", choiceA: "Hanta virus", choiceB: "Panda virus", choiceC: "The blue plague", choiceD: "Ebola virus", answer: 2))
         
         // SEASON 14
         qList.append(Question(image: "fantasycamp.jpg", questionText: "Which of these musicians was NOT an instructor at the rock 'n' roll fantasy camp Homer attends?", choiceA: "Dave Grohl", choiceB: "Lenny Kravitz", choiceC: "Tom Petty", choiceD: "Brian Setzer", answer: 1))
@@ -129,13 +149,8 @@ class QuestionBank{
         
         
         // UNSORTED
-        qList.append(Question(image: "moerascals.jpg", questionText: "As a child, Moe performed with the Little Rascals under what stage name?", choiceA: "Smelly", choiceB: "Dopey", choiceC: "Chubby", choiceD: "Alfalfa", answer: 1))
-        qList.append(Question(image: "mediocrepresidents.jpg", questionText: "When Springfield Elementary hosts a Presidents Day pageant, what part does Milhouse play?", choiceA: "George Washington", choiceB: "Abraham Lincoln", choiceC: "John Wilkes Booth", choiceD: "William Henry Harrison", answer: 2))
-        qList.append(Question(image: "hurricane.jpg", questionText: "In what year did the Springfield Hall of Records mysteriously blow away, according to Lisa?", choiceA: "1958", choiceB: "1968", choiceC: "1978", choiceD: "1987", answer: 3))
-        qList.append(Question(image: "collectcall.jpg", questionText: "What is the name of the Australian boy who answers a collect call from Bart?", choiceA: "Tobias", choiceB: "Jackson", choiceC: "Ethan", choiceD: "Andy", answer: 1))
-        qList.append(Question(image: "kampkrusty.jpg", questionText: "Where does Krusty take the kids of Kamp Krusty to make up for the poor conditions they endured?", choiceA: "Disneyland", choiceB: "San Francisco", choiceC: "Tijuana, Mexico", choiceD: "Cape Canaveral", answer: 3))
-        qList.append(Question(image: "specialblend.jpg", questionText: "Which spice does Homer detect in Groundskeeper Willie's \"special blend\" of sawdust?", choiceA: "Allspice", choiceB: "Cloves", choiceC: "Cinnamon", choiceD: "Paprika", answer: 3))
-        qList.append(Question(image: "littlemissspringfield.jpg", questionText: "Lisa finishes as runner-up in the Little Miss Springfield pageant to who?", choiceA: "Amber Dempsey", choiceB: "Jessica Lovejoy", choiceC: "Allison Taylor", choiceD: "Greta Wolfcastle", answer: 1))
+        
+        
     }
     
 }

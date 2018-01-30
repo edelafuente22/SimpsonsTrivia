@@ -53,7 +53,7 @@ extension UIView {
     }
     
     func fadeInButton() {
-        UIView.animate(withDuration: 1.5, delay: 4.0, options: UIViewAnimationOptions.curveEaseIn, animations: {
+        UIView.animate(withDuration: 1.5, delay: 3.5, options: UIViewAnimationOptions.curveEaseIn, animations: {
             self.alpha = 1.0
         }, completion: nil)
     }
