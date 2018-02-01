@@ -266,12 +266,12 @@
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PERFECTION!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lVa-o2-8m1">
-                                <rect key="frame" x="27" y="321" width="320" height="51"/>
+                                <rect key="frame" x="27" y="321" width="320" height="67"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
                                 <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You got a score of 8 out of 12! You deserve the Monty Burns Award for Outstanding Achievement in the Field of Excellence." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lgf-W8-X3w">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You got a score of 8 out of 12! You get the Monty Burns Award for Outstanding Achievement in the Field of Excellence." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lgf-W8-X3w">
                                 <rect key="frame" x="27" y="398" width="320" height="118"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="118" id="g4M-Nt-oOO"/>
@@ -322,7 +322,7 @@
                             <constraint firstItem="lVa-o2-8m1" firstAttribute="leading" secondItem="Zc6-n4-CxN" secondAttribute="leading" constant="27" id="OF7-HD-JkC"/>
                             <constraint firstItem="Lgf-W8-X3w" firstAttribute="leading" secondItem="Zc6-n4-CxN" secondAttribute="leading" constant="27" id="Pm8-is-Bmw"/>
                             <constraint firstItem="Zc6-n4-CxN" firstAttribute="trailing" secondItem="lVa-o2-8m1" secondAttribute="trailing" constant="28" id="Wmo-Z5-mJP"/>
-                            <constraint firstItem="Lgf-W8-X3w" firstAttribute="top" secondItem="lVa-o2-8m1" secondAttribute="bottom" constant="26" id="bGO-vb-VVY"/>
+                            <constraint firstItem="Lgf-W8-X3w" firstAttribute="top" secondItem="lVa-o2-8m1" secondAttribute="bottom" constant="10" id="bGO-vb-VVY"/>
                             <constraint firstItem="ix2-uB-Qwt" firstAttribute="top" secondItem="Lgf-W8-X3w" secondAttribute="bottom" constant="31" id="dfX-v2-Ysp"/>
                             <constraint firstItem="Zc6-n4-CxN" firstAttribute="bottom" secondItem="ix2-uB-Qwt" secondAttribute="bottom" constant="70" id="igI-Lt-brp"/>
                             <constraint firstItem="Zc6-n4-CxN" firstAttribute="bottom" secondItem="GPN-d4-FB3" secondAttribute="bottom" constant="70" id="xVk-TF-Vxo"/>
@@ -366,6 +366,6 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="6XL-h7-8gZ"/>
-        <segue reference="Hrq-Su-gTp"/>
+        <segue reference="q70-TW-Ot4"/>
     </inferredMetricsTieBreakers>
 </document>
