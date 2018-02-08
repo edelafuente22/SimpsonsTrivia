@@ -35,7 +35,7 @@ class GameOverViewController: UIViewController {
         } else if score > 8 && score < 12 {
             endImageView.loadGif(name: "score891011")
             endGameTitle.text = "VERY GOOD!"
-            endGameLabel.text = "You got a score of \(score) out of 12! \n\nYou get the Monty Burns Award for Outstanding Achievement in the Field of Excellence."
+            endGameLabel.text = "You got a score of \(score) out of 12! You get the Monty Burns Award for Outstanding Achievement in the Field of Excellence."
         } else if score > 5 && score <= 8 {
             endImageView.loadGif(name: "score678")
             endGameTitle.text = "NOT BAD!"
