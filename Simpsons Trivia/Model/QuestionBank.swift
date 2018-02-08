@@ -27,6 +27,7 @@ class QuestionBank{
         qList.append(Question(image: "carlcarlson.jpg", questionText: "Carl Carlson spent his childhood in which European country?", choiceA: "Ireland", choiceB: "Iceland", choiceC: "Albania", choiceD: "Luxembourg", answer: 2))
         qList.append(Question(image: "krabappel.jpg", questionText: "Which of these characters has Edna Krabappel NOT dated?", choiceA: "Comic Book Guy", choiceB: "Superintendent Chalmers", choiceC: "Ned Flanders", choiceD: "Principal Skinner", answer: 2))
         qList.append(Question(image: "author.jpg", questionText: "Which famous author has made several \"Simpsons\" appearances, always depicted with a bag on his head?", choiceA: "Thomas Pynchon", choiceB: "J.D. Salinger", choiceC: "Tom Wolfe", choiceD: "Michael Crichton", answer: 1))
+        qList.append(Question(image: "wiggumwife.jpg", questionText: "What is the first name of Chief Wiggum's wife?", choiceA: "Sarah", choiceB: "Selma", choiceC: "Helen", choiceD: "Jane", answer: 1))
         
         // SEASON 2
         qList.append(Question(image: "hooverlyme.jpg", questionText: "Lisa's teacher, Miss Hoover, took an extended leave of absence because she thought she had which ailment?", choiceA: "Lyme disease", choiceB: "Flesh-eating bacteria", choiceC: "Severe butt-rot", choiceD: "Ebola virus", answer: 1))
@@ -44,12 +45,31 @@ class QuestionBank{
         qList.append(Question(image: "drnick.jpg", questionText: "Dr. Nick Riviera advertises that he can perform any surgery for what price?", choiceA: "$5", choiceB: "$99.99", choiceC: "$129.95", choiceD: "$2,000", answer: 3))
         qList.append(Question(image: "mediocrepresidents.jpg", questionText: "When Springfield Elementary hosts a Presidents Day pageant, what part does Milhouse play?", choiceA: "George Washington", choiceB: "Abraham Lincoln", choiceC: "John Wilkes Booth", choiceD: "William Henry Harrison", answer: 2))
         qList.append(Question(image: "kampkrusty.jpg", questionText: "Where does Krusty take the kids of Kamp Krusty to make up for the poor conditions they endured?", choiceA: "Disneyland", choiceB: "San Francisco", choiceC: "Tijuana, Mexico", choiceD: "Cape Canaveral", answer: 3))
-        qList.append(Question(image: "littlemissspringfield.jpg", questionText: "Lisa finishes as runner-up in the Little Miss Springfield pageant to who?", choiceA: "Amber Dempsey", choiceB: "Jessica Lovejoy", choiceC: "Allison Taylor", choiceD: "Greta Wolfcastle", answer: 1))
+        qList.append(Question(image: "littlemissspringfield.jpg", questionText: "Lisa finishes as runner-up in the Little Miss Springfield pageant to whom?", choiceA: "Amber Dempsey", choiceB: "Jessica Lovejoy", choiceC: "Allison Taylor", choiceD: "Greta Wolfcastle", answer: 1))
+        qList.append(Question(image: "eurocartoon.jpg", questionText: "What is the name of the replacement cartoon that Krusty airs after \"Itchy and Scratchy\" moved to the Gabbo Show?", choiceA: "\"Vlad and Stumpy\"", choiceB: "\"Yuri and the Cat\"", choiceC: "\"Worker and Parasite\"", choiceD: "\"Three from Prostokvashino\"", answer: 3))
+        qList.append(Question(image: "margestatue.jpg", questionText: "When Springfield unveils a statue of Marge, it is a repurposed statue of which president?", choiceA: "Ronald Reagan", choiceB: "Gerald Ford", choiceC: "George H.W. Bush", choiceD: "Jimmy Carter", answer: 4))
+        qList.append(Question(image: "selmachild.jpg", questionText: "Selma decides she wants a child after seeing the video will of which deceased relative?", choiceA: "Grandma Bouvier", choiceB: "Great Aunt Gladys", choiceC: "Cousin Hortense", choiceD: "Aunt Marjorina", answer: 2))
+        qList.append(Question(image: "moonwaffles.jpg", questionText: "Which of these ingredients was NOT in Homer's \"patented space-age moon waffles\"?", choiceA: "Waffle batter", choiceB: "Chocolate chips", choiceC: "Caramels", choiceD: "Liquid smoke", answer: 2))
+        qList.append(Question(image: "nedstreetcar.jpg", questionText: "Which character did Ned play in the production \"Oh, Streetcar!\"?", choiceA: "Steve", choiceB: "Stanley", choiceC: "Mitch", choiceD: "Pablo", answer: 2))
+        qList.append(Question(image: "johnwilkesbooth.jpg", questionText: "Which character says the line, \"Do you want to play John Wilkes Booth or do you want to act like a maniac?\"?", choiceA: "Principal Skinner", choiceB: "Mrs. Krabappel", choiceC: "Miss Hoover", choiceD: "Marge", answer: 3))
+        qList.append(Question(image: "whackingday.jpg", questionText: "Which singer is invited to open Springfield's Whacking Day festivities, but leaves in disgust?", choiceA: "Barry White", choiceB: "Isaac Hayes", choiceC: "Elton John", choiceD: "James Brown", answer: 1))
+        qList.append(Question(image: "margejob.jpg", questionText: "What household issue prompts Marge to get a job at the Springfield Nuclear Power Plant?", choiceA: "Flooded basement", choiceB: "Hole in the roof", choiceC: "Unhinged garage door", choiceD: "Sinking foundation", answer: 4))
+        qList.append(Question(image: "quimbynimoy.jpg", questionText: "Mayor Quimby mistakenly believed that Leonard Nimoy was a star on which program?", choiceA: "The Little Rascals", choiceB: "The Three Stooges", choiceC: "Gunsmoke", choiceD: "Doctor Who", answer: 1))
         
         // SEASON 5
         qList.append(Question(image: "malibustacy.jpg", questionText: "What is the name of the doll Lisa designs to compete with Malibu Stacy?", choiceA: "Lisa the Brain", choiceB: "Lovely Lisa", choiceC: "Lisa Lionheart", choiceD: "Malibu Lisa", answer: 3))
         qList.append(Question(image: "bartkrusty.jpg", questionText: "What type of pastry does Bart steal from Kent Brockman to give to Krusty?", choiceA: "Donut", choiceB: "Scone", choiceC: "Danish", choiceD: "Pound Cake", answer: 3))
         qList.append(Question(image: "molloy.jpg", questionText: "Which actor provides the voice of Molloy, the charming burglar in the episode \"Homer The Vigilante\"?", choiceA: "Liam Neeson", choiceB: "Sam Neill", choiceC: "Kelsey Grammer", choiceD: "Gary Oldman", answer: 2))
+        qList.append(Question(image: "besharps.jpg", questionText: "What is the name of the real-life barbershop quartet that provides the singing voices of the Be Sharps?", choiceA: "The Cee Sharps", choiceB: "The Dapper Dans", choiceC: "The In-Tune Quartet", choiceD: "Men At Work", answer: 2))
+        qList.append(Question(image: "nerds.jpg", questionText: "Which of these is NOT the name of one of the \"nerds\" who tutor Homer in college?", choiceA: "Benjamin", choiceB: "Doug", choiceC: "Gene", choiceD: "Gary", answer: 3))
+        qList.append(Question(image: "burnsbirthday.jpg", questionText: "Which country's citizens spell Mr. Burns' name with candles for his birthday?", choiceA: "Canada", choiceB: "France", choiceC: "Russia", choiceD: "Australia", answer: 4))
+        qList.append(Question(image: "homergambling.jpg", questionText: "Homer gets a job at Mr. Burns' casino as a dealer for which game?", choiceA: "Roulette", choiceB: "Blackjack", choiceC: "Poker", choiceD: "Craps", answer: 2))
+        qList.append(Question(image: "apufired.jpg", questionText: "Which actor is hired to work at the Kwik-E-Mart after Apu is fired?", choiceA: "Jeff Goldblum", choiceB: "James Woods", choiceC: "Michael Caine", choiceD: "James Caan", answer: 2))
+        qList.append(Question(image: "smithersstacy.jpg", questionText: "At which hotel was the Malibu Stacy convention \"StacyCon '94\" held, according to Waylon Smithers?", choiceA: "Westin Bonaventure", choiceB: "Green Bay Motel 6", choiceC: "The Waldorf Astoria", choiceD: "San Diego Airport Hilton", answer: 4))
+        qList.append(Question(image: "homerspace.jpg", questionText: "Which musician sings over the radio to Homer and his fellow astronauts during their space mission?", choiceA: "James Taylor", choiceB: "Paul Simon", choiceC: "David Bowie", choiceD: "Paul McCartney", answer: 1))
+        qList.append(Question(image: "bartkbbl.jpg", questionText: "How much prize money does Bart turn down in favor of an elephant after winning a KBBL contest?", choiceA: "100", choiceB: "1,000", choiceC: "$10,000", choiceD: "$1 million", answer: 3))
+        qList.append(Question(image: "nedqb.jpg", questionText: "What is the name of the quarterback of the Springfield Atoms who is friends with Ned Flanders?", choiceA: "Buck Mitchell", choiceB: "Troy Brady", choiceC: "Rodney Johnson", choiceD: "Stan Taylor", answer: 4))
+        qList.append(Question(image: "lennyteacher.jpg", questionText: "What is the name of the course Lenny teaches at the Adult Education Annex?", choiceA: "Turn A Woman Into Putty In Your Hands", choiceB: "How To Chew Tobacco", choiceC: "Funk Dancing For Self-Defense", choiceD: "Basketball-Playing Tips", answer: 2))
         
         // SEASON 6
         qList.append(Question(image: "treehouse5.jpg", questionText: "In \"Treehouse of Horror V\", which character is killed in every segment?", choiceA: "Principal Skinner", choiceB: "Groundskeeper Willie", choiceC: "Hans Moleman", choiceD: "Jimbo Jones", answer: 2))
@@ -149,7 +169,6 @@ class QuestionBank{
         
         
         // UNSORTED
-        
         
     }
     
