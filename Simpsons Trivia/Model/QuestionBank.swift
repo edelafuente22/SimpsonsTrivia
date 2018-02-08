@@ -72,7 +72,7 @@ class QuestionBank{
         qList.append(Question(image: "lennyteacher.jpg", questionText: "What is the name of the course Lenny teaches at the Adult Education Annex?", choiceA: "Turn A Woman Into Putty In Your Hands", choiceB: "How To Chew Tobacco", choiceC: "Funk Dancing For Self-Defense", choiceD: "Basketball-Playing Tips", answer: 2))
         
         // SEASON 6
-        qList.append(Question(image: "treehouse5.jpg", questionText: "In \"Treehouse of Horror V\", which character is killed in every segment?", choiceA: "Principal Skinner", choiceB: "Groundskeeper Willie", choiceC: "Hans Moleman", choiceD: "Jimbo Jones", answer: 2))
+        qList.append(Question(image: "treehouse5.jpg", questionText: "In \"Treehouse of Horror V\", which character is killed in all three segments?", choiceA: "Principal Skinner", choiceB: "Groundskeeper Willie", choiceC: "Hans Moleman", choiceD: "Jimbo Jones", answer: 2))
         qList.append(Question(image: "collectcall.jpg", questionText: "What is the name of the Australian boy who answers a collect phone call from Bart?", choiceA: "Tobias", choiceB: "Jackson", choiceC: "Ethan", choiceD: "Andy", answer: 1))
         qList.append(Question(image: "manfootball.jpg", questionText: "Which actor starred in the Oscar-winning remake of Hans Moleman's \"Man Getting Hit By Football\"?", choiceA: "Charles Bronson", choiceB: "Charlton Heston", choiceC: "Jimmy Stewart", choiceD: "George C. Scott", answer: 4))
         qList.append(Question(image: "moejukebox.jpg", questionText: "What is Homer's favorite song (which Moe angrily removes from the jukebox at his bar)?", choiceA: "\"Jingle Bells\"", choiceB: "\"It's Raining Men\"", choiceC: "\"I Touch Myself\"", choiceD: "\"Owner Of A Lonely Heart\"", answer: 2))
@@ -80,6 +80,16 @@ class QuestionBank{
         qList.append(Question(image: "fearofflying.jpg", questionText: "What is the last name of the psychiatrist that helps Marge overcome her fear of flying?", choiceA: "Zweig", choiceB: "Lowenstein", choiceC: "Bancroft", choiceD: "Waxler", answer: 1))
         qList.append(Question(image: "barthockey.jpg", questionText: "What is the name of the peewee hockey team Bart plays on?", choiceA: "Kwik-E-Mart Gougers", choiceB: "Ice-Kickers", choiceC: "Springfield Wildcats", choiceD: "The Mighty Pigs", answer: 4))
         qList.append(Question(image: "homerinterview.jpg", questionText: "What news show does Homer appear on to defend himself against a sexual harassment claim?", choiceA: "Smartline", choiceB: "Rock Bottom", choiceC: "A Current Affair", choiceD: "Eyewitness Copy", answer: 2))
+        qList.append(Question(image: "bartned.jpg", questionText: "When Bart becomes convinced that Ned Flanders murdered his wife Maude, where had she actually gone?", choiceA: "Pilgrimage to Jerusalem", choiceB: "Her parents' house", choiceC: "Duff Gardens with her children", choiceD: "Bible camp", answer: 4))
+        qList.append(Question(image: "itchyrestaurant.jpg", questionText: "Which of these was NOT ordered by the Simpson family when they dined at a restaurant at Itchy and Scratchy Land?", choiceA: "Blood and Guts Spaghetti", choiceB: "Eyeball Stew", choiceC: "Baby Guts", choiceD: "Brain Burger with extra pus", answer: 1))
+        qList.append(Question(image: "smitherssource.jpg", questionText: "Which name does Smithers give Bart and Lisa when they investigate voter fraud in Springfield?", choiceA: "H.R. Haldeman", choiceB: "Langdon Alger", choiceC: "Edgar Neubauer", choiceD: "C.M. Burns", answer: 3))
+        qList.append(Question(image: "jessicalovejoy.jpg", questionText: "Which actress provided the voice of Jessica Lovejoy, Reverend Lovejoy's daughter?", choiceA: "Winona Ryder", choiceB: "Meryl Streep", choiceC: "Michelle Pfeiffer", choiceD: "Glenn Close", answer: 2))
+        qList.append(Question(image: "homerinitiation.jpg", questionText: "Which of these is NOT the name of an initiation rite Homer goes through to join the Stonecutters?", choiceA: "The Unblinking Eye", choiceB: "The Wreck of the Hesperus", choiceC: "The Ark of Noah", choiceD: "Crossing the Desert", answer: 3))
+        qList.append(Question(image: "skinnerballoon.jpg", questionText: "What was Bart's alternate wording for his \"Hi! I'm Big Butt Skinner\" balloon?", choiceA: "\"Buttzilla\"", choiceB: "\"Buttman\"", choiceC: "\"Skinner the Butt\"", choiceD: "\"Skinner is a Big Butt\"", answer: 1))
+        qList.append(Question(image: "homerlimo.jpg", questionText: "Which actor is Homer's first customer as a limousine driver?", choiceA: "John Cleese", choiceB: "Ernest Borgnine", choiceC: "Karl Malden", choiceD: "Mel Brooks", answer: 4))
+        qList.append(Question(image: "wolfcastlestandup.jpg", questionText: "What is the title of the film that has Rainier Wolfcastle \"in front of a brick wall for an hour and a half\"?", choiceA: "\"The Real McBain\"", choiceB: "\"McBain: Let's Get Silly\"", choiceC: "\"Rainier, Raw\"", choiceD: "\"McBain 4: Fatal Discharge\"", answer: 2))
+        qList.append(Question(image: "lisahugh.jpg", questionText: "Lisa falls in love with her future fiancee, Hugh Parkfield, after they fight over which book?", choiceA: "\"Sane Planning, Sensible Tomorrow\"", choiceB: "\"Ecosystem of the Marsh\"", choiceC: "\"The Rise and Fall of the Third Reich\"", choiceD: "\"Little Women\"", answer: 2))
+        qList.append(Question(image: "fieldtrip.jpg", questionText: "Which of Springfield Elementary's students is accidentally left behind after a field trip to Fort Springfield?", choiceA: "Milhouse", choiceB: "Wendell", choiceC: "Database", choiceD: "Uter", answer: 4))
         
         // SEASON 7
         qList.append(Question(image: "moerascals.jpg", questionText: "As a child, Moe performed with the Little Rascals under what stage name?", choiceA: "Smelly", choiceB: "Dopey", choiceC: "Chubby", choiceD: "Alfalfa", answer: 1))
@@ -169,6 +179,7 @@ class QuestionBank{
         
         
         // UNSORTED
+        
         
     }
     
