@@ -15,7 +15,6 @@
 		7E632ED520099F6F0037CDF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E632ED320099F6F0037CDF2 /* Main.storyboard */; };
 		7E632ED820099F6F0037CDF2 /* Simpsons_Trivia.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7E632ED620099F6F0037CDF2 /* Simpsons_Trivia.xcdatamodeld */; };
 		7E632EDA20099F6F0037CDF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E632ED920099F6F0037CDF2 /* Assets.xcassets */; };
-		7E632EDD20099F6F0037CDF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E632EDB20099F6F0037CDF2 /* LaunchScreen.storyboard */; };
 		7E632EE820099F6F0037CDF2 /* Simpsons_TriviaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E632EE720099F6F0037CDF2 /* Simpsons_TriviaTests.swift */; };
 		7E632EF320099F6F0037CDF2 /* Simpsons_TriviaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E632EF220099F6F0037CDF2 /* Simpsons_TriviaUITests.swift */; };
 		7E632F01200A64910037CDF2 /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E632F00200A64910037CDF2 /* QuestionViewController.swift */; };
@@ -55,7 +54,6 @@
 		7E632ED420099F6F0037CDF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7E632ED720099F6F0037CDF2 /* Simpsons_Trivia.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Simpsons_Trivia.xcdatamodel; sourceTree = "<group>"; };
 		7E632ED920099F6F0037CDF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		7E632EDC20099F6F0037CDF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7E632EDE20099F6F0037CDF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7E632EE320099F6F0037CDF2 /* Simpsons TriviaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Simpsons TriviaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E632EE720099F6F0037CDF2 /* Simpsons_TriviaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Simpsons_TriviaTests.swift; sourceTree = "<group>"; };
@@ -156,7 +154,6 @@
 		7E632F02200A66A70037CDF2 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				7E632EDB20099F6F0037CDF2 /* LaunchScreen.storyboard */,
 				7E632ED320099F6F0037CDF2 /* Main.storyboard */,
 				7E632ED920099F6F0037CDF2 /* Assets.xcassets */,
 				7E1E151A200C1E1100DDD6F7 /* UIImage+Gif.swift */,
@@ -293,7 +290,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				7EE8809E20113A1E00276C19 /* score678.gif in Resources */,
-				7E632EDD20099F6F0037CDF2 /* LaunchScreen.storyboard in Resources */,
 				7EE8809C20113A1E00276C19 /* score12.gif in Resources */,
 				7E632EDA20099F6F0037CDF2 /* Assets.xcassets in Resources */,
 				7EE880A020113A1E00276C19 /* score012.gif in Resources */,
@@ -374,14 +370,6 @@
 				7E632ED420099F6F0037CDF2 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		7E632EDB20099F6F0037CDF2 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7E632EDC20099F6F0037CDF2 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

@@ -36,6 +36,16 @@ class QuestionBank{
         qList.append(Question(image: "homerlurleen.jpg", questionText: "What is the name of the bar in which Homer meets aspiring country singer Lurleen Lumpkin?", choiceA: "Moe's Tavern", choiceB: "The Redneck Riviera", choiceC: "The Little Black Box", choiceD: "The Beer 'n' Brawl", answer: 4))
         qList.append(Question(image: "michaeljackson.jpg", questionText: "Michael Jackson was credited for his guest appearance in \"Stark Raving Dad\" under which pseudonym?", choiceA: "Jack Michaels", choiceB: "Alan Smithee", choiceC: "John Jay Smith", choiceD: "John Doe", answer: 3))
         qList.append(Question(image: "softball.jpg", questionText: "Which Major League Baseball player was NOT a member of Mr. Burns' power plant softball team?", choiceA: "Darryl Strawberry", choiceB: "Eddie Murray", choiceC: "Steve Sax", choiceD: "Mike Scioscia", answer: 2))
+        qList.append(Question(image: "bobarnold.jpg", questionText: "Congressman Bob Arnold accepted a bribe to allow drilling on which president's head at Mount Rushmore?", choiceA: "Teddy Roosevelt", choiceB: "George Washington", choiceC: "Abraham Lincoln", choiceD: "Thomas Jefferson", answer: 1))
+        qList.append(Question(image: "bartmovie.jpg", questionText: "Which actor played Bart in the TV miniseries about his mob experience?", choiceA: "Fred Savage", choiceB: "David Faustino", choiceC: "Joey Lawrence", choiceD: "Neil Patrick Harris", answer: 4))
+        qList.append(Question(image: "radioshow.jpg", questionText: "What is the name of the radio call show that Reverend Lovejoy co-hosts with Rabbi Krustofsky, Krusty's father?", choiceA: "\"The Religion Hour\"", choiceB: "\"Gabbin' About God\"", choiceC: "\"A Priest, A Rabbi and a Monsignor\"", choiceD: "\"God-Boys\"", answer: 2))
+        qList.append(Question(image: "butterfats.jpg", questionText: "How much does the Mount Bellyache, the giant sundae at Phineas Q. Butterfat's, cost?", choiceA: "$25", choiceB: "$66", choiceC: "$88", choiceD: "$250", answer: 3))
+        qList.append(Question(image: "vhsvillage.jpg", questionText: "What was the VHS Village video store formerly known as?", choiceA: "Blackduster Video", choiceB: "The Beta Barn", choiceC: "The BetaMax Bonanza", choiceD: "Super-Max Superstore", answer: 2))
+        qList.append(Question(image: "prankcall.jpg", questionText: "Which fake name Bart used in a prank call to Moe's turned out to belong to an actual patron of Moe's?", choiceA: "Seymour Butz", choiceB: "Ollie Tabooger", choiceC: "Hugh Jass", choiceD: "Amanda Hugginkiss", answer: 3))
+        qList.append(Question(image: "landofchocolate.jpg", questionText: "Which of these objects did Homer NOT take a bite out of during his \"Land of Chocolate\" fantasy?", choiceA: "Dog", choiceB: "Car", choiceC: "Lamppost", choiceD: "Mailbox", answer: 2))
+        qList.append(Question(image: "walleweasels.jpg", questionText: "What is the slogan of kids' restaurant Wall E. Weasel's?", choiceA: "\"A Good Time Had By All\"", choiceB: "\"Pizza, Tokens and Furry Things\"", choiceC: "\"Games For Kids, Alcohol For Adults\"", choiceD: "\"We Cram Fun Down Your Throat\"", answer: 4))
+        qList.append(Question(image: "woodrow.jpg", questionText: "A photo of which legendary hockey player is used by Bart in one of his fake love letters to Mrs. Krabappel?", choiceA: "Maurice Richard", choiceB: "Gordie Howe", choiceC: "Guy Lafleur", choiceD: "Ken Dryden", answer: 2))
+        qList.append(Question(image: "yahoo.jpg", questionText: "Which of these names is NOT in the cast of the show \"Ya Hoo!\"?", choiceA: "Country Jake", choiceB: "Yodelin' Zeke", choiceC: "Rudy", choiceD: "Big Shirtless Ron", answer: 1))
         
         // SEASON 4
         qList.append(Question(image: "lylelanley.jpg", questionText: "Monorail shyster Lyle Lanley gets his comeuppance after his flight to Tahiti makes a stop in which city?", choiceA: "Ogdenville", choiceB: "North Haverbrook", choiceC: "Brockway", choiceD: "Shelbyville", answer: 2))
@@ -124,6 +134,15 @@ class QuestionBank{
         qList.append(Question(image: "hurricane.jpg", questionText: "In what year did the Springfield Hall of Records mysteriously blow away, according to Lisa?", choiceA: "1958", choiceB: "1968", choiceC: "1978", choiceD: "1987", answer: 3))
         qList.append(Question(image: "itchyvoice.jpg", questionText: "What is the name of the actress that provides the voices of Itchy and Scratchy?", choiceA: "Jane Cleaver", choiceB: "June Foray", choiceC: "June Bellamy", choiceD: "Barbara Billingsley", answer: 3))
         qList.append(Question(image: "mrsparkle.jpg", questionText: "In which Japanese city is the Mr. Sparkle manufacturing plant located?", choiceA: "Tokyo", choiceB: "Hokkaido", choiceC: "Sapporo", choiceD: "Yokohama", answer: 2))
+        qList.append(Question(image: "milhousetoast.jpg", questionText: "According to Lisa, Milhouse likes what on his toast?", choiceA: "Chipped beef", choiceB: "Vaseline", choiceC: "Vick's Vapo-Rub", choiceD: "Castor oil", answer: 2))
+        qList.append(Question(image: "nedpsychiatrist.jpg", questionText: "What is the name of the psychiatrist who treated Ned Flanders as a child?", choiceA: "Dr. Watson", choiceB: "Dr. Johnson", choiceC: "Dr. Lowenstein", choiceD: "Dr. Foster", answer: 4))
+        qList.append(Question(image: "lighthouse.jpg", questionText: "The computer that controls the lighthouse in Springfield is known by what acronym?", choiceA: "E.A.R.L.", choiceB: "B.I.L.L.", choiceC: "S.A.L.L.Y.", choiceD: "K.I.T.T.", answer: 1))
+        qList.append(Question(image: "homerbirthday.jpg", questionText: "According to Homer, he shares his birthday with which other member of the Simpsons household?", choiceA: "Maggie", choiceB: "Snowball II", choiceC: "Santa's Little Helper", choiceD: "Marge", answer: 3))
+        qList.append(Question(image: "homercandle.jpg", questionText: "Which child tries to warn Homer against drinking melted candle wax at the Springfield Chili Cook-Off?", choiceA: "Lisa", choiceB: "Ralph", choiceC: "Martin", choiceD: "Milhouse", answer: 2))
+        qList.append(Question(image: "burnsinvest.jpg", questionText: "Which of these is NOT the name of an outdated stock Mr. Burns buys in a vain attempt to save his fortune?", choiceA: "Koko For The Hair", choiceB: "U.S. Hay", choiceC: "Amalgamated Spats", choiceD: "Congreves Inflammable Powders", answer: 1))
+        qList.append(Question(image: "blindowner.jpg", questionText: "What is the last name of the blind man who briefly owns Santa's Little Helper after Bart lost him to repo men?", choiceA: "Ormond", choiceB: "Johnson", choiceC: "Van Houten", choiceD: "Mitchell", answer: 4))
+        qList.append(Question(image: "squidport.jpg", questionText: "Which of these stores is NOT located at the Springfield Squidport?", choiceA: "It's A Wonderful Knife", choiceB: "Banana Dictatorship", choiceC: "Malaria Zone", choiceD: "Turban Outfitters", answer: 2))
+        qList.append(Question(image: "johnstore.jpg", questionText: "What is the name of the store operated by John, the gay man befriended by the Simpsons?", choiceA: "Cockamamie's", choiceB: "The Chotchkie Store", choiceC: "Pink Flamingos", choiceD: "The Leftorium", answer: 1))
         
         // SEASON 9
         qList.append(Question(image: "broadway.jpg", questionText: "Which Broadway musical do Marge, Lisa and Bart watch during their visit to New York?", choiceA: "Checkin' In", choiceB: "Kickin' It", choiceC: "The Itchy and Scratchy Musical", choiceD: "Planet of the Apes", answer: 2))
@@ -187,9 +206,11 @@ class QuestionBank{
         qList.append(Question(image: "bartchimp.jpg", questionText: "What is the name of the chimpanzee that kidnaps Bart?", choiceA: "Jub-Jub", choiceB: "Wimpy", choiceC: "Toot-Toot", choiceD: "Mrs. Teeny", answer: 3))
         qList.append(Question(image: "lisaboy.jpg", questionText: "When Springfield Elementary is divided by gender, Lisa adopts which pseudonym in order to attend the boys' school?", choiceA: "Jimmy Toilet", choiceB: "Jake Boyman", choiceC: "Rembrant Q. Einstein", choiceD: "Johnny Rainbow", answer: 2))
         
+        // SEASON 22
+        qList.append(Question(image: "nobelprize.jpg", questionText: "Which figure named in a Nobel Prize betting pool actually did win the Nobel Prize several years later?", choiceA: "Vers Rubin", choiceB: "Bengt Holmstrom", choiceC: "Richard Zare", choiceD: "Jagdish Bhagwati", answer: 2))
+        
         
         // UNSORTED
-        
         
     }
     
