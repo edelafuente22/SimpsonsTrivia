@@ -28,9 +28,22 @@ class QuestionBank{
         qList.append(Question(image: "krabappel.jpg", questionText: "Which of these characters has Edna Krabappel NOT dated?", choiceA: "Comic Book Guy", choiceB: "Superintendent Chalmers", choiceC: "Ned Flanders", choiceD: "Principal Skinner", answer: 2))
         qList.append(Question(image: "author.jpg", questionText: "Which famous author has made several \"Simpsons\" appearances, always depicted with a bag on his head?", choiceA: "Thomas Pynchon", choiceB: "J.D. Salinger", choiceC: "Tom Wolfe", choiceD: "Michael Crichton", answer: 1))
         qList.append(Question(image: "wiggumwife.jpg", questionText: "What is the first name of Chief Wiggum's wife?", choiceA: "Sarah", choiceB: "Selma", choiceC: "Helen", choiceD: "Jane", answer: 1))
+        qList.append(Question(image: "queasyfriend.jpg", questionText: "What is the name of Bart's classmate who gets queasy easily?", choiceA: "Wendell", choiceB: "Lewis", choiceC: "Douglas", choiceD: "Uter", answer: 1))
+        qList.append(Question(image: "crazycatlady.jpg", questionText: "What is the Crazy Cat Lady's real name?", choiceA: "Lindsey Naegle", choiceB: "Elizabeth Alder", choiceC: "Eleanor Abernathy", choiceD: "Chloe Talbot", answer: 3))
+        
+        // SEASON 1
+        qList.append(Question(image: "greyhoundrace.jpg", questionText: "Which dog wins the greyhound race in which Homer bets on Santa's Little Helper?", choiceA: "Whirlwind", choiceB: "Dog O' War", choiceC: "Chew My Shoe", choiceD: "Fido", answer: 1))
+        qList.append(Question(image: "jacquesball.jpg", questionText: "When Marge first meets Jacques at the bowling alley, what does she mistakenly call him?", choiceA: "Mr. Wilson", choiceB: "Mr. Storm", choiceC: "Mr. Strikeforce", choiceD: "Mr. Brunswick", answer: 4))
+        qList.append(Question(image: "adilhoxha.jpg", questionText: "Which country does Adil Hoxha, the foreign exchange student taken in by the Simpsons, hail from?", choiceA: "Russia", choiceB: "Albania", choiceC: "Lithuania", choiceD: "Armenia", answer: 2))
         
         // SEASON 2
         qList.append(Question(image: "hooverlyme.jpg", questionText: "Lisa's teacher, Miss Hoover, took an extended leave of absence because she thought she had which ailment?", choiceA: "Lyme disease", choiceB: "Flesh-eating bacteria", choiceC: "Severe butt-rot", choiceD: "Ebola virus", answer: 1))
+        qList.append(Question(image: "krabappelpen.jpg", questionText: "What did Mrs. Krabappel nickname her pen for grading tests?", choiceA: "Mr. Sharpie", choiceB: "Old Red", choiceC: "The Enforcer", choiceD: "The D Maker", answer: 2))
+        qList.append(Question(image: "homerhair.jpg", questionText: "What is the name of the hair growth formula Homer uses to regain a head of hair?", choiceA: "Bald Buster", choiceB: "Hair Master", choiceC: "Dimoxinil", choiceD: "Rogaine", answer: 3))
+        qList.append(Question(image: "puttername.jpg", questionText: "What name does Homer give Bart's putter while Bart competes in a miniature golf tournament?", choiceA: "Charlene", choiceB: "Christine", choiceC: "Ironshaft", choiceD: "Mr. Putter", answer: 1))
+        qList.append(Question(image: "hansmolemanfirst.jpg", questionText: "In Hans Moleman's first appearance (in \"Principal Charming\"), what name is seen on his driver's license?", choiceA: "Gerald Merman", choiceB: "John J. Burns", choiceC: "Jasper Beardley", choiceD: "Ralph Melish", answer: 4))
+        qList.append(Question(image: "herbpowell.jpg", questionText: "Which actor voices Herb Powell, Homer's long-lost half-brother?", choiceA: "Jon Lovitz", choiceB: "Danny DeVito", choiceC: "Phil Hartman", choiceD: "Dustin Hoffman", answer: 2))
+        qList.append(Question(image: "slhshoes.jpg", questionText: "What is the name of the shoes Santa's Little Helper destroys, prompting Homer to demand the dog attend obedience school?", choiceA: "Air Jacksons", choiceB: "Trailblazers", choiceC: "Assassins", choiceD: "Violators", answer: 3))
         
         // SEASON 3
         qList.append(Question(image: "homerlurleen.jpg", questionText: "What is the name of the bar in which Homer meets aspiring country singer Lurleen Lumpkin?", choiceA: "Moe's Tavern", choiceB: "The Redneck Riviera", choiceC: "The Little Black Box", choiceD: "The Beer 'n' Brawl", answer: 4))
@@ -152,6 +165,15 @@ class QuestionBank{
         qList.append(Question(image: "sanitation.jpg", questionText: "During his campaign for sanitation commissioner, Homer crashes a concert by which band?", choiceA: "Pearl Jam", choiceB: "U2", choiceC: "R.E.M.", choiceD: "Smashing Pumpkins", answer: 2))
         qList.append(Question(image: "kidznewz.jpg", questionText: "When Lisa becomes the anchor of a kids' news program, what name does the show's producer mistakenly call her?", choiceA: "Julie", choiceB: "Mary Ann", choiceC: "Terrylynne", choiceD: "Liz", answer: 2))
         qList.append(Question(image: "murderhorn.jpg", questionText: "What is the name of the nutritional bar company that sponsors Homer on his expedition to climb the Murderhorn?", choiceA: "PowerSauce", choiceB: "Vita-Peach Health Log", choiceC: "PowerBar", choiceD: "The Complete Cookie", answer: 1))
+        qList.append(Question(image: "redblazer.jpg", questionText: "Which of these characters has never worked for Red Blazer Realty?", choiceA: "Lionel Hutz", choiceB: "Gil Gunderson", choiceC: "Cookie Kwan", choiceD: "Lindsey Naegle", answer: 4))
+        qList.append(Question(image: "crabjuice.jpg", questionText: "When Homer visits the Khlav Kalash stand in New York, he chooses crab juice over which beverage option?", choiceA: "7-Up", choiceB: "Sprite", choiceC: "Mountain Dew", choiceD: "Fanta", answer: 3))
+        qList.append(Question(image: "busline.jpg", questionText: "The Simpsons travel to New York on which bus line?", choiceA: "Sit-N-Stare", choiceB: "Reyhound", choiceC: "Mega-Cheap", choiceD: "Ground Plane", answer: 1))
+        qList.append(Question(image: "nycparking.jpg", questionText: "What is the name of the parking officer Homer must wait for to free his car in New York City?", choiceA: "Leon Kompowsky", choiceB: "Steve Grabowski", choiceC: "John Cipowicz", choiceD: "Steve Bartkowski", answer: 2))
+        qList.append(Question(image: "realseymour.jpg", questionText: "Which actor provided the voice of the \"real\" Seymour Skinner?", choiceA: "Martin Sheen", choiceB: "Charlie Sheen", choiceC: "Kirk Douglas", choiceD: "Donald Sutherland", answer: 1))
+        qList.append(Question(image: "peewee.jpg", questionText: "What is the nickname of the peewee football team that Bart, Nelson and other Springfield kids play on?", choiceA: "Cougars", choiceB: "Pumas", choiceC: "Wildcats", choiceD: "Isotopes", answer: 3))
+        qList.append(Question(image: "angelskeleton.jpg", questionText: "Which famous scientist does Lisa ask to test the angel skeleton found during an archaeological dig?", choiceA: "Carl Sagan", choiceB: "Stephen Jay Gould", choiceC: "Neil deGrasse Tyson", choiceD: "Stephen Hawking", answer: 2))
+        qList.append(Question(image: "driveinmovie.jpg", questionText: "Which movie does Homer stop to watch while \"stealing\" Moe's car?", choiceA: "\"The Stockholm Affair\"", choiceB: "\"The Poke of Zorro\"", choiceC: "\"The Bloodening\"", choiceD: "\"Hail to the Chimp\"", answer: 4))
+        qList.append(Question(image: "lovebear.jpg", questionText: "Which bear did Homer receive as a gift from Marge for Love Day?", choiceA: "Sir Loves-A-Lot", choiceB: "Lord Huggington", choiceC: "Mr. Tenderheart", choiceD: "Kiss-Me-Bear", answer: 1))
         
         // SEASON 10
         qList.append(Question(image: "nelsonhuckleberries.jpg", questionText: "What is Nelson's suggestion for how to handle huckleberries that are too tart?", choiceA: "Drizzle honey on them", choiceB: "Mix in chocolate sprinkles", choiceC: "Dust them with confectioner's sugar", choiceD: "Huck them at cars", answer: 3))
@@ -211,6 +233,7 @@ class QuestionBank{
         
         
         // UNSORTED
+        
         
     }
     
