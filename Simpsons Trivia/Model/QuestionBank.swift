@@ -81,16 +81,16 @@ class QuestionBank{
         
         // SEASON 5
         qList.append(Question(image: "malibustacy.jpg", questionText: "What is the name of the doll Lisa designs to compete with Malibu Stacy?", choiceA: "Lisa the Brain", choiceB: "Lovely Lisa", choiceC: "Lisa Lionheart", choiceD: "Malibu Lisa", answer: 3))
-        qList.append(Question(image: "bartkrusty.jpg", questionText: "What type of pastry does Bart steal from Kent Brockman to give to Krusty?", choiceA: "Donut", choiceB: "Scone", choiceC: "Danish", choiceD: "Pound Cake", answer: 3))
+        qList.append(Question(image: "bartkrusty.jpg", questionText: "What type of pastry does Bart steal from Kent Brockman to give to Krusty?", choiceA: "Donut", choiceB: "Scone", choiceC: "Danish", choiceD: "Croissant", answer: 3))
         qList.append(Question(image: "molloy.jpg", questionText: "Which actor provides the voice of Molloy, the charming burglar in the episode \"Homer The Vigilante\"?", choiceA: "Liam Neeson", choiceB: "Sam Neill", choiceC: "Kelsey Grammer", choiceD: "Gary Oldman", answer: 2))
         qList.append(Question(image: "besharps.jpg", questionText: "What is the name of the real-life barbershop quartet that provides the singing voices of the Be Sharps?", choiceA: "The Cee Sharps", choiceB: "The Dapper Dans", choiceC: "The In-Tune Quartet", choiceD: "Men At Work", answer: 2))
         qList.append(Question(image: "nerds.jpg", questionText: "Which of these is NOT the name of one of the \"nerds\" who tutor Homer in college?", choiceA: "Benjamin", choiceB: "Doug", choiceC: "Gene", choiceD: "Gary", answer: 3))
         qList.append(Question(image: "burnsbirthday.jpg", questionText: "Which country's citizens spell Mr. Burns' name with candles for his birthday?", choiceA: "Canada", choiceB: "France", choiceC: "Russia", choiceD: "Australia", answer: 4))
         qList.append(Question(image: "homergambling.jpg", questionText: "Homer gets a job at Mr. Burns' casino as a dealer for which game?", choiceA: "Roulette", choiceB: "Blackjack", choiceC: "Poker", choiceD: "Craps", answer: 2))
         qList.append(Question(image: "apufired.jpg", questionText: "Which actor is hired to work at the Kwik-E-Mart after Apu is fired?", choiceA: "Jeff Goldblum", choiceB: "James Woods", choiceC: "Michael Caine", choiceD: "James Caan", answer: 2))
-        qList.append(Question(image: "smithersstacy.jpg", questionText: "At which hotel was the Malibu Stacy convention \"StacyCon '94\" held, according to Waylon Smithers?", choiceA: "Westin Bonaventure", choiceB: "Green Bay Motel 6", choiceC: "The Waldorf Astoria", choiceD: "San Diego Airport Hilton", answer: 4))
+        qList.append(Question(image: "smithersstacy.jpg", questionText: "At which hotel was the Malibu Stacy convention \"StacyCon '94\" held, according to Waylon Smithers?", choiceA: "Westin Bonaventure", choiceB: "Green Bay Holiday Inn", choiceC: "The Waldorf Astoria", choiceD: "San Diego Airport Hilton", answer: 4))
         qList.append(Question(image: "homerspace.jpg", questionText: "Which musician sings over the radio to Homer and his fellow astronauts during their space mission?", choiceA: "James Taylor", choiceB: "Paul Simon", choiceC: "David Bowie", choiceD: "Paul McCartney", answer: 1))
-        qList.append(Question(image: "bartkbbl.jpg", questionText: "How much prize money does Bart turn down in favor of an elephant after winning a KBBL contest?", choiceA: "100", choiceB: "1,000", choiceC: "$10,000", choiceD: "$1 million", answer: 3))
+        qList.append(Question(image: "bartkbbl.jpg", questionText: "How much prize money does Bart turn down in favor of an elephant after winning a KBBL contest?", choiceA: "$100", choiceB: "$1,000", choiceC: "$10,000", choiceD: "$1 million", answer: 3))
         qList.append(Question(image: "nedqb.jpg", questionText: "What is the name of the quarterback of the Springfield Atoms who is friends with Ned Flanders?", choiceA: "Buck Mitchell", choiceB: "Troy Brady", choiceC: "Rodney Johnson", choiceD: "Stan Taylor", answer: 4))
         qList.append(Question(image: "lennyteacher.jpg", questionText: "What is the name of the course Lenny teaches at the Adult Education Annex?", choiceA: "Turn A Woman Into Putty In Your Hands", choiceB: "How To Chew Tobacco", choiceC: "Funk Dancing For Self-Defense", choiceD: "Basketball-Playing Tips", answer: 2))
         
@@ -184,6 +184,16 @@ class QuestionBank{
         qList.append(Question(image: "williescotland.jpg", questionText: "What type of furniture does Groundskeeper Willie say he was \"conceived, born and educated\" on?", choiceA: "Ottoman", choiceB: "Credenza", choiceC: "Pool table", choiceD: "Kitchen counter", answer: 3))
         qList.append(Question(image: "slaughterhouse.jpg", questionText: "Besides trucker Red Barclay, who is the only person to have beaten the \"Sir Loin-A-Lot\" challenge at the Slaughterhouse?", choiceA: "Tony Randall", choiceB: "Jack Klugman", choiceC: "Adam Richman", choiceD: "Betty White", answer: 1))
         qList.append(Question(image: "mensa.jpg", questionText: "Which character is NOT a member of Springfield's Mensa chapter?", choiceA: "Dr. Hibbert", choiceB: "Lindsey Naegle", choiceC: "Martin Prince", choiceD: "Comic Book Guy", answer: 3))
+        qList.append(Question(image: "33cent.jpg", questionText: "Which of these items is NOT seen for sale at the 33-Cent Store?", choiceA: "Cool Ranch Soda", choiceB: "Tubbbbbb!", choiceC: "Onions?", choiceD: "SkittleBrau", answer: 2))
+        qList.append(Question(image: "inventions.jpg", questionText: "Which of these items did Homer NOT invent after becoming inspired by Thomas Edison?", choiceA: "Electric hammer", choiceB: "\"Everything's OK\" alarm", choiceC: "Mobile refrigerator", choiceD: "Reclining toilet chair", answer: 3))
+        qList.append(Question(image: "treelizards.jpg", questionText: "The tree lizards that hatch under Bart's care come from which South American country?", choiceA: "Bolivia", choiceB: "Brazil", choiceC: "Paraguay", choiceD: "Ecuador", answer: 1))
+        qList.append(Question(image: "lisagame.jpg", questionText: "What video game does Lisa become hooked on while spending a week home from school because of sickness?", choiceA: "Bonestorm", choiceB: "Billy Graham's Bible Blaster", choiceC: "Triangle Wars", choiceD: "Dash Dingo", answer: 4))
+        qList.append(Question(image: "hamillmusical.jpg", questionText: "What musical playing at the Springfield Dinner Theater does Mark Hamill star in?", choiceA: "Chicago", choiceB: "Guys and Dolls", choiceC: "The Bodyguard", choiceD: "Hello, Dolly!", answer: 2))
+        qList.append(Question(image: "policecops.jpg", questionText: "In the TV show \"Police Cops\", what is the name of the Homer Simpson character's partner?", choiceA: "Lance Kaufman", choiceB: "Trent Steele", choiceC: "Max Power", choiceD: "John Michael Johnson", answer: 1))
+        qList.append(Question(image: "eltonjohn.jpg", questionText: "Why did musician Elton John's private plane have to make an emergency landing in Springfield?", choiceA: "Piano needed tuning", choiceB: "Malfunctioning songwriting machine", choiceC: "Defective chandelier", choiceD: "Lack of sparkling wine on board", answer: 3))
+        qList.append(Question(image: "flandersheaven.jpg", questionText: "Ned Flanders muses that \"heaven's easier to get into than\" which university?", choiceA: "San Diego State", choiceB: "University of Arizona", choiceC: "Brigham Young", choiceD: "Arizona State", answer: 4))
+        qList.append(Question(image: "americatown.jpg", questionText: "When the Simpsons visit Americatown restaurant in Tokyo, they are seated at a table shaped like which state?", choiceA: "California", choiceB: "Massachusetts", choiceC: "Texas", choiceD: "Oregon", answer: 2))
+        qList.append(Question(image: "homertruckdriver.jpg", questionText: "When Homer takes over deceased trucker Red Barclay's truck, which city must he drive to?", choiceA: "Atlanta", choiceB: "Birmingham", choiceC: "Miami", choiceD: "Savannah", answer: 1))
         qList.append(Question(image: "happysmile.jpg", questionText: "What is the name of the host of the game show the Simpsons appear on during their trip to Japan?", choiceA: "Skip", choiceB: "Wink", choiceC: "Chuck", choiceD: "Bob", answer: 2))
         
         // SEASON 11
@@ -233,7 +243,6 @@ class QuestionBank{
         
         
         // UNSORTED
-        
         
     }
     
