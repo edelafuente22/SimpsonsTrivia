@@ -30,6 +30,7 @@ class QuestionBank{
         qList.append(Question(image: "wiggumwife.jpg", questionText: "What is the first name of Chief Wiggum's wife?", choiceA: "Sarah", choiceB: "Selma", choiceC: "Helen", choiceD: "Jane", answer: 1))
         qList.append(Question(image: "queasyfriend.jpg", questionText: "What is the name of Bart's classmate who gets queasy easily?", choiceA: "Wendell", choiceB: "Lewis", choiceC: "Douglas", choiceD: "Uter", answer: 1))
         qList.append(Question(image: "crazycatlady.jpg", questionText: "What is the Crazy Cat Lady's real name?", choiceA: "Lindsey Naegle", choiceB: "Elizabeth Alder", choiceC: "Eleanor Abernathy", choiceD: "Chloe Talbot", answer: 3))
+        qList.append(Question(image: "familytravel.jpg", questionText: "Which of these countries have the Simpsons traveled to in more than one episode?", choiceA: "Japan", choiceB: "England", choiceC: "China", choiceD: "Brazil", answer: 4))
         
         // SEASON 1
         qList.append(Question(image: "greyhoundrace.jpg", questionText: "Which dog wins the greyhound race in which Homer bets on Santa's Little Helper?", choiceA: "Whirlwind", choiceB: "Dog O' War", choiceC: "Chew My Shoe", choiceD: "Fido", answer: 1))
@@ -233,6 +234,15 @@ class QuestionBank{
         qList.append(Question(image: "sophie.jpg", questionText: "Sophie, Krusty's estranged daughter, is voiced by which actress?", choiceA: "Zooey Deschanel", choiceB: "Natalie Portman", choiceC: "Reese Witherspoon", choiceD: "Drew Barrymore", answer: 4))
         
         // SEASON 13
+        qList.append(Question(image: "burlymodel.jpg", questionText: "What is the name Homer uses when he poses as the model for Burly paper towels in a prank call to Marge?", choiceA: "Chad Sexington", choiceB: "Thad Supersperm", choiceC: "Brad Burlyman", choiceD: "Tad Lover", answer: 1))
+        qList.append(Question(image: "homerbar.jpg", questionText: "When Homer converts his garage into a bar, which band does he recruit to play there?", choiceA: "Aerosmith", choiceB: "Red Hot Chili Peppers", choiceC: "R.E.M.", choiceD: "The Who", answer: 3))
+        qList.append(Question(image: "brokenjaw", questionText: "Homer breaks his jaw by running into the statue of which character?", choiceA: "Monty Burns", choiceB: "Drederick Tatum", choiceC: "Jebediah Springfield", choiceD: "Mayor Quimby", answer: 2))
+        qList.append(Question(image: "westspringfield.jpg", questionText: "According to Lisa, West Springfield is three times the size of which state?", choiceA: "Texas", choiceB: "California", choiceC: "Alaska", choiceD: "New York", answer: 1))
+        qList.append(Question(image: "manjulalist.jpg", questionText: "Which of these is NOT on the list of tasks Manjula gives Apu to complete after he cheated on her?", choiceA: "Eat a light bulb", choiceB: "Wear a nametag that says \"Slime Q. Slimedog\"", choiceC: "Lose weight", choiceD: "Perform favorite song in karaoke", answer: 4))
+        qList.append(Question(image: "poetryreading.jpg", questionText: "While posing as a college student, Lisa attends a poetry reading by which former U.S. Poet Laureate?", choiceA: "Stanley Kunitz", choiceB: "Kay Ryan", choiceC: "W.S. Merwin", choiceD: "Robert Pinsky", answer: 4))
+        qList.append(Question(image: "screamapillar.jpg", questionText: "According to a care pamphlet the Simpsons are given, the screamapillar is sexually attracted to what?", choiceA: "Killer bees", choiceB: "Fire", choiceC: "Raging water", choiceD: "Humans", answer: 2))
+        qList.append(Question(image: "homerpolice.jpg", questionText: "What is the name of the security company Homer forms after a riot in Springfield?", choiceA: "Team StrikeForce", choiceB: "SpringShield", choiceC: "Star-Spangled Goofballs", choiceD: "The New Police", answer: 2))
+        qList.append(Question(image: "judgeharmhouse.jpg", questionText: "Which of these does Judge Constance Harm live in?", choiceA: "RV", choiceB: "Treehouse", choiceC: "Houseboat", choiceD: "Hotel", answer: 3))
         qList.append(Question(image: "gloria.jpg", questionText: "Who was the ex-boyfriend of Gloria, Mr. Burns' love interest in \"A Hunka Hunka Burns In Love\"?", choiceA: "Moe", choiceB: "Snake", choiceC: "Barney", choiceD: "Lenny", answer: 2))
         qList.append(Question(image: "ultrahouse.jpg", questionText: "Who provides the voice of the UltraHouse seen in \"Treehouse of Horror XII\"?", choiceA: "Sean Connery", choiceB: "Liam Neeson", choiceC: "Daniel Craig", choiceD: "Pierce Brosnan", answer: 4))
         qList.append(Question(image: "bartbubble.jpg", questionText: "What virus forces Bart to live temporarily in a plastic bubble?", choiceA: "Hanta virus", choiceB: "Panda virus", choiceC: "The blue plague", choiceD: "Ebola virus", answer: 2))
@@ -264,6 +274,7 @@ class QuestionBank{
         
         // UNSORTED
         
+
     }
     
 }
