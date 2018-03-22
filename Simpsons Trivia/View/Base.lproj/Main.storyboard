@@ -168,22 +168,20 @@
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="70" id="Orh-h0-TxN"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="70" id="aum-nf-J5C"/>
                                 </constraints>
                             </view>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Gkz-8L-Clv">
-                                <rect key="frame" x="67" y="81" width="240" height="180"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Gkz-8L-Clv">
+                                <rect key="frame" x="68" y="81" width="239" height="180"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What is Nelson's suggestion for how to handle huckleberries that are too tart?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ou7-5W-nOM">
-                                <rect key="frame" x="24" y="269" width="327" height="92"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="What is Nelson's suggestion for how to handle huckleberries that are too tart?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ou7-5W-nOM">
+                                <rect key="frame" x="24" y="269" width="327" height="111"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wyu-iH-bwH">
-                                <rect key="frame" x="24" y="369" width="335" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wyu-iH-bwH">
+                                <rect key="frame" x="24" y="388" width="327" height="50"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Option A">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -192,9 +190,8 @@
                                     <action selector="answerPressed:" destination="Gqc-nm-OfC" eventType="touchUpInside" id="MSd-sV-Zk2"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zbs-MA-A7c">
-                                <rect key="frame" x="24" y="440" width="335" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zbs-MA-A7c">
+                                <rect key="frame" x="24" y="459" width="327" height="50"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Option B">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -203,9 +200,8 @@
                                     <action selector="answerPressed:" destination="Gqc-nm-OfC" eventType="touchUpInside" id="1Fu-Tb-BzN"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MpU-Di-FIi">
-                                <rect key="frame" x="24" y="511" width="335" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MpU-Di-FIi">
+                                <rect key="frame" x="24" y="530" width="327" height="50"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Option C">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -214,9 +210,8 @@
                                     <action selector="answerPressed:" destination="Gqc-nm-OfC" eventType="touchUpInside" id="5wg-WV-bw0"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="4" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TPc-Ng-DyF">
-                                <rect key="frame" x="24" y="583" width="335" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" tag="4" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TPc-Ng-DyF">
+                                <rect key="frame" x="24" y="602" width="327" height="50"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Option D">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -228,9 +223,30 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="u6J-lb-4pg" firstAttribute="trailing" secondItem="MpU-Di-FIi" secondAttribute="trailing" constant="24" id="9fo-jP-A3p"/>
+                            <constraint firstItem="ou7-5W-nOM" firstAttribute="leading" secondItem="u6J-lb-4pg" secondAttribute="leading" constant="24" id="AWv-3e-wLt"/>
                             <constraint firstItem="Ldn-z7-UaJ" firstAttribute="leading" secondItem="u6J-lb-4pg" secondAttribute="leading" id="Bke-An-VEd"/>
+                            <constraint firstItem="u6J-lb-4pg" firstAttribute="trailing" secondItem="wyu-iH-bwH" secondAttribute="trailing" constant="24" id="HF5-OL-3mT"/>
+                            <constraint firstItem="MpU-Di-FIi" firstAttribute="leading" secondItem="u6J-lb-4pg" secondAttribute="leading" constant="24" id="NHy-IN-Zam"/>
+                            <constraint firstItem="zbs-MA-A7c" firstAttribute="leading" secondItem="u6J-lb-4pg" secondAttribute="leading" constant="24" id="Pc6-ln-5kC"/>
+                            <constraint firstItem="Ldn-z7-UaJ" firstAttribute="trailing" secondItem="u6J-lb-4pg" secondAttribute="trailing" id="S9q-bR-gl4"/>
+                            <constraint firstItem="Gkz-8L-Clv" firstAttribute="top" secondItem="Ldn-z7-UaJ" secondAttribute="bottom" constant="11" id="TEx-tA-NrT"/>
                             <constraint firstItem="Ldn-z7-UaJ" firstAttribute="trailing" secondItem="u6J-lb-4pg" secondAttribute="trailing" id="TMo-1V-j5U"/>
+                            <constraint firstItem="u6J-lb-4pg" firstAttribute="trailing" secondItem="zbs-MA-A7c" secondAttribute="trailing" constant="24" id="WCR-gg-sXV"/>
+                            <constraint firstItem="Ldn-z7-UaJ" firstAttribute="top" secondItem="cZz-RU-7Xr" secondAttribute="top" id="Ymf-rk-m4S"/>
+                            <constraint firstItem="ou7-5W-nOM" firstAttribute="top" secondItem="Gkz-8L-Clv" secondAttribute="bottom" constant="8" id="Z1l-P5-xUK"/>
+                            <constraint firstItem="TPc-Ng-DyF" firstAttribute="top" secondItem="MpU-Di-FIi" secondAttribute="bottom" constant="21" id="ZTx-g8-vxx"/>
+                            <constraint firstItem="MpU-Di-FIi" firstAttribute="top" secondItem="zbs-MA-A7c" secondAttribute="bottom" constant="21" id="avg-1o-9dy"/>
+                            <constraint firstItem="u6J-lb-4pg" firstAttribute="trailing" secondItem="Gkz-8L-Clv" secondAttribute="trailing" constant="68" id="br4-Ah-O7s"/>
+                            <constraint firstItem="Gkz-8L-Clv" firstAttribute="leading" secondItem="u6J-lb-4pg" secondAttribute="leading" constant="68" id="c4u-sy-99T"/>
                             <constraint firstItem="Ldn-z7-UaJ" firstAttribute="top" secondItem="cZz-RU-7Xr" secondAttribute="top" id="hiy-aL-WiZ"/>
+                            <constraint firstItem="wyu-iH-bwH" firstAttribute="top" secondItem="ou7-5W-nOM" secondAttribute="bottom" constant="8" id="meh-ua-A3b"/>
+                            <constraint firstItem="zbs-MA-A7c" firstAttribute="top" secondItem="wyu-iH-bwH" secondAttribute="bottom" constant="21" id="ndb-Nd-Qux"/>
+                            <constraint firstItem="TPc-Ng-DyF" firstAttribute="leading" secondItem="u6J-lb-4pg" secondAttribute="leading" constant="24" id="oVF-gB-kXy"/>
+                            <constraint firstItem="wyu-iH-bwH" firstAttribute="leading" secondItem="u6J-lb-4pg" secondAttribute="leading" constant="24" id="p5f-5k-XUW"/>
+                            <constraint firstItem="u6J-lb-4pg" firstAttribute="trailing" secondItem="TPc-Ng-DyF" secondAttribute="trailing" constant="24" id="qjb-Nz-rZw"/>
+                            <constraint firstItem="Ldn-z7-UaJ" firstAttribute="leading" secondItem="u6J-lb-4pg" secondAttribute="leading" id="sQA-CT-i2s"/>
+                            <constraint firstItem="u6J-lb-4pg" firstAttribute="trailing" secondItem="ou7-5W-nOM" secondAttribute="trailing" constant="24" id="w0h-ev-jWG"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="u6J-lb-4pg"/>
                     </view>
@@ -365,6 +381,7 @@
         <image name="titleheader" width="390" height="192"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="lah-OZ-scv"/>
         <segue reference="6XL-h7-8gZ"/>
         <segue reference="q70-TW-Ot4"/>
     </inferredMetricsTieBreakers>
