@@ -33,6 +33,8 @@ class QuestionViewController: UIViewController {
     var timeLeft: Int = 0
     var isTimerRunning = false
     
+    let newGreen = UIColor(red: 0, green: 165/255, blue: 0, alpha: 1)
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         updateQuestion()
@@ -54,6 +56,10 @@ class QuestionViewController: UIViewController {
             // REST OF QUESTION DISPLAY LOGIC
             imageView.image = UIImage(named:(allQuestions.qList[questionNumber].questionImage))
             questionLabel.textColor = UIColor.black
+            optionA.backgroundColor = UIColor.blue
+            optionB.backgroundColor = UIColor.blue
+            optionC.backgroundColor = UIColor.blue
+            optionD.backgroundColor = UIColor.blue
             questionLabel.text = allQuestions.qList[questionNumber].question
             rightAnswer = allQuestions.qList[questionNumber].correctAnswer
             optionA.setTitle(allQuestions.qList[questionNumber].optionA, for: UIControlState.normal)
@@ -72,7 +78,7 @@ class QuestionViewController: UIViewController {
     }
     
     func updateHeader(){
-        self.timeLeft = 30
+        self.timeLeft = 15
         timerLabel.text = ":\(timeLeft)"
         timerLabel.textColor = UIColor.white
         questionCounter.text = "Question \(questionCount + 1)/12"
@@ -83,7 +89,8 @@ class QuestionViewController: UIViewController {
         if sender.tag == rightAnswer{
             print("correct")
             questionLabel.text = "CORRECT!"
-            questionLabel.textColor = UIColor.green
+            questionLabel.textColor = newGreen
+            sender.backgroundColor = newGreen
             timer.invalidate()
             correctResponses += 1
             questionCount += 1
@@ -95,6 +102,7 @@ class QuestionViewController: UIViewController {
             print("incorrect")
             questionLabel.text = "WRONG!"
             questionLabel.textColor = UIColor.red
+            sender.backgroundColor = UIColor.red
             timer.invalidate()
             questionCount += 1
             DispatchQueue.main.asyncAfter(deadline: .now() + 2.0, execute: {
