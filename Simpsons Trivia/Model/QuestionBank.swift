@@ -31,6 +31,7 @@ class QuestionBank{
         qList.append(Question(image: "queasyfriend.jpg", questionText: "What is the name of Bart's classmate who gets queasy easily?", choiceA: "Wendell", choiceB: "Lewis", choiceC: "Douglas", choiceD: "Uter", answer: 1))
         qList.append(Question(image: "crazycatlady.jpg", questionText: "What is the Crazy Cat Lady's real name?", choiceA: "Lindsey Naegle", choiceB: "Elizabeth Alder", choiceC: "Eleanor Abernathy", choiceD: "Chloe Talbot", answer: 3))
         qList.append(Question(image: "familytravel.jpg", questionText: "Which of these countries have the Simpsons traveled to in more than one episode?", choiceA: "Japan", choiceB: "England", choiceC: "China", choiceD: "Brazil", answer: 4))
+        qList.append(Question(image: "abrooks.jpg", questionText: "Which of these characters is NOT voiced by Albert Brooks?", choiceA: "Hank Scorpio", choiceB: "Brad Goodman", choiceC: "Tab Spangler", choiceD: "Artie Ziff", answer: 4))
         
         // SEASON 1
         qList.append(Question(image: "greyhoundrace.jpg", questionText: "Which dog wins the greyhound race in which Homer bets on Santa's Little Helper?", choiceA: "Whirlwind", choiceB: "Dog O' War", choiceC: "Chew My Shoe", choiceD: "Fido", answer: 1))
@@ -276,13 +277,22 @@ class QuestionBank{
         qList.append(Question(image: "cosmicwarsranch.jpg", questionText: "According to its entrance sign, the Cosmic Wars Ranch was formerly which California city?", choiceA: "Fresno", choiceB: "Modesto", choiceC: "Sacramento", choiceD: "Merced", answer: 1))
         qList.append(Question(image: "greatuncletyrone.jpg", questionText: "Where does the Simpsons' great uncle Tyrone live?", choiceA: "Lexington, Kentucky", choiceB: "Dayton, Ohio", choiceC: "Colorado Springs, Colorado", choiceD: "Paris, Texas", answer: 2))
         qList.append(Question(image: "pieman.jpg", questionText: "Which of these characters was NOT a recipient of a pie to the face by Pie Man?", choiceA: "Comic Book Guy", choiceB: "Krusty", choiceC: "The Rich Texan", choiceD: "Chief Wiggum", answer: 4))
-        qList.append(Question(image: "younghomermarge.jpg", questionText: "Homer and Marge discover that they met – and kissed – as kids at which camp?", choiceA: "Camp See-A-Tree", choiceB: "Kamp Krusty", choiceC: "Camp Land-A-Man", choiceD: "Camp Flab-Away", answer: 1))
+        qList.append(Question(image: "younghomermarge.jpg", questionText: "Homer and Marge discover that they met – and kissed – as kids while Homer was attending which camp?", choiceA: "Camp See-A-Tree", choiceB: "Kamp Krusty", choiceC: "Camp Land-A-Man", choiceD: "Camp Flab-Away", answer: 1))
         qList.append(Question(image: "reddresspress.jpg", questionText: "Which of the kids who worked with Lisa on the \"Red Dress Press\" wound up writing for the Chicago Tribune?", choiceA: "Bart", choiceB: "Milhouse", choiceC: "Ralph", choiceD: "Martin", answer: 3))
         
         // SEASON 16
         qList.append(Question(image: "homerathletes.jpg", questionText: "Which of these athletes did NOT attend Homer's Showboating Academy?", choiceA: "Tom Brady", choiceB: "LeBron James", choiceC: "Stephen Curry", choiceD: "Michelle Kwan", answer: 3))
         qList.append(Question(image: "comicbookguy.jpg", questionText: "What is Comic Book Guy's real name?", choiceA: "Langdon Alger", choiceB: "Louis Lane", choiceC: "Jeff Albertson", choiceD: "Armin Tamzarian", answer: 3))
         qList.append(Question(image: "nedmove.jpg", questionText: "When Ned Flanders gets fed up with Homer and moves away, which town does he relocate to?", choiceA: "Humbleton, Pennsylvania", choiceB: "Flanders, Illinois", choiceC: "Okilly, Oklahoma", choiceD: "Hollywood, California", answer: 1))
+        qList.append(Question(image: "bakeoff.jpg", questionText: "Despite sabotaging most of the entries, Marge loses the Auntie Ovenfresh Bake-Off to whom?", choiceA: "Brandine Spuckler", choiceB: "Agnes Skinner", choiceC: "Cookie Kwan", choiceD: "Luigi Risotto", answer: 1))
+        qList.append(Question(image: "chloeboyfriend.jpg", questionText: "Who is the ex-boyfriend of Chloe Talbot, the former Springfielder who became a famous journalist?", choiceA: "Moe Szyzlak", choiceB: "Sideshow Mel", choiceC: "Barney Gumble", choiceD: "Lenny Leonard", answer: 3))
+        qList.append(Question(image: "britishpub.jpg", questionText: "When Marge partners with Moe to rebrand his bar as a British pub, what do they name it?", choiceA: "Tom O'Flanagan's", choiceB: "The Nag and Weasel", choiceC: "Moe's British Brewing Co.", choiceD: "The Union Jack", answer: 2))
+        qList.append(Question(image: "showboater.jpg", questionText: "What is the name of the (fictional) football player that seeks Homer's help to learn how to showboat?", choiceA: "Stan Taylor", choiceB: "Warren Snapp", choiceC: "Anton Lubchenko", choiceD: "Deion Overstreet", answer: 4))
+        qList.append(Question(image: "bartkidnap.jpg", questionText: "When Bart fakes his kidnapping after attending a rap concert, who gets arrested for the crime?", choiceA: "Barney Gumble", choiceB: "Kirk Van Houten", choiceC: "Cletus Spuckler", choiceD: "Rainier Wolfcastle", answer: 2))
+        qList.append(Question(image: "homerray.jpg", questionText: "What is the name of the bar at which Homer meets roofer Ray Magini?", choiceA: "The Little Black Box", choiceB: "Beer 'N' Brawl", choiceC: "Knockers", choiceD: "The Whiny Dog", answer: 3))
+        qList.append(Question(image: "selmamenopause.jpg", questionText: "When Selma finds out she has reached menopause, Dr. Hibbert shows her a video hosted by which actor?", choiceA: "Ray Romano", choiceB: "Ben Stiller", choiceC: "Gary Busey", choiceD: "Robert Wagner", answer: 4))
+        qList.append(Question(image: "youthhostel.jpg", questionText: "After the Simpsons turn their home into a youth hostel, citizens from which country come to stay there?", choiceA: "Austria", choiceB: "Germany", choiceC: "Switzerland", choiceD: "Russia", answer: 2))
+        qList.append(Question(image: "johnnyrainbow.jpg", questionText: "What is the first name of the \"Li'l Starmaker\" contestant Homer begins managing after a falling out with Lisa?", choiceA: "Cameron", choiceB: "Lance", choiceC: "Joseph", choiceD: "Chase", answer: 1))
         
         // SEASON 17
         qList.append(Question(image: "bartchimp.jpg", questionText: "What is the name of the chimpanzee that kidnaps Bart?", choiceA: "Jub-Jub", choiceB: "Wimpy", choiceC: "Toot-Toot", choiceD: "Mrs. Teeny", answer: 3))
@@ -294,7 +304,7 @@ class QuestionBank{
         
         // UNSORTED
         
-
+        
     }
     
 }
