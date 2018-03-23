@@ -306,7 +306,7 @@ class QuestionBank{
         qList.append(Question(image: "masonfairbanks.jpg", questionText: "Which actor provides the voice of Mason Fairbanks, the man that Homer believes might be his real father?", choiceA: "Michael Caine", choiceB: "Eric Idle", choiceC: "Ricky Gervais", choiceD: "Michael York", answer: 4))
         qList.append(Question(image: "bartairplane.jpg", questionText: "Bart once forced a jet to fly back to which city because he removed his seat belt too early?", choiceA: "Atlanta", choiceB: "New York", choiceC: "Minneapolis", choiceD: "San Francisco", answer: 3))
         qList.append(Question(image: "burnsscavenger.jpg", questionText: "Mr. Burns briefly lost all his possessions after losing a scavenger hunt to whom?", choiceA: "Artie Ziff", choiceB: "The Rich Texan", choiceC: "Kent Brockman", choiceD: "Aristotle Amadopolis", answer: 2))
-        qList.append(Question(image: "marriagecounseling.jpg", questionText: "What is the name of the Isotopes player who seeks marriage counseling from Homer and Marge?", choiceA: "Harry Bonds", choiceB: "Charlie Johnson", choiceC: "Babe Ruth III", choiceD: "Buck Mitchell", answer: 4))
+        qList.append(Question(image: "marriagecounseling.jpg", questionText: "What is the name of the Isotopes player who seeks marriage counseling from Homer and Marge?", choiceA: "Harry Bonds", choiceB: "Biff Maguire", choiceC: "Babe Ruth III", choiceD: "Buck Mitchell", answer: 4))
         
         // SEASON 22
         qList.append(Question(image: "nobelprize.jpg", questionText: "Which figure named in a Nobel Prize betting pool actually did win the Nobel Prize several years later?", choiceA: "Vers Rubin", choiceB: "Bengt Holmstrom", choiceC: "Richard Zare", choiceD: "Jagdish Bhagwati", answer: 2))
