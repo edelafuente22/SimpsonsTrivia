@@ -25,6 +25,7 @@
 		7EE8809E20113A1E00276C19 /* score678.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7EE8809920113A1E00276C19 /* score678.gif */; };
 		7EE8809F20113A1E00276C19 /* score891011.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7EE8809A20113A1E00276C19 /* score891011.gif */; };
 		7EE880A020113A1E00276C19 /* score012.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7EE8809B20113A1E00276C19 /* score012.gif */; };
+		7EFEA9B62069A40800E440E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EFEA9B52069A40800E440E2 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 		7EE8809920113A1E00276C19 /* score678.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = score678.gif; path = "../../../../Desktop/app images/score678.gif"; sourceTree = "<group>"; };
 		7EE8809A20113A1E00276C19 /* score891011.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = score891011.gif; path = "../../../../Desktop/app images/score891011.gif"; sourceTree = "<group>"; };
 		7EE8809B20113A1E00276C19 /* score012.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = score012.gif; path = "../../../../Desktop/app images/score012.gif"; sourceTree = "<group>"; };
+		7EFEA9B52069A40800E440E2 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ../../../../../.Trash/LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +157,7 @@
 			isa = PBXGroup;
 			children = (
 				7E632ED320099F6F0037CDF2 /* Main.storyboard */,
+				7EFEA9B52069A40800E440E2 /* LaunchScreen.storyboard */,
 				7E632ED920099F6F0037CDF2 /* Assets.xcassets */,
 				7E1E151A200C1E1100DDD6F7 /* UIImage+Gif.swift */,
 			);
@@ -290,6 +293,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7EE8809E20113A1E00276C19 /* score678.gif in Resources */,
+				7EFEA9B62069A40800E440E2 /* LaunchScreen.storyboard in Resources */,
 				7EE8809C20113A1E00276C19 /* score12.gif in Resources */,
 				7E632EDA20099F6F0037CDF2 /* Assets.xcassets in Resources */,
 				7EE880A020113A1E00276C19 /* score012.gif in Resources */,
@@ -490,7 +494,7 @@
 				DEVELOPMENT_TEAM = A8BKZ7438M;
 				INFOPLIST_FILE = "Simpsons Trivia/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "edelafuente.Simpsons-Trivia";
+				PRODUCT_BUNDLE_IDENTIFIER = claitco.SimpsonsTrivia;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -505,7 +509,7 @@
 				DEVELOPMENT_TEAM = A8BKZ7438M;
 				INFOPLIST_FILE = "Simpsons Trivia/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "edelafuente.Simpsons-Trivia";
+				PRODUCT_BUNDLE_IDENTIFIER = claitco.SimpsonsTrivia;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
