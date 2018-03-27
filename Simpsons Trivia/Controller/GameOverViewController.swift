@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import Social
 
 class GameOverViewController: UIViewController {
     

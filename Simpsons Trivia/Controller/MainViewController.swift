@@ -24,6 +24,11 @@ class MainViewController: UIViewController {
         startGame.alpha = 0.0
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        self.navigationController?.navigationBar.isHidden = true
+
+    }
+    
     override func viewDidAppear(_ animated: Bool) {
         self.navigationController?.navigationBar.isHidden = true
         
