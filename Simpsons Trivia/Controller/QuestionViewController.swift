@@ -80,7 +80,7 @@ class QuestionViewController: UIViewController {
     
     func updateHeader(){
         self.timeLeft = 15
-        timerLabel.text = ":\(timeLeft)"
+        timerLabel.text = "\(timeLeft)"
         timerLabel.textColor = UIColor.white
         questionCounter.text = "Question \(questionCount + 1)/12"
         correctLabel.text = "Correct: \(correctResponses)"
@@ -119,7 +119,7 @@ class QuestionViewController: UIViewController {
     
     @objc func updateTimer() {
         timeLeft -= 1
-        timerLabel.text = ":\(timeLeft)"
+        timerLabel.text = "\(timeLeft)"
         if(timeLeft < 6 && timeLeft >= 1){
             timerLabel.textColor = UIColor.red
         }
