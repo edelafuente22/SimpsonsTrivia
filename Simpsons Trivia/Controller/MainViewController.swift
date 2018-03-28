@@ -29,9 +29,7 @@ class MainViewController: UIViewController {
 
     }
     
-    override func viewDidAppear(_ animated: Bool) {
-        self.navigationController?.navigationBar.isHidden = true
-        
+    override func viewDidAppear(_ animated: Bool) {        
         self.titleImage.fadeInTitle()
         self.titleLabel.fadeInLabel()
         self.startGame.fadeInButton()

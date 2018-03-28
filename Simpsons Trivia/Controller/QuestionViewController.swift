@@ -11,6 +11,7 @@ import UIKit
 class QuestionViewController: UIViewController {
     @IBOutlet weak var questionCounter: UILabel!
     @IBOutlet weak var timerLabel: UILabel!
+    @IBOutlet weak var correctLabel: UILabel!
     
     @IBOutlet weak var imageView: UIImageView!
     
@@ -82,6 +83,7 @@ class QuestionViewController: UIViewController {
         timerLabel.text = ":\(timeLeft)"
         timerLabel.textColor = UIColor.white
         questionCounter.text = "Question \(questionCount + 1)/12"
+        correctLabel.text = "Correct: \(correctResponses)"
         
     }
     

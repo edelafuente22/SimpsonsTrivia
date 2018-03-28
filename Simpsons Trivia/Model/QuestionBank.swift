@@ -248,6 +248,7 @@ class QuestionBank{
         qList.append(Question(image: "gloria.jpg", questionText: "Who was the ex-boyfriend of Gloria, Mr. Burns' love interest in \"A Hunka Hunka Burns In Love\"?", choiceA: "Moe", choiceB: "Snake", choiceC: "Barney", choiceD: "Lenny", answer: 2))
         qList.append(Question(image: "ultrahouse.jpg", questionText: "Who provides the voice of the UltraHouse seen in \"Treehouse of Horror XII\"?", choiceA: "Sean Connery", choiceB: "Liam Neeson", choiceC: "Daniel Craig", choiceD: "Pierce Brosnan", answer: 4))
         qList.append(Question(image: "bartbubble.jpg", questionText: "What virus forces Bart to live temporarily in a plastic bubble?", choiceA: "Hanta virus", choiceB: "Panda virus", choiceC: "The blue plague", choiceD: "Ebola virus", answer: 2))
+        qList.append(Question(image: "garthmotherloving.jpg", questionText: "According to Garth Motherloving, owner of Motherloving Sugar Corp., what was his last name previously?", choiceA: "Fatherloving", choiceB: "Kidkill", choiceC: "Hitler", choiceD: "Terrible", answer: 3))
         
         // SEASON 14
         qList.append(Question(image: "fantasycamp.jpg", questionText: "Which of these musicians was NOT an instructor at the rock 'n' roll fantasy camp Homer attends?", choiceA: "Dave Grohl", choiceB: "Lenny Kravitz", choiceC: "Tom Petty", choiceD: "Brian Setzer", answer: 1))
@@ -309,11 +310,11 @@ class QuestionBank{
         qList.append(Question(image: "marriagecounseling.jpg", questionText: "What is the name of the Isotopes player who seeks marriage counseling from Homer and Marge?", choiceA: "Harry Bonds", choiceB: "Biff Maguire", choiceC: "Babe Ruth III", choiceD: "Buck Mitchell", answer: 4))
         
         // SEASON 22
-        qList.append(Question(image: "nobelprize.jpg", questionText: "Which figure named in a Nobel Prize betting pool actually did win the Nobel Prize several years later?", choiceA: "Vers Rubin", choiceB: "Bengt Holmstrom", choiceC: "Richard Zare", choiceD: "Jagdish Bhagwati", answer: 2))
+//        qList.append(Question(image: "nobelprize.jpg", questionText: "Which figure named in a Nobel Prize betting pool actually did win the Nobel Prize several years later?", choiceA: "Vers Rubin", choiceB: "Bengt Holmstrom", choiceC: "Richard Zare", choiceD: "Jagdish Bhagwati", answer: 2))
         
         
         // UNSORTED
-        
+
         
     }
     
