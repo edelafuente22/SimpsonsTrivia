@@ -68,6 +68,11 @@ class QuestionViewController: UIViewController {
             optionC.setTitle(allQuestions.qList[questionNumber].optionC, for: UIControlState.normal)
             optionD.setTitle(allQuestions.qList[questionNumber].optionD, for: UIControlState.normal)
             
+            optionA.isEnabled = true
+            optionB.isEnabled = true
+            optionC.isEnabled = true
+            optionD.isEnabled = true
+            
             // UPDATING HEADER AND RESTARTING TIMER
             updateHeader()
             startTimer()
@@ -93,6 +98,12 @@ class QuestionViewController: UIViewController {
             questionLabel.text = "CORRECT!"
             questionLabel.textColor = newGreen
             sender.backgroundColor = newGreen
+            
+            optionA.isEnabled = false
+            optionB.isEnabled = false
+            optionC.isEnabled = false
+            optionD.isEnabled = false
+            
             timer.invalidate()
             correctResponses += 1
             questionCount += 1
@@ -105,6 +116,12 @@ class QuestionViewController: UIViewController {
             questionLabel.text = "WRONG!"
             questionLabel.textColor = UIColor.red
             sender.backgroundColor = UIColor.red
+            
+            optionA.isEnabled = false
+            optionB.isEnabled = false
+            optionC.isEnabled = false
+            optionD.isEnabled = false
+            
             timer.invalidate()
             questionCount += 1
             DispatchQueue.main.asyncAfter(deadline: .now() + 2.0, execute: {
@@ -126,6 +143,12 @@ class QuestionViewController: UIViewController {
         if(timeLeft < 1){
             questionLabel.text = "TIME'S UP!"
             timerLabel.text = ""
+            
+            optionA.isEnabled = false
+            optionB.isEnabled = false
+            optionC.isEnabled = false
+            optionD.isEnabled = false
+            
             timer.invalidate()
             questionLabel.textColor = UIColor.red
             questionCount += 1
