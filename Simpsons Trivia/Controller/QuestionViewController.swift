@@ -63,10 +63,10 @@ class QuestionViewController: UIViewController {
             optionD.backgroundColor = UIColor.blue
             questionLabel.text = allQuestions.qList[questionNumber].question
             rightAnswer = allQuestions.qList[questionNumber].correctAnswer
-            optionA.setTitle(allQuestions.qList[questionNumber].optionA, for: UIControlState.normal)
-            optionB.setTitle(allQuestions.qList[questionNumber].optionB, for: UIControlState.normal)
-            optionC.setTitle(allQuestions.qList[questionNumber].optionC, for: UIControlState.normal)
-            optionD.setTitle(allQuestions.qList[questionNumber].optionD, for: UIControlState.normal)
+            optionA.setTitle(allQuestions.qList[questionNumber].optionA, for: .normal)
+            optionB.setTitle(allQuestions.qList[questionNumber].optionB, for: .normal)
+            optionC.setTitle(allQuestions.qList[questionNumber].optionC, for: .normal)
+            optionD.setTitle(allQuestions.qList[questionNumber].optionD, for: .normal)
             
             optionA.isEnabled = true
             optionB.isEnabled = true

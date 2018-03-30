@@ -46,7 +46,7 @@
                                 <color key="tintColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Start a game!"/>
                                 <connections>
-                                    <segue destination="Gqc-nm-OfC" kind="presentation" identifier="startGame" id="Dgz-Vl-3NR"/>
+                                    <segue destination="Gqc-nm-OfC" kind="presentation" identifier="startGame" id="EY2-kJ-aKA"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Answer 12 questions to gauge your knowledge of our favorite cartoon family." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k60-3f-Rh3">
@@ -420,7 +420,7 @@
         <image name="titleheader" width="390" height="192"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="6XL-h7-8gZ"/>
+        <segue reference="EY2-kJ-aKA"/>
         <segue reference="q70-TW-Ot4"/>
     </inferredMetricsTieBreakers>
 </document>
