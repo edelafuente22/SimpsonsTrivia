@@ -420,6 +420,7 @@
         <image name="titleheader" width="390" height="192"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="lah-OZ-scv"/>
         <segue reference="EY2-kJ-aKA"/>
         <segue reference="q70-TW-Ot4"/>
     </inferredMetricsTieBreakers>

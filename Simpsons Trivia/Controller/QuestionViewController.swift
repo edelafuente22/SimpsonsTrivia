@@ -40,6 +40,7 @@ class QuestionViewController: UIViewController {
         super.viewDidLoad()
         updateQuestion()
         updateHeader()
+
     }
 
     override func didReceiveMemoryWarning() {
