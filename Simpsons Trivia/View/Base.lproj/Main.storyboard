@@ -28,7 +28,7 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cloudbackground" translatesAutoresizingMaskIntoConstraints="NO" id="QYy-R3-uSK">
                                 <rect key="frame" x="16" y="0.0" width="375" height="667"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="titleheader" translatesAutoresizingMaskIntoConstraints="NO" id="RYt-nN-av2">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="title2" translatesAutoresizingMaskIntoConstraints="NO" id="RYt-nN-av2">
                                 <rect key="frame" x="16" y="160" width="343" height="154"/>
                                 <gestureRecognizers/>
                                 <constraints>
@@ -36,7 +36,7 @@
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jOg-Xt-yFS">
-                                <rect key="frame" x="89" y="482" width="196" height="50"/>
+                                <rect key="frame" x="89" y="492" width="196" height="50"/>
                                 <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="Ob8-zD-kfz"/>
@@ -48,10 +48,10 @@
                                     <segue destination="Gqc-nm-OfC" kind="presentation" identifier="startGame" id="EY2-kJ-aKA"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Answer 12 questions to gauge your knowledge of our favorite cartoon family." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k60-3f-Rh3">
-                                <rect key="frame" x="16" y="362" width="343" height="60"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Answer 12 questions to gauge your knowledge of our favorite cartoon family, the Simpsons." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k60-3f-Rh3">
+                                <rect key="frame" x="25" y="362" width="325" height="80"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="60" id="cJy-ju-Grq"/>
+                                    <constraint firstAttribute="height" constant="80" id="cJy-ju-Grq"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -79,7 +79,7 @@
                         <constraints>
                             <constraint firstItem="RYt-nN-av2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="1PW-Zp-2Ar"/>
                             <constraint firstItem="QYy-R3-uSK" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="2hO-cr-NFM"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="k60-3f-Rh3" secondAttribute="trailing" constant="16" id="39B-HC-RvQ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="k60-3f-Rh3" secondAttribute="trailing" constant="25" id="39B-HC-RvQ"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="kSo-NE-jHH" secondAttribute="trailing" constant="13" id="7ew-hZ-hiG"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="cul-J1-LeW" secondAttribute="trailing" constant="13" id="9jJ-Vi-qkk"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="jOg-Xt-yFS" secondAttribute="trailing" constant="90" id="Fu4-0s-Uru"/>
@@ -88,10 +88,10 @@
                             <constraint firstItem="QYy-R3-uSK" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="KgR-Ih-MqN"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="cul-J1-LeW" secondAttribute="bottom" constant="20" id="LYw-d9-70p"/>
                             <constraint firstItem="QYy-R3-uSK" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Pcc-Ih-na5"/>
-                            <constraint firstItem="k60-3f-Rh3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="QHf-3U-mbf"/>
+                            <constraint firstItem="k60-3f-Rh3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="25" id="QHf-3U-mbf"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="kSo-NE-jHH" secondAttribute="trailing" constant="13" id="RzH-Mt-jPR"/>
                             <constraint firstItem="RYt-nN-av2" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="140" id="ceV-Wr-Gpj"/>
-                            <constraint firstItem="jOg-Xt-yFS" firstAttribute="top" secondItem="k60-3f-Rh3" secondAttribute="bottom" constant="60" id="ejc-ap-6Rq"/>
+                            <constraint firstItem="jOg-Xt-yFS" firstAttribute="top" secondItem="k60-3f-Rh3" secondAttribute="bottom" constant="50" id="ejc-ap-6Rq"/>
                             <constraint firstItem="jOg-Xt-yFS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="89" id="i1s-di-xPq"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="kSo-NE-jHH" secondAttribute="bottom" constant="20" id="qiC-KS-YdS"/>
                             <constraint firstAttribute="trailing" secondItem="QYy-R3-uSK" secondAttribute="trailing" constant="-16" id="u8e-8k-6EZ"/>
@@ -416,7 +416,7 @@
     <resources>
         <image name="cloudbackground" width="2000" height="1024"/>
         <image name="infoicon" width="512" height="512"/>
-        <image name="titleheader" width="390" height="192"/>
+        <image name="title2" width="365" height="168"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="EY2-kJ-aKA"/>
