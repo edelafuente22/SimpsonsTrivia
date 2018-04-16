@@ -171,7 +171,7 @@ class QuestionViewController: UIViewController {
 
 extension UIButton {
     open override func draw(_ rect: CGRect) {
-        self.layer.cornerRadius = 25
+        self.layer.cornerRadius = 10
         self.clipsToBounds = true        
     }
 }
