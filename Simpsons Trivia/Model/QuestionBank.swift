@@ -159,6 +159,16 @@ class QuestionBank{
         qList.append(Question(image: "squidport.jpg", questionText: "Which of these stores is NOT located at the Springfield Squidport?", choiceA: "It's A Wonderful Knife", choiceB: "Banana Dictatorship", choiceC: "Malaria Zone", choiceD: "Turban Outfitters", answer: 2))
         qList.append(Question(image: "johnstore.jpg", questionText: "What is the name of the store operated by John, the gay man befriended by the Simpsons?", choiceA: "Cockamamie's", choiceB: "The Chotchkie Store", choiceC: "Pink Flamingos", choiceD: "The Leftorium", answer: 1))
         qList.append(Question(image: "lisarecycling.jpg", questionText: "Which company buys the Little Lisa Recycling Plant from Mr. Burns?", choiceA: "Greenpeace", choiceB: "PetroChem Petrochemical Corporation", choiceC: "Bay State Fish Sticks", choiceD: "Krustyburger", answer: 3))
+        qList.append(Question(image: "margeparty.jpg", questionText: "Which of these families was NOT present at the party where Milhouse's parents broke up?", choiceA: "The Flanderses", choiceB: "The Wiggums", choiceC: "The Hibberts", choiceD: "The Lovejoys", answer: 2))
+        qList.append(Question(image: "hammockdistrict.jpg", questionText: "According to Hank Scorpio, on which street in Cypress Creek is the \"hammock district\" located?", choiceA: "Broadway", choiceB: "Globex Boulevard", choiceC: "Main Street", choiceD: "Third Street", answer: 4))
+        qList.append(Question(image: "burlesquecustomers.jpg", questionText: "Which of these characters was NOT revealed to be a customer at the Maison Derriere?", choiceA: "Cletus Spuckler", choiceB: "Clancy Wiggum", choiceC: "Comic Book Guy", choiceD: "Patty Bouvier", answer: 3))
+        qList.append(Question(image: "cidermill.jpg", questionText: "To Homer's dismay, the Simpsons visited a cider mill instead of watching which sporting event?", choiceA: "The Super Bowl", choiceB: "Game 7 of the World Series", choiceC: "The NBA All-Star Game", choiceD: "The Pro Bowl", answer: 2))
+        qList.append(Question(image: "autodialer.jpg", questionText: "When Homer operates a telemarketing scam, he implores people to send a dollar to which alias?", choiceA: "\"Happy Dude\"", choiceB: "\"The Cash Man\"", choiceC: "\"Sorry Guy\"", choiceD: "\"J.H. Puffinstuff\"", answer: 1))
+        qList.append(Question(image: "hurricaneneddy.jpg", questionText: "What is the name of the hurricane that strikes Springfield, destroying the Flanders house?", choiceA: "Annie", choiceB: "Barbara", choiceC: "Joy", choiceD: "Maude", answer: 2))
+        qList.append(Question(image: "pretzelbarrage.jpg", questionText: "Which baseball Hall of Famer is knocked out by a \"barrage of pretzels\" at a Springfield Isotopes game?", choiceA: "Steve Garvey", choiceB: "Mickey Mantle", choiceC: "Whitey Ford", choiceD: "Sandy Koufax", answer: 3))
+        qList.append(Question(image: "randomcharacter.jpg", questionText: "What is the name of the man living with the Simpsons in the episode \"The Itchy and Scratchy and Poochie Show\"?", choiceA: "Jesse", choiceB: "Roy", choiceC: "Jay", choiceD: "Jack", answer: 2))
+        qList.append(Question(image: "lisababysit.jpg", questionText: "Chief Wiggum hires Lisa to babysit Ralph because he and his wife have tickets to watch which entertainer?", choiceA: "Eddie Murphy", choiceB: "Ray Charles", choiceC: "Huey Lewis", choiceD: "Bob Saget", answer: 4))
+        qList.append(Question(image: "skinnykrabby.jpg", questionText: "Principal Skinner and Mrs. Krabappel first fall for each other at a birthday party for which student?", choiceA: "Martin", choiceB: "Milhouse", choiceC: "Nelson", choiceD: "Janey", answer: 1))
         
         // SEASON 9
         qList.append(Question(image: "broadway.jpg", questionText: "Which Broadway musical do Marge, Lisa and Bart watch during their visit to New York?", choiceA: "Checkin' In", choiceB: "Kickin' It", choiceC: "The Itchy and Scratchy Musical", choiceD: "Planet of the Apes", answer: 2))
@@ -314,7 +324,6 @@ class QuestionBank{
         
         
         // UNSORTED
-        qList.append(Question(image: "moegarage.jpg", questionText: "What does Moe prefer to call a garage?", choiceA: "Harry Bonds", choiceB: "Carhole", choiceC: "Babe Ruth III", choiceD: "Buck Mitchell", answer: 2))
         
     }
     
