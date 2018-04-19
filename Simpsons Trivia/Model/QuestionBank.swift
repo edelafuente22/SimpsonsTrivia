@@ -32,6 +32,7 @@ class QuestionBank{
         qList.append(Question(image: "crazycatlady.jpg", questionText: "What is the Crazy Cat Lady's real name?", choiceA: "Lindsey Naegle", choiceB: "Elizabeth Alder", choiceC: "Eleanor Abernathy", choiceD: "Chloe Talbot", answer: 3))
         qList.append(Question(image: "familytravel.jpg", questionText: "Which of these countries have the Simpsons traveled to in more than one episode?", choiceA: "Japan", choiceB: "England", choiceC: "China", choiceD: "Brazil", answer: 4))
         qList.append(Question(image: "abrooks.jpg", questionText: "Which of these characters is NOT voiced by Albert Brooks?", choiceA: "Hank Scorpio", choiceB: "Brad Goodman", choiceC: "Tab Spangler", choiceD: "Artie Ziff", answer: 4))
+        qList.append(Question(image: "selmahusband.jpg", questionText: "Which of these characters has Selma Bouvier never been married to?", choiceA: "Troy McClure", choiceB: "Sideshow Bob", choiceC: "Apu Nahasapeemapetilon", choiceD: "Disco Stu", answer: 3))
         
         // SEASON 1
         qList.append(Question(image: "greyhoundrace.jpg", questionText: "Which dog wins the greyhound race in which Homer bets on Santa's Little Helper?", choiceA: "Whirlwind", choiceB: "Dog O' War", choiceC: "Chew My Shoe", choiceD: "Fido", answer: 1))
@@ -136,6 +137,15 @@ class QuestionBank{
         qList.append(Question(image: "bartthefink.jpg", questionText: "An ad for which competing TV show could be seen on a bus during the episode \"Bart The Fink\"?", choiceA: "\"Frazier\"", choiceB: "\"Mad About You\"", choiceC: "\"Full House\"", choiceD: "\"Seinfield\"", answer: 2))
         qList.append(Question(image: "macarthurparker.jpg", questionText: "Which actor provides the voice of MacArthur Parker, Troy McClure's agent?", choiceA: "Phil Hartman", choiceB: "Adam Sandler", choiceC: "Elliott Gould", choiceD: "Jeff Goldblum", answer: 4))
         qList.append(Question(image: "newlooklisa.jpg", questionText: "While on vacation at the beach with the Simpsons, Milhouse says a made-over Lisa resembles which TV character?", choiceA: "Blossom", choiceB: "Punky Brewster", choiceC: "Buffy the Vampire Slayer", choiceD: "Ally McBeal", answer: 1))
+        qList.append(Question(image: "lisayearbook.jpg", questionText: "What is the title of the Springfield Elementary yearbook that Lisa edited?", choiceA: "Pointing Forward", choiceB: "Retrospecticus", choiceC: "Made In The Shade", choiceD: "Skinner's Kids", answer: 2))
+        qList.append(Question(image: "apufattony.jpg", questionText: "The fake ID documents that Apu buys from Fat Tony state that he was born in which city?", choiceA: "Green Bay, Wisconsin", choiceB: "Omaha, Nebraska", choiceC: "Anchorage, Alaska", choiceD: "Chattanooga, Tennessee", answer: 1))
+        qList.append(Question(image: "bumblebeemanshow.jpg", questionText: "When Bumblebee Man's show ends (by order of Sideshow Bob), he gives a \"super thank-you\" to which food company?", choiceA: "Mission", choiceB: "Pace", choiceC: "La Victoria", choiceD: "Goya", answer: 4))
+        qList.append(Question(image: "andywilliams.jpg", questionText: "Which Andy Williams song was Nelson delighted to see performed during the concert's second encore?", choiceA: "\"Born Free\"", choiceB: "\"Moon River\"", choiceC: "\"Can't Get Used To Losing You\"", choiceD: "\"Solitaire\"", answer: 2))
+        qList.append(Question(image: "krustyfuneral.jpg", questionText: "After Krusty is thought to have died in a plane crash, which actor gives an impromptu eulogy at his funeral?", choiceA: "Jack Lemmon", choiceB: "Kirk Douglas", choiceC: "Bob Newhart", choiceD: "Dick Van Dyke", answer: 3))
+        qList.append(Question(image: "monagrave.jpg", questionText: "The grave Grampa told Homer belonged to his mother actually belonged to whom?", choiceA: "Walt Whitman", choiceB: "James Joyce", choiceC: "James K. Polk", choiceD: "Walt Disney", answer: 1))
+        qList.append(Question(image: "soldsoul.jpg", questionText: "Bart uses the $5 he gets for selling his soul to Milhouse to buy what?", choiceA: "Pogs", choiceB: "Prank doorbell", choiceC: "Krustyburger kids' meal", choiceD: "Toy sponge", answer: 4))
+        qList.append(Question(image: "nutritionpyramid.jpg", questionText: "Which of these is NOT on the \"Nutrition Pyramid\" Dr. Nick shows Homer when he tries to purposely gain weight?", choiceA: "Congealed Group", choiceB: "Big Sugar Group", choiceC: "Whipped Group", choiceD: "Chocotastic Group", answer: 2))
+        qList.append(Question(image: "bushbart.jpg", questionText: "Why does George H.W. Bush, while living across the street from the Simpsons, spank Bart?", choiceA: "Setting off fireworks on his lawn", choiceB: "Releasing frogs in his living room", choiceC: "Destroying his memoirs", choiceD: "Eating all of his cookies", answer: 3))
         
         // SEASON 8
         qList.append(Question(image: "steelmill.jpg", questionText: "What is the name of the club that the Ajax Steel Mill converts to at quitting time?", choiceA: "The Anvil", choiceB: "Mo's", choiceC: "The League Of Extra-Horny Gentlemen", choiceD: "Jax Steel Mill", answer: 1))
@@ -324,6 +334,7 @@ class QuestionBank{
         
         
         // UNSORTED
+        
         
     }
     
