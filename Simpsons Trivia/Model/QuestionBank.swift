@@ -116,6 +116,16 @@ class QuestionBank{
         qList.append(Question(image: "wolfcastlestandup.jpg", questionText: "What is the title of the film that has Rainier Wolfcastle \"in front of a brick wall for an hour and a half\"?", choiceA: "\"The Real McBain\"", choiceB: "\"McBain: Let's Get Silly\"", choiceC: "\"Rainier, Raw\"", choiceD: "\"McBain 4: Fatal Discharge\"", answer: 2))
         qList.append(Question(image: "lisahugh.jpg", questionText: "Lisa falls in love with her future fiancee, Hugh Parkfield, after they fight over which book?", choiceA: "\"Sane Planning, Sensible Tomorrow\"", choiceB: "\"Ecosystem of the Marsh\"", choiceC: "\"The Rise and Fall of the Third Reich\"", choiceD: "\"Little Women\"", answer: 2))
         qList.append(Question(image: "fieldtrip.jpg", questionText: "Which of Springfield Elementary's students is accidentally left behind after a field trip to Fort Springfield?", choiceA: "Milhouse", choiceB: "Wendell", choiceC: "Database", choiceD: "Uter", answer: 4))
+        qList.append(Question(image: "shelbyvilletree.jpg", questionText: "Shelbyville kids celebrate ridding themselves of the \"haunted\" lemon tree by drinking juice from which vegetable?", choiceA: "Carrot", choiceB: "Turnip", choiceC: "Celery", choiceD: "Onion", answer: 2))
+        qList.append(Question(image: "shelbyvilleexplorer.jpg", questionText: "What is the name of the explorer for which the town of Shelbyville is named?", choiceA: "Jeremiah Shelby", choiceB: "Shelby Richmond", choiceC: "Shelbyville Manhattan", choiceD: "Shel Silverstein", answer: 3))
+        qList.append(Question(image: "bartappendix.jpg", questionText: "Why did Bart have to have his appendix removed?", choiceA: "Swallowed a paper clip", choiceB: "Was punched in the stomach by Nelson", choiceC: "Ate a pencil on a dare", choiceD: "Ate a jagged metal Krusty-O", answer: 4))
+        qList.append(Question(image: "bartsubstitutes.jpg", questionText: "Which of these names was NOT on Bart's list of substitutes he chased away while regular teachers were striking?", choiceA: "Moe", choiceB: "Sideshow Mel", choiceC: "Chief Wiggum", choiceD: "Gabe Kaplan", answer: 2))
+        qList.append(Question(image: "burnspuppies.jpg", questionText: "After stealing puppies from the Simpsons, Mr. Burns says that one of them reminds him of which old-time actor?", choiceA: "Rory Calhoun", choiceB: "Douglas Fairbanks", choiceC: "Cary Grant", choiceD: "Humphrey Bogart", answer: 1))
+        qList.append(Question(image: "lisavision.jpg", questionText: "At what type of event does Lisa meet the fortune teller who tells her about her first love?", choiceA: "Renaissance faire", choiceB: "Easter egg hunt", choiceC: "County fair", choiceD: "Street vendor expo", answer: 1))
+        qList.append(Question(image: "lisateammates.jpg", questionText: "Which of these kids is NOT a member of the peewee hockey team Lisa plays goalie for?", choiceA: "Ralph", choiceB: "Kearney", choiceC: "Milhouse", choiceD: "Jimbo", answer: 1))
+        qList.append(Question(image: "australiaprime.jpg", questionText: "What is the first name of the Prime Minister of Australia, as depicted in the episode \"Bart vs. Australia\"?", choiceA: "Jerry", choiceB: "Jocko", choiceC: "Andy", choiceD: "Paul", answer: 3))
+        qList.append(Question(image: "stonecuttersnumber.jpg", questionText: "What is the \"real\" emergency services number given out only to members of the Stonecutters?", choiceA: "119", choiceB: "912", choiceC: "919", choiceD: "976-HELP", answer: 2))
+        qList.append(Question(image: "babysittervideogame.jpg", questionText: "What is the title of the video game babysitter Ashley Grant uses to entice Bart to behave?", choiceA: "Bonestorm", choiceB: "Bar Brawl 4: Final Fracas", choiceC: "Disemboweler IV", choiceD: "Hockey Dad", answer: 3))
         
         // SEASON 7
         qList.append(Question(image: "moerascals.jpg", questionText: "As a child, Moe performed with the Little Rascals under what stage name?", choiceA: "Smelly", choiceB: "Dopey", choiceC: "Chubby", choiceD: "Alfalfa", answer: 1))
@@ -334,6 +344,7 @@ class QuestionBank{
         
         
         // UNSORTED
+        
         
         
     }
