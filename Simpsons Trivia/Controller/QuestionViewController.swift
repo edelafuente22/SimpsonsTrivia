@@ -85,6 +85,7 @@ class QuestionViewController: UIViewController {
     
     func updateHeader(){
         self.timeLeft = 15
+        countdownTimer.center.x = self.view.center.x
         countdownTimer.labelFont = UIFont(name: "HelveticaNeue-Bold", size: 18.0)
         countdownTimer.labelTextColor = UIColor.white
         countdownTimer.lineWidth = 4
@@ -141,13 +142,9 @@ class QuestionViewController: UIViewController {
     
     @objc func updateTimer() {
         timeLeft -= 1
-//        timerLabel.text = "\(timeLeft)"
-//        if(timeLeft < 6 && timeLeft >= 1){
-//            timerLabel.textColor = UIColor.red
-//        }
+
         if(timeLeft < 1){
             questionLabel.text = "TIME'S UP!"
-            // timerLabel.text = ""
             timer.invalidate()
 
             optionA.isEnabled = false
