@@ -1,21 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="6sD-LR-Vs3">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="6sD-LR-Vs3">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
-    <customFonts key="customFonts">
-        <array key="HelveticaNeue.ttc">
-            <string>HelveticaNeue</string>
-            <string>HelveticaNeue-Bold</string>
-        </array>
-    </customFonts>
     <scenes>
         <!--Main View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -162,36 +156,47 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ldn-z7-UaJ">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="70"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="15" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HX0-yk-3PZ">
-                                        <rect key="frame" x="0.0" y="32" width="375" height="29"/>
-                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="24"/>
-                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Question 12/12" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cG7-ba-lPe">
-                                        <rect key="frame" x="8" y="37" width="117" height="20"/>
+                                        <rect key="frame" x="8" y="47" width="117" height="20"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Correct: 11" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dWI-jH-aHU">
-                                        <rect key="frame" x="281.5" y="37" width="85.5" height="20"/>
+                                        <rect key="frame" x="281.5" y="47" width="85.5" height="20"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fti-Xb-65U" customClass="SRCountdownTimer" customModule="SRCountdownTimer">
+                                        <rect key="frame" x="165" y="33" width="45" height="45"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="labelTextColor">
+                                                <color key="value" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="trailLineColor">
+                                                <color key="value" red="0.89904842669999996" green="0.89904842669999996" blue="0.89904842669999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="lineColor">
+                                                <color key="value" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="lineWidth">
+                                                <real key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="isLabelHidden" value="NO"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
                                 </subviews>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstItem="cG7-ba-lPe" firstAttribute="top" secondItem="Ldn-z7-UaJ" secondAttribute="top" constant="37" id="3zq-yu-EEl"/>
-                                    <constraint firstItem="HX0-yk-3PZ" firstAttribute="top" secondItem="Ldn-z7-UaJ" secondAttribute="top" constant="32" id="5ao-uG-WaW"/>
-                                    <constraint firstAttribute="height" constant="70" id="Orh-h0-TxN"/>
-                                    <constraint firstItem="dWI-jH-aHU" firstAttribute="top" secondItem="Ldn-z7-UaJ" secondAttribute="top" constant="37" id="TBX-js-mnY"/>
+                                    <constraint firstItem="cG7-ba-lPe" firstAttribute="top" secondItem="Ldn-z7-UaJ" secondAttribute="top" constant="47" id="3zq-yu-EEl"/>
+                                    <constraint firstAttribute="height" constant="80" id="Orh-h0-TxN"/>
+                                    <constraint firstItem="dWI-jH-aHU" firstAttribute="top" secondItem="Ldn-z7-UaJ" secondAttribute="top" constant="47" id="TBX-js-mnY"/>
                                     <constraint firstItem="cG7-ba-lPe" firstAttribute="leading" secondItem="Ldn-z7-UaJ" secondAttribute="leading" constant="8" id="dhc-vY-reU"/>
-                                    <constraint firstItem="HX0-yk-3PZ" firstAttribute="leading" secondItem="Ldn-z7-UaJ" secondAttribute="leading" id="gJh-q2-t0s"/>
-                                    <constraint firstAttribute="trailing" secondItem="HX0-yk-3PZ" secondAttribute="trailing" id="h91-gK-HY2"/>
                                     <constraint firstAttribute="trailing" secondItem="dWI-jH-aHU" secondAttribute="trailing" constant="8" id="ox3-MT-xhv"/>
                                 </constraints>
                             </view>
@@ -264,7 +269,7 @@
                             <constraint firstItem="Ldn-z7-UaJ" firstAttribute="leading" secondItem="u6J-lb-4pg" secondAttribute="leading" id="Bke-An-VEd"/>
                             <constraint firstItem="u6J-lb-4pg" firstAttribute="bottom" secondItem="Inj-do-xOz" secondAttribute="bottom" constant="20" id="MMv-Ad-jfy"/>
                             <constraint firstItem="Ldn-z7-UaJ" firstAttribute="trailing" secondItem="u6J-lb-4pg" secondAttribute="trailing" id="S9q-bR-gl4"/>
-                            <constraint firstItem="Gkz-8L-Clv" firstAttribute="top" secondItem="Ldn-z7-UaJ" secondAttribute="bottom" constant="11" id="TEx-tA-NrT"/>
+                            <constraint firstItem="Gkz-8L-Clv" firstAttribute="top" secondItem="Ldn-z7-UaJ" secondAttribute="bottom" constant="1" id="TEx-tA-NrT"/>
                             <constraint firstItem="Ldn-z7-UaJ" firstAttribute="trailing" secondItem="u6J-lb-4pg" secondAttribute="trailing" id="TMo-1V-j5U"/>
                             <constraint firstItem="Inj-do-xOz" firstAttribute="top" secondItem="ou7-5W-nOM" secondAttribute="bottom" constant="10" id="YQF-v1-9i8"/>
                             <constraint firstItem="Ldn-z7-UaJ" firstAttribute="top" secondItem="cZz-RU-7Xr" secondAttribute="top" id="Ymf-rk-m4S"/>
@@ -280,6 +285,7 @@
                     </view>
                     <connections>
                         <outlet property="correctLabel" destination="dWI-jH-aHU" id="ltz-gx-dmv"/>
+                        <outlet property="countdownTimer" destination="fti-Xb-65U" id="sh1-xF-KwL"/>
                         <outlet property="imageView" destination="Gkz-8L-Clv" id="ZUs-Qq-MgP"/>
                         <outlet property="optionA" destination="wyu-iH-bwH" id="adu-i6-SP3"/>
                         <outlet property="optionB" destination="zbs-MA-A7c" id="zDJ-ND-9xH"/>
@@ -287,13 +293,12 @@
                         <outlet property="optionD" destination="TPc-Ng-DyF" id="aub-mx-fwr"/>
                         <outlet property="questionCounter" destination="cG7-ba-lPe" id="hrt-Gn-fJh"/>
                         <outlet property="questionLabel" destination="ou7-5W-nOM" id="3Z4-8l-gOR"/>
-                        <outlet property="timerLabel" destination="HX0-yk-3PZ" id="Fq6-rr-Nih"/>
                         <segue destination="rba-3W-0lO" kind="presentation" identifier="Game Over" modalTransitionStyle="flipHorizontal" id="lah-OZ-scv"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mp6-L9-6Wu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1623.2" y="133.00492610837438"/>
+            <point key="canvasLocation" x="1623.2" y="132.68365817091455"/>
         </scene>
         <!--Game Over View Controller-->
         <scene sceneID="Hx2-Rf-ON7">
@@ -404,6 +409,7 @@
         <image name="title2" width="365" height="168"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="lah-OZ-scv"/>
         <segue reference="6XL-h7-8gZ"/>
         <segue reference="q70-TW-Ot4"/>
     </inferredMetricsTieBreakers>

@@ -7,16 +7,15 @@
 //
 
 import UIKit
+import SRCountdownTimer
 
 class QuestionViewController: UIViewController {
     @IBOutlet weak var questionCounter: UILabel!
-    @IBOutlet weak var timerLabel: UILabel!
     @IBOutlet weak var correctLabel: UILabel!
+    @IBOutlet weak var countdownTimer: SRCountdownTimer!
     
     @IBOutlet weak var imageView: UIImageView!
-    
     @IBOutlet weak var questionLabel: UILabel!
-    
     @IBOutlet weak var optionA: UIButton!
     @IBOutlet weak var optionB: UIButton!
     @IBOutlet weak var optionC: UIButton!
@@ -30,6 +29,7 @@ class QuestionViewController: UIViewController {
     var rightAnswer: Int = 0
     var questionCount: Int = 0
     
+    // BACKGROUND TIMER
     var timer = Timer()
     var timeLeft: Int = 0
     var isTimerRunning = false
@@ -85,8 +85,11 @@ class QuestionViewController: UIViewController {
     
     func updateHeader(){
         self.timeLeft = 15
-        timerLabel.text = "\(timeLeft)"
-        timerLabel.textColor = UIColor.white
+        countdownTimer.labelFont = UIFont(name: "HelveticaNeue-Bold", size: 18.0)
+        countdownTimer.labelTextColor = UIColor.white
+        countdownTimer.lineWidth = 4
+        countdownTimer.timerFinishingText = "0"
+        countdownTimer.start(beginingValue: 15, interval: 1)
         questionCounter.text = "Question \(questionCount + 1)/12"
         correctLabel.text = "Correct: \(correctResponses)"
         
@@ -104,6 +107,7 @@ class QuestionViewController: UIViewController {
             optionC.isEnabled = false
             optionD.isEnabled = false
             
+            countdownTimer.pause()
             timer.invalidate()
             correctResponses += 1
             questionCount += 1
@@ -122,6 +126,7 @@ class QuestionViewController: UIViewController {
             optionC.isEnabled = false
             optionD.isEnabled = false
             
+            countdownTimer.pause()
             timer.invalidate()
             questionCount += 1
             DispatchQueue.main.asyncAfter(deadline: .now() + 2.0, execute: {
@@ -131,25 +136,25 @@ class QuestionViewController: UIViewController {
     }
     
     func startTimer() {
-        timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: (#selector(QuestionViewController.updateTimer)), userInfo: nil, repeats: true)
+         timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: (#selector(QuestionViewController.updateTimer)), userInfo: nil, repeats: true)
     }
     
     @objc func updateTimer() {
         timeLeft -= 1
-        timerLabel.text = "\(timeLeft)"
-        if(timeLeft < 6 && timeLeft >= 1){
-            timerLabel.textColor = UIColor.red
-        }
+//        timerLabel.text = "\(timeLeft)"
+//        if(timeLeft < 6 && timeLeft >= 1){
+//            timerLabel.textColor = UIColor.red
+//        }
         if(timeLeft < 1){
             questionLabel.text = "TIME'S UP!"
-            timerLabel.text = ""
-            
+            // timerLabel.text = ""
+            timer.invalidate()
+
             optionA.isEnabled = false
             optionB.isEnabled = false
             optionC.isEnabled = false
             optionD.isEnabled = false
-            
-            timer.invalidate()
+
             questionLabel.textColor = UIColor.red
             questionCount += 1
             DispatchQueue.main.asyncAfter(deadline: .now() + 2.0, execute: {

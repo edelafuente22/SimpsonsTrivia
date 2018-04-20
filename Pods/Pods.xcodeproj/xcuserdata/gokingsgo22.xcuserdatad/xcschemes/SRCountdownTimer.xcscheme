@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "7E632ECB20099F6F0037CDF2"
-               BuildableName = "Simpsons Trivia.app"
-               BlueprintName = "Simpsons Trivia"
-               ReferencedContainer = "container:Simpsons Trivia.xcodeproj">
+               BlueprintIdentifier = "459BE4A0DE24D31974BA2B2AF1574A1D"
+               BuildableName = "SRCountdownTimer.framework"
+               BlueprintName = "SRCountdownTimer"
+               ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -29,15 +29,6 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7E632ECB20099F6F0037CDF2"
-            BuildableName = "Simpsons Trivia.app"
-            BlueprintName = "Simpsons Trivia"
-            ReferencedContainer = "container:Simpsons Trivia.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -51,16 +42,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7E632ECB20099F6F0037CDF2"
-            BuildableName = "Simpsons Trivia.app"
-            BlueprintName = "Simpsons Trivia"
-            ReferencedContainer = "container:Simpsons Trivia.xcodeproj">
+            BlueprintIdentifier = "459BE4A0DE24D31974BA2B2AF1574A1D"
+            BuildableName = "SRCountdownTimer.framework"
+            BlueprintName = "SRCountdownTimer"
+            ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -70,16 +60,6 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7E632ECB20099F6F0037CDF2"
-            BuildableName = "Simpsons Trivia.app"
-            BlueprintName = "Simpsons Trivia"
-            ReferencedContainer = "container:Simpsons Trivia.xcodeproj">
-         </BuildableReference>
-      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

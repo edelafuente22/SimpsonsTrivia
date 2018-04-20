@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		395D109FCD234359BDEF5B9D /* Pods_Simpsons_Trivia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F1111550AC48C069D990A6C /* Pods_Simpsons_Trivia.framework */; };
 		7E1E1519200C15F800DDD6F7 /* GameOverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1E1518200C15F800DDD6F7 /* GameOverViewController.swift */; };
 		7E1E151B200C1E1100DDD6F7 /* UIImage+Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1E151A200C1E1100DDD6F7 /* UIImage+Gif.swift */; };
 		7E1E152720100BF400DDD6F7 /* RulesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1E152620100BF400DDD6F7 /* RulesViewController.swift */; };
@@ -46,6 +47,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F1111550AC48C069D990A6C /* Pods_Simpsons_Trivia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Simpsons_Trivia.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		269EA631C25405E34378C242 /* Pods-Simpsons Trivia.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Simpsons Trivia.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Simpsons Trivia/Pods-Simpsons Trivia.debug.xcconfig"; sourceTree = "<group>"; };
 		7E1E1518200C15F800DDD6F7 /* GameOverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverViewController.swift; sourceTree = "<group>"; };
 		7E1E151A200C1E1100DDD6F7 /* UIImage+Gif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIImage+Gif.swift"; path = "../../../../../Downloads/Swift-4-Xcode-9---How-To-Display-GIF-in-UIImage-with-One-Line-Of-Code-in-iOS-Latest-2017-Hindi.-master/UIImage+Gif.swift"; sourceTree = "<group>"; };
 		7E1E152620100BF400DDD6F7 /* RulesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RulesViewController.swift; sourceTree = "<group>"; };
@@ -71,6 +74,7 @@
 		7EE8809920113A1E00276C19 /* score678.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = score678.gif; path = "../../../../Desktop/app images/score678.gif"; sourceTree = "<group>"; };
 		7EE8809A20113A1E00276C19 /* score891011.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = score891011.gif; path = "../../../../Desktop/app images/score891011.gif"; sourceTree = "<group>"; };
 		7EE8809B20113A1E00276C19 /* score012.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = score012.gif; path = "../../../../Desktop/app images/score012.gif"; sourceTree = "<group>"; };
+		BA24F6E186BDA47EA8CA2251 /* Pods-Simpsons Trivia.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Simpsons Trivia.release.xcconfig"; path = "Pods/Target Support Files/Pods-Simpsons Trivia/Pods-Simpsons Trivia.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				395D109FCD234359BDEF5B9D /* Pods_Simpsons_Trivia.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,6 +110,8 @@
 				7E632EE620099F6F0037CDF2 /* Simpsons TriviaTests */,
 				7E632EF120099F6F0037CDF2 /* Simpsons TriviaUITests */,
 				7E632ECD20099F6F0037CDF2 /* Products */,
+				C8EE65CEF87D1F2B3B18BB04 /* Pods */,
+				E6980BC71F1B471241AC5F9B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -185,6 +192,23 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		C8EE65CEF87D1F2B3B18BB04 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				269EA631C25405E34378C242 /* Pods-Simpsons Trivia.debug.xcconfig */,
+				BA24F6E186BDA47EA8CA2251 /* Pods-Simpsons Trivia.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E6980BC71F1B471241AC5F9B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F1111550AC48C069D990A6C /* Pods_Simpsons_Trivia.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -192,9 +216,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7E632EF720099F6F0037CDF2 /* Build configuration list for PBXNativeTarget "Simpsons Trivia" */;
 			buildPhases = (
+				C04CBB676AF61A225D151D4C /* [CP] Check Pods Manifest.lock */,
 				7E632EC820099F6F0037CDF2 /* Sources */,
 				7E632EC920099F6F0037CDF2 /* Frameworks */,
 				7E632ECA20099F6F0037CDF2 /* Resources */,
+				1D3E5C1CB6B5B1888E35DA88 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -248,7 +274,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "Edward de la Fuente";
 				TargetAttributes = {
 					7E632ECB20099F6F0037CDF2 = {
@@ -318,6 +344,45 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1D3E5C1CB6B5B1888E35DA88 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Simpsons Trivia/Pods-Simpsons Trivia-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SRCountdownTimer/SRCountdownTimer.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SRCountdownTimer.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Simpsons Trivia/Pods-Simpsons Trivia-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C04CBB676AF61A225D151D4C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Simpsons Trivia-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7E632EC820099F6F0037CDF2 /* Sources */ = {
@@ -393,6 +458,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -400,6 +466,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -450,6 +517,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -457,6 +525,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -488,6 +557,7 @@
 		};
 		7E632EF820099F6F0037CDF2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 269EA631C25405E34378C242 /* Pods-Simpsons Trivia.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -503,6 +573,7 @@
 		};
 		7E632EF920099F6F0037CDF2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA24F6E186BDA47EA8CA2251 /* Pods-Simpsons Trivia.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
