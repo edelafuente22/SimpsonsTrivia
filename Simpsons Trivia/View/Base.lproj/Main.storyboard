@@ -23,14 +23,14 @@
                                 <rect key="frame" x="16" y="0.0" width="375" height="667"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="title2" translatesAutoresizingMaskIntoConstraints="NO" id="RYt-nN-av2">
-                                <rect key="frame" x="16" y="140" width="343" height="154"/>
+                                <rect key="frame" x="16" y="130" width="343" height="154"/>
                                 <gestureRecognizers/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="154" id="pi3-ZM-C7a"/>
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jOg-Xt-yFS">
-                                <rect key="frame" x="89" y="424" width="196" height="50"/>
+                                <rect key="frame" x="89" y="414" width="196" height="50"/>
                                 <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="Ob8-zD-kfz"/>
@@ -43,11 +43,11 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Answer 12 questions to gauge your knowledge of our favorite cartoon family, the Simpsons." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k60-3f-Rh3">
-                                <rect key="frame" x="25" y="319" width="325" height="80"/>
+                                <rect key="frame" x="25" y="309" width="325" height="80"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="80" id="cJy-ju-Grq"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -84,7 +84,7 @@
                             <constraint firstItem="QYy-R3-uSK" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Pcc-Ih-na5"/>
                             <constraint firstItem="k60-3f-Rh3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="25" id="QHf-3U-mbf"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="kSo-NE-jHH" secondAttribute="trailing" constant="13" id="RzH-Mt-jPR"/>
-                            <constraint firstItem="RYt-nN-av2" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="120" id="ceV-Wr-Gpj"/>
+                            <constraint firstItem="RYt-nN-av2" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="110" id="ceV-Wr-Gpj"/>
                             <constraint firstItem="jOg-Xt-yFS" firstAttribute="top" secondItem="k60-3f-Rh3" secondAttribute="bottom" constant="25" id="ejc-ap-6Rq"/>
                             <constraint firstItem="jOg-Xt-yFS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="89" id="i1s-di-xPq"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="kSo-NE-jHH" secondAttribute="bottom" constant="20" id="qiC-KS-YdS"/>
@@ -171,7 +171,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fti-Xb-65U" customClass="SRCountdownTimer" customModule="SRCountdownTimer">
-                                        <rect key="frame" x="165" y="33" width="45" height="45"/>
+                                        <rect key="frame" x="165" y="31" width="45" height="45"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <userDefinedRuntimeAttributes>
@@ -212,16 +212,19 @@
                                     <constraint firstAttribute="height" constant="90" id="eZY-cY-fDa"/>
                                 </constraints>
                                 <string key="text">What is Nelson's suggestion for how to handle huckleberries that are too tart? What is Nelson's suggestion for how to handle huckleberries that are too tart?</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Inj-do-xOz">
-                                <rect key="frame" x="20" y="391" width="335" height="256"/>
+                                <rect key="frame" x="20" y="391" width="335" height="230"/>
                                 <subviews>
                                     <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wyu-iH-bwH">
-                                        <rect key="frame" x="0.0" y="0.0" width="335" height="56.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="335" height="50"/>
                                         <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" relation="lessThanOrEqual" constant="50" id="51x-Rk-8NY"/>
+                                        </constraints>
                                         <state key="normal" title="Option A">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
@@ -230,8 +233,11 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zbs-MA-A7c">
-                                        <rect key="frame" x="0.0" y="66.5" width="335" height="56.5"/>
+                                        <rect key="frame" x="0.0" y="60" width="335" height="50"/>
                                         <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" relation="lessThanOrEqual" constant="50" id="GyM-s0-RJu"/>
+                                        </constraints>
                                         <state key="normal" title="Option B">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
@@ -240,8 +246,11 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MpU-Di-FIi">
-                                        <rect key="frame" x="0.0" y="133" width="335" height="56.5"/>
+                                        <rect key="frame" x="0.0" y="120" width="335" height="50"/>
                                         <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" relation="lessThanOrEqual" constant="50" id="vI8-TB-UuY"/>
+                                        </constraints>
                                         <state key="normal" title="Option C">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
@@ -250,8 +259,11 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TPc-Ng-DyF">
-                                        <rect key="frame" x="0.0" y="199.5" width="335" height="56.5"/>
+                                        <rect key="frame" x="0.0" y="180" width="335" height="50"/>
                                         <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" relation="lessThanOrEqual" constant="50" id="63T-Zf-seD"/>
+                                        </constraints>
                                         <state key="normal" title="Option D">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
@@ -267,7 +279,7 @@
                             <constraint firstItem="Inj-do-xOz" firstAttribute="leading" secondItem="u6J-lb-4pg" secondAttribute="leading" constant="20" id="9I1-V1-NR4"/>
                             <constraint firstItem="ou7-5W-nOM" firstAttribute="leading" secondItem="u6J-lb-4pg" secondAttribute="leading" constant="24" id="AWv-3e-wLt"/>
                             <constraint firstItem="Ldn-z7-UaJ" firstAttribute="leading" secondItem="u6J-lb-4pg" secondAttribute="leading" id="Bke-An-VEd"/>
-                            <constraint firstItem="u6J-lb-4pg" firstAttribute="bottom" secondItem="Inj-do-xOz" secondAttribute="bottom" constant="20" id="MMv-Ad-jfy"/>
+                            <constraint firstItem="u6J-lb-4pg" firstAttribute="bottom" secondItem="Inj-do-xOz" secondAttribute="bottom" priority="999" constant="20" id="MMv-Ad-jfy"/>
                             <constraint firstItem="Ldn-z7-UaJ" firstAttribute="trailing" secondItem="u6J-lb-4pg" secondAttribute="trailing" id="S9q-bR-gl4"/>
                             <constraint firstItem="Gkz-8L-Clv" firstAttribute="top" secondItem="Ldn-z7-UaJ" secondAttribute="bottom" constant="1" id="TEx-tA-NrT"/>
                             <constraint firstItem="Ldn-z7-UaJ" firstAttribute="trailing" secondItem="u6J-lb-4pg" secondAttribute="trailing" id="TMo-1V-j5U"/>
@@ -321,8 +333,8 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You got a score of 8 out of 12! You get the Monty Burns Award for Outstanding Achievement in the Field of Excellence." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lgf-W8-X3w">
-                                <rect key="frame" x="27" y="337" width="321" height="61"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <rect key="frame" x="27" y="337" width="321" height="59.5"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -409,6 +421,7 @@
         <image name="title2" width="365" height="168"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="lah-OZ-scv"/>
         <segue reference="6XL-h7-8gZ"/>
     </inferredMetricsTieBreakers>
 </document>

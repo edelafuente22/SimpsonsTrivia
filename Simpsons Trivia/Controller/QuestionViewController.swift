@@ -86,9 +86,9 @@ class QuestionViewController: UIViewController {
     func updateHeader(){
         self.timeLeft = 15
         countdownTimer.center.x = self.view.center.x
-        countdownTimer.labelFont = UIFont(name: "HelveticaNeue-Bold", size: 18.0)
+        countdownTimer.labelFont = UIFont(name: "HelveticaNeue-Bold", size: 20.0)
         countdownTimer.labelTextColor = UIColor.white
-        countdownTimer.lineWidth = 4
+        countdownTimer.lineWidth = 5
         countdownTimer.timerFinishingText = "0"
         countdownTimer.start(beginingValue: 15, interval: 1)
         questionCounter.text = "Question \(questionCount + 1)/12"
