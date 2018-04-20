@@ -114,7 +114,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="T8K-ss-ds1">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T8K-ss-ds1">
                                 <rect key="frame" x="0.0" y="81" width="375" height="530"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <attributedString key="attributedText">
@@ -200,7 +200,7 @@
                                     <constraint firstAttribute="trailing" secondItem="dWI-jH-aHU" secondAttribute="trailing" constant="8" id="ox3-MT-xhv"/>
                                 </constraints>
                             </view>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Gkz-8L-Clv">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Gkz-8L-Clv">
                                 <rect key="frame" x="68" y="81" width="239" height="180"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="Gkz-8L-Clv" secondAttribute="height" multiplier="239:180" id="9HE-4m-0QA"/>
@@ -298,7 +298,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mp6-L9-6Wu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1623.2" y="132.68365817091455"/>
+            <point key="canvasLocation" x="1694" y="134"/>
         </scene>
         <!--Game Over View Controller-->
         <scene sceneID="Hx2-Rf-ON7">
@@ -315,13 +315,13 @@
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PERFECTION!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lVa-o2-8m1">
-                                <rect key="frame" x="27" y="277" width="321" height="36"/>
+                                <rect key="frame" x="27" y="281" width="321" height="36"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
                                 <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You got a score of 8 out of 12! You get the Monty Burns Award for Outstanding Achievement in the Field of Excellence." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lgf-W8-X3w">
-                                <rect key="frame" x="27" y="333" width="321" height="61"/>
+                                <rect key="frame" x="27" y="337" width="321" height="61"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -348,7 +348,7 @@
                                         </state>
                                         <connections>
                                             <action selector="answerPressed:" destination="Gqc-nm-OfC" eventType="touchUpInside" id="x8E-8u-a2y"/>
-                                            <segue destination="BYZ-38-t0r" kind="show" identifier="I'm done" id="q70-TW-Ot4"/>
+                                            <segue destination="6sD-LR-Vs3" kind="show" id="V6T-wP-bfg"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -368,7 +368,7 @@
                             <constraint firstItem="Zc6-n4-CxN" firstAttribute="trailing" secondItem="9fv-66-SSL" secondAttribute="trailing" constant="28" id="Vp3-Wm-d3z"/>
                             <constraint firstItem="Zc6-n4-CxN" firstAttribute="bottom" secondItem="HxH-9f-nbv" secondAttribute="bottom" constant="25" id="Y6q-bE-Vlq"/>
                             <constraint firstItem="9fv-66-SSL" firstAttribute="leading" secondItem="Zc6-n4-CxN" secondAttribute="leading" constant="27" id="b9Z-Jz-Pgc"/>
-                            <constraint firstItem="lVa-o2-8m1" firstAttribute="top" secondItem="9fv-66-SSL" secondAttribute="bottom" constant="18" id="fGQ-mu-Qcf"/>
+                            <constraint firstItem="lVa-o2-8m1" firstAttribute="top" secondItem="9fv-66-SSL" secondAttribute="bottom" constant="22" id="fGQ-mu-Qcf"/>
                             <constraint firstItem="HxH-9f-nbv" firstAttribute="leading" secondItem="Zc6-n4-CxN" secondAttribute="leading" constant="20" id="lvR-Al-MKI"/>
                             <constraint firstItem="Zc6-n4-CxN" firstAttribute="trailing" secondItem="Lgf-W8-X3w" secondAttribute="trailing" constant="27" id="qaM-za-ffa"/>
                         </constraints>
@@ -410,6 +410,5 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="6XL-h7-8gZ"/>
-        <segue reference="q70-TW-Ot4"/>
     </inferredMetricsTieBreakers>
 </document>

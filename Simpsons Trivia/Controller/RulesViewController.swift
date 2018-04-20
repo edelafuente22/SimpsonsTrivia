@@ -64,5 +64,9 @@ class RulesViewController: UIViewController, UITextViewDelegate {
         // Dispose of any resources that can be recreated.
     }
     
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+        self.rulesTextView.setContentOffset(CGPoint.zero, animated: false)
+    }
 
 }

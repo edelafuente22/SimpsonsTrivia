@@ -33,7 +33,7 @@ class QuestionBank{
         qList.append(Question(image: "familytravel.jpg", questionText: "Which of these countries have the Simpsons traveled to in more than one episode?", choiceA: "Japan", choiceB: "England", choiceC: "China", choiceD: "Brazil", answer: 4))
         qList.append(Question(image: "abrooks.jpg", questionText: "Which of these characters is NOT voiced by Albert Brooks?", choiceA: "Hank Scorpio", choiceB: "Brad Goodman", choiceC: "Tab Spangler", choiceD: "Artie Ziff", answer: 4))
         qList.append(Question(image: "selmahusband.jpg", questionText: "Which of these characters has Selma Bouvier never been married to?", choiceA: "Troy McClure", choiceB: "Sideshow Bob", choiceC: "Apu Nahasapeemapetilon", choiceD: "Disco Stu", answer: 3))
-        qList.append(Question(image: "moemidge.jpg", questionText: "By what name does Moe often mistakenly call Marge?", choiceA: "Madge", choiceB: "Midge", choiceC: "Minnie", choiceD: "Blanche", answer: 2))
+        qList.append(Question(image: "moemidge.jpg", questionText: "What name does Moe often mistakenly call Marge?", choiceA: "Madge", choiceB: "Midge", choiceC: "Minnie", choiceD: "Blanche", answer: 2))
         
         // SEASON 1
         qList.append(Question(image: "greyhoundrace.jpg", questionText: "Which dog wins the greyhound race in which Homer bets on Santa's Little Helper?", choiceA: "Whirlwind", choiceB: "Dog O' War", choiceC: "Chew My Shoe", choiceD: "Fido", answer: 1))
@@ -82,6 +82,16 @@ class QuestionBank{
         qList.append(Question(image: "whackingday.jpg", questionText: "Which singer is invited to open Springfield's Whacking Day festivities, but leaves in disgust?", choiceA: "Barry White", choiceB: "Isaac Hayes", choiceC: "Elton John", choiceD: "James Brown", answer: 1))
         qList.append(Question(image: "margejob.jpg", questionText: "What household issue prompts Marge to get a job at the Springfield Nuclear Power Plant?", choiceA: "Flooded basement", choiceB: "Hole in the roof", choiceC: "Unhinged garage door", choiceD: "Sinking foundation", answer: 4))
         qList.append(Question(image: "quimbynimoy.jpg", questionText: "Mayor Quimby mistakenly believed that Leonard Nimoy was a star on which program?", choiceA: "The Little Rascals", choiceB: "The Three Stooges", choiceC: "Gunsmoke", choiceD: "Doctor Who", answer: 1))
+        qList.append(Question(image: "kampcounselors.jpg", questionText: "Which of these kids was NOT a counselor at Kamp Krusty?", choiceA: "Dolph", choiceB: "Nelson", choiceC: "Kearney", choiceD: "Jimbo", answer: 2))
+        qList.append(Question(image: "sinclairdaycare.jpg", questionText: "The daycare center run by Llewellyn Sinclair's sister is named after which author?", choiceA: "Sigmund Freud", choiceB: "Sylvia Plath", choiceC: "Karl Marx", choiceD: "Ayn Rand", answer: 4))
+        qList.append(Question(image: "benfranklin.jpg", questionText: "When Homer visits heaven in a dream in \"Homer the Heretic\", he passes Benjamin Franklin beating who in a game of air hockey?", choiceA: "Jimi Hendrix", choiceB: "Albert Einstein", choiceC: "Teddy Roosevelt", choiceD: "Dean Martin", answer: 1))
+        qList.append(Question(image: "maggiejoyride.jpg", questionText: "After Bart fails to watch Maggie, leading to her taking Homer's car for a joyride, how is he punished?", choiceA: "Sent to military school", choiceB: "Banned from watching the \"Itchy and Scratchy Movie\"", choiceC: "Expelled from Springfield Elementary", choiceD: "Made to visit the dentist", answer: 2))
+        qList.append(Question(image: "homerseacaptain.jpg", questionText: "When Homer agrees to be part of an exhibit at the Sea Captain's restaurant, what nickname is he given?", choiceA: "Hungry Homer", choiceB: "Iron Stomach Man", choiceC: "Bottomless Pete", choiceD: "Eddie the Eater", answer: 3))
+        qList.append(Question(image: "hsreunion.jpg", questionText: "Which of these awards did Homer NOT win at his high school reunion?", choiceA: "Traveling the least distance to be there", choiceB: "Most improved odor", choiceC: "Lowest salary", choiceD: "Gaining the most weight", answer: 3))
+        qList.append(Question(image: "ralphvday.jpg", questionText: "The Valentine's Day card that Lisa gives Ralph, causing him to develop a crush on her, had a drawing of what on it?", choiceA: "Flowers", choiceB: "Train", choiceC: "Teddy bear", choiceD: "Bumblebee", answer: 2))
+        qList.append(Question(image: "duffbrewerytour.jpg", questionText: "Which of these beer varieties is NOT available for sampling when Homer and Barney take the Duff Brewery tour?", choiceA: "Summer Shandy Duff", choiceB: "Lady Duff", choiceC: "Tartar Control Duff", choiceD: "Raspberry Duff", answer: 1))
+        qList.append(Question(image: "lisaguitar.jpg", questionText: "What song does Lenny ask Lisa to play on her guitar during the Springfield Nuclear Power Plant workers' strike?", choiceA: "\"Freebird\"", choiceB: "\"Stairway to Heaven\"", choiceC: "\"Classical Gas\"", choiceD: "\"Afternoon Delight\"", answer: 3))
+        qList.append(Question(image: "margeshoplifting.jpg", questionText: "Marge is arrested for shoplifting from the Kwik-E-Mart after failing to pay for what item?", choiceA: "Pacifier", choiceB: "Tub of ice cream", choiceC: "Sliced American cheese", choiceD: "Bottle of bourbon", answer: 4))
         
         // SEASON 5
         qList.append(Question(image: "malibustacy.jpg", questionText: "What is the name of the doll Lisa designs to compete with Malibu Stacy?", choiceA: "Lisa the Brain", choiceB: "Lovely Lisa", choiceC: "Lisa Lionheart", choiceD: "Malibu Lisa", answer: 3))
@@ -112,7 +122,7 @@ class QuestionBank{
         qList.append(Question(image: "collectcall.jpg", questionText: "What is the name of the Australian boy who answers a collect phone call from Bart?", choiceA: "Tobias", choiceB: "Jackson", choiceC: "Ethan", choiceD: "Andy", answer: 1))
         qList.append(Question(image: "manfootball.jpg", questionText: "Which actor starred in the Oscar-winning remake of Hans Moleman's \"Man Getting Hit By Football\"?", choiceA: "Charles Bronson", choiceB: "Charlton Heston", choiceC: "Jimmy Stewart", choiceD: "George C. Scott", answer: 4))
         qList.append(Question(image: "moejukebox.jpg", questionText: "What is Homer's favorite song (which Moe angrily removes from the jukebox at his bar)?", choiceA: "\"Jingle Bells\"", choiceB: "\"It's Raining Men\"", choiceC: "\"I Touch Myself\"", choiceD: "\"Owner Of A Lonely Heart\"", answer: 2))
-        qList.append(Question(image: "algore.jpg", questionText: "What is the title of the book by Al Gore that Lisa purchases?", choiceA: "Me The Veep", choiceB: "The Assault On Reason", choiceC: "Sane Planning, Sensible Tomorrow", choiceD: "An Incorrigible Truth", answer: 3))
+        qList.append(Question(image: "algore.jpg", questionText: "What is the title of the book by Al Gore that Lisa purchases?", choiceA: "\"Me The Veep\"", choiceB: "\"The Assault On Reason\"", choiceC: "\"Sane Planning, Sensible Tomorrow\"", choiceD: "\"An Incorrigible Truth\"", answer: 3))
         qList.append(Question(image: "fearofflying.jpg", questionText: "What is the last name of the psychiatrist that helps Marge overcome her fear of flying?", choiceA: "Zweig", choiceB: "Lowenstein", choiceC: "Bancroft", choiceD: "Waxler", answer: 1))
         qList.append(Question(image: "barthockey.jpg", questionText: "What is the name of the peewee hockey team Bart plays on?", choiceA: "Kwik-E-Mart Gougers", choiceB: "Ice-Kickers", choiceC: "Springfield Wildcats", choiceD: "The Mighty Pigs", answer: 4))
         qList.append(Question(image: "homerinterview.jpg", questionText: "What news show does Homer appear on to defend himself against a sexual harassment claim?", choiceA: "Smartline", choiceB: "Rock Bottom", choiceC: "A Current Affair", choiceD: "Eyewitness Copy", answer: 2))
@@ -149,7 +159,7 @@ class QuestionBank{
         qList.append(Question(image: "knoxville.jpg", questionText: "After Bart rents a car, he, Milhouse, Martin and Nelson agree to drive to Knoxville, Tennessee over which destination?", choiceA: "The White House", choiceB: "Disney World", choiceC: "Branson, Missouri", choiceD: "Knott's Berry Farm", answer: 2))
         qList.append(Question(image: "smithersalibi.jpg", questionText: "What is the title of the show Smithers watches, giving him an alibi for not shooting Mr. Burns?", choiceA: "\"Speedway Squad\"", choiceB: "\"Pardon My Zinger\"", choiceC: "\"Politically Incorrect\"", choiceD: "\"Plano, Texas\"", answer: 2))
         qList.append(Question(image: "cbgnewsgroup.jpg", questionText: "Which usenet newsgroup does Comic Book Guy visit to find out the star of the Radioactive Man film?", choiceA: "alt.comics.radioactiveman", choiceB: "alt.movies.gossip", choiceC: "alt.nerd.obsessive", choiceD: "rec.org.mensa", answer: 3))
-        qList.append(Question(image: "paulmccartney.jpg", questionText: "Paul McCartney says that when \"Maybe I'm Amazed\" is played backwards, a recipe for what dish can be heard?", choiceA: "Vegetarian lasagna", choiceB: "Lentil soup", choiceC: "Carrot cake", choiceD: "Cauliflower rice", answer: 2))
+        qList.append(Question(image: "paulmccartney.jpg", questionText: "Paul McCartney says that when his song \"Maybe I'm Amazed\" is played backwards, a recipe for what dish can be heard?", choiceA: "Vegetarian lasagna", choiceB: "Lentil soup", choiceC: "Carrot cake", choiceD: "Cauliflower rice", answer: 2))
         qList.append(Question(image: "obesehomer.jpg", questionText: "What is the name of the film an obese Homer tries to watch when he should be working?", choiceA: "\"The Poke of Zorro\"", choiceB: "\"Look Who's Oinking\"", choiceC: "\"Honk If You're Horny\"", choiceD: "\"The Stockholm Affair\"", answer: 3))
         qList.append(Question(image: "sixtiesabe.jpg", questionText: "About which 1960s-era athlete does Abe say, \"There's a haircut you could set your watch to\"?", choiceA: "Joe Namath", choiceB: "Y.A. Tittle", choiceC: "Gale Sayers", choiceD: "Johnny Unitas", answer: 4))
         qList.append(Question(image: "pinpals.jpg", questionText: "Which of these is NOT the name of a bowling team that the Pin Pals compete against?", choiceA: "Channel 6 Wastelanders", choiceB: "Bible Bowlers", choiceC: "DMV Regulation Kings", choiceD: "The Home-Wreckers", answer: 2))
@@ -168,7 +178,7 @@ class QuestionBank{
         qList.append(Question(image: "bushbart.jpg", questionText: "Why does George H.W. Bush, while living across the street from the Simpsons, spank Bart?", choiceA: "Setting off fireworks on his lawn", choiceB: "Releasing frogs in his living room", choiceC: "Destroying his memoirs", choiceD: "Eating all of his cookies", answer: 3))
         
         // SEASON 8
-        qList.append(Question(image: "steelmill.jpg", questionText: "What is the name of the club that the Ajax Steel Mill converts to at quitting time?", choiceA: "The Anvil", choiceB: "Mo's", choiceC: "The League Of Extra-Horny Gentlemen", choiceD: "Jax Steel Mill", answer: 1))
+        qList.append(Question(image: "steelmill.jpg", questionText: "What is the name of the club that the Ajax Steel Mill converts to at quitting time?", choiceA: "The Anvil", choiceB: "Mo's", choiceC: "The League Of Extra-Horny Gentlemen", choiceD: "Jack Hammer's", answer: 1))
         qList.append(Question(image: "gladiator.jpg", questionText: "Which American Gladiator does Luann Van Houten date after breaking up with husband Kirk?", choiceA: "Pyro", choiceB: "Gyro", choiceC: "Golden", choiceD: "Blaze", answer: 1))
         qList.append(Question(image: "crackerfactory.jpg", questionText: "What is the slogan of Southern Cracker, the factory that Kirk Van Houten used to work at?", choiceA: "The secret ingredient is salt", choiceB: "Deliciously dry", choiceC: "The dryyyyyy cracker", choiceD: "You CAN eat just one", answer: 3))
         qList.append(Question(image: "cypresscreek.jpg", questionText: "When the Simpsons relocate to Cypress Creek, they move into a house on which street?", choiceA: "Globex Boulevard", choiceB: "Avenida de Elm", choiceC: "Maple Systems Road", choiceD: "Hank Scorpio Way", answer: 3))
@@ -354,8 +364,6 @@ class QuestionBank{
         
         
         // UNSORTED
-        
-        
         
     }
     
