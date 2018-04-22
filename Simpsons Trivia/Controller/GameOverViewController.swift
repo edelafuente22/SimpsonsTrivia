@@ -31,7 +31,7 @@ class GameOverViewController: UIViewController {
         if score == 12 {
             endImageView.loadGif(name: "score12")
             endGameTitle.text = "PERFECTION!"
-            endGameLabel.text = "You got a score of \(score) out of 12! \n\nYou really are on fire!"
+            endGameLabel.text = "You got all 12 correct! \n\nYou really are on fire!"
         } else if score > 8 && score < 12 {
             endImageView.loadGif(name: "score891011")
             endGameTitle.text = "VERY GOOD!"
@@ -43,11 +43,11 @@ class GameOverViewController: UIViewController {
         } else if score > 2 && score <= 5 {
             endImageView.loadGif(name: "score345")
             endGameTitle.text = "IT WAS OK, I GUESS"
-            endGameLabel.text = "You got a score of \(score) out of 12! \n\nThat was, well, meh."
+            endGameLabel.text = "You got a score of \(score) out of 12! \n\nWish there was a word to describe that performance..."
         } else {
             endImageView.loadGif(name: "score012")
             endGameTitle.text = "OUCH!"
-            endGameLabel.text = "You got a score of \(score) out of 12! \n\nLet this be a lesson to you: Never try."
+            endGameLabel.text = "You got a score of \(score) out of 12! \n\nThe lesson here is: Never try."
         }
     }
     

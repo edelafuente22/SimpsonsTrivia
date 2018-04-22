@@ -34,6 +34,8 @@ class QuestionBank{
         qList.append(Question(image: "abrooks.jpg", questionText: "Which of these characters is NOT voiced by Albert Brooks?", choiceA: "Hank Scorpio", choiceB: "Brad Goodman", choiceC: "Tab Spangler", choiceD: "Artie Ziff", answer: 4))
         qList.append(Question(image: "selmahusband.jpg", questionText: "Which of these characters has Selma Bouvier never been married to?", choiceA: "Troy McClure", choiceB: "Sideshow Bob", choiceC: "Apu Nahasapeemapetilon", choiceD: "Disco Stu", answer: 3))
         qList.append(Question(image: "moemidge.jpg", questionText: "What name does Moe often mistakenly call Marge?", choiceA: "Madge", choiceB: "Midge", choiceC: "Minnie", choiceD: "Blanche", answer: 2))
+        qList.append(Question(image: "homersector.jpg", questionText: "What sector of the Springfield Nuclear Power Plant does Homer work in?", choiceA: "5A", choiceB: "27", choiceC: "BB", choiceD: "7G", answer: 4))
+        qList.append(Question(image: "simpsonneighbors.jpg", questionText: "Which of these characters has never lived next door to the Simpsons?", choiceA: "Barney Gumble", choiceB: "Sideshow Bob", choiceC: "Laura Powers", choiceD: "Ned Flanders", answer: 1))
         
         // SEASON 1
         qList.append(Question(image: "greyhoundrace.jpg", questionText: "Which dog wins the greyhound race in which Homer bets on Santa's Little Helper?", choiceA: "Whirlwind", choiceB: "Dog O' War", choiceC: "Chew My Shoe", choiceD: "Fido", answer: 1))
@@ -63,6 +65,13 @@ class QuestionBank{
         qList.append(Question(image: "walleweasels.jpg", questionText: "What is the slogan of kids' restaurant Wall E. Weasel's?", choiceA: "\"A Good Time Had By All\"", choiceB: "\"Pizza, Tokens and Furry Things\"", choiceC: "\"Games For Kids, Alcohol For Adults\"", choiceD: "\"We Cram Fun Down Your Throat\"", answer: 4))
         qList.append(Question(image: "woodrow.jpg", questionText: "A photo of which legendary hockey player is used by Bart in one of his fake love letters to Mrs. Krabappel?", choiceA: "Maurice Richard", choiceB: "Gordie Howe", choiceC: "Guy Lafleur", choiceD: "Ken Dryden", answer: 2))
         qList.append(Question(image: "yahoo.jpg", questionText: "Which of these names is NOT in the cast of the show \"Ya Hoo!\"?", choiceA: "Country Jake", choiceB: "Yodelin' Zeke", choiceC: "Rudy", choiceD: "Big Shirtless Ron", answer: 1))
+        qList.append(Question(image: "nedindustry.jpg", questionText: "What industry was Ned Flanders in before he left it to open the Leftorium?", choiceA: "Pharmaceuticals", choiceB: "Real estate", choiceC: "Catering", choiceD: "Law", answer: 1))
+        qList.append(Question(image: "washingtonmemorial.jpg", questionText: "What is the name of the fictional women's rights crusader at whose monument Lisa witnesses a congressman receiving a bribe", choiceA: "Susan B. Golden", choiceB: "Bertha Calhoun", choiceC: "Winifred Beecher Howe", choiceD: "Margaret Stowe", answer: 3))
+        qList.append(Question(image: "bartbartender.jpg", questionText: "While working part-time for Fat Tony, Bart becomes good at making what cocktail?", choiceA: "Martini", choiceB: "Manhattan", choiceC: "Black Russian", choiceD: "Bloody Mary", answer: 2))
+        qList.append(Question(image: "proathletes.jpg", questionText: "Who was the first professional athlete to guest star on \"The Simpsons\"?", choiceA: "Joe Montana", choiceB: "Ozzie Smith", choiceC: "Magic Johnson", choiceD: "Joe Namath", answer: 3))
+        qList.append(Question(image: "lisapony.jpg", questionText: "What is the name of the pony Homer bought for Lisa to win back her love?", choiceA: "Cheyenne", choiceB: "Princess", choiceC: "Honey", choiceD: "Clip-Clop", answer: 2))
+        qList.append(Question(image: "weddingchapel.jpg", questionText: "What is the name of the roadside chapel where Homer and Marge got married?", choiceA: "Buffalo Bill's", choiceB: "Whiskey Joe's", choiceC: "Shotgun Pete's", choiceD: "Priest John's", answer: 3))
+        qList.append(Question(image: "fastfood.jpg", questionText: "Which fast food restaurant did Homer work at while Marge was pregnant with Bart?", choiceA: "Lard Lad Donuts", choiceB: "Krustyburger", choiceC: "Der Krazy Kraut", choiceD: "Gulp N' Blow", answer: 4))
         
         // SEASON 4
         qList.append(Question(image: "lylelanley.jpg", questionText: "Monorail shyster Lyle Lanley gets his comeuppance after his flight to Tahiti makes a stop in which city?", choiceA: "Ogdenville", choiceB: "North Haverbrook", choiceC: "Brockway", choiceD: "Shelbyville", answer: 2))
@@ -176,6 +185,7 @@ class QuestionBank{
         qList.append(Question(image: "soldsoul.jpg", questionText: "Bart uses the $5 he gets for selling his soul to Milhouse to buy what?", choiceA: "Pogs", choiceB: "Prank doorbell", choiceC: "Krustyburger kids' meal", choiceD: "Toy sponge", answer: 4))
         qList.append(Question(image: "nutritionpyramid.jpg", questionText: "Which of these is NOT on the \"Nutrition Pyramid\" Dr. Nick shows Homer when he tries to purposely gain weight?", choiceA: "Congealed Group", choiceB: "Big Sugar Group", choiceC: "Whipped Group", choiceD: "Chocotastic Group", answer: 2))
         qList.append(Question(image: "bushbart.jpg", questionText: "Why does George H.W. Bush, while living across the street from the Simpsons, spank Bart?", choiceA: "Setting off fireworks on his lawn", choiceB: "Releasing frogs in his living room", choiceC: "Destroying his memoirs", choiceD: "Eating all of his cookies", answer: 3))
+        qList.append(Question(image: "lisaessay.jpg", questionText: "What did Lisa title her class essay exposing Jebediah Springfield as a phony?", choiceA: "\"The Fake Springfield\"", choiceB: "\"Jebediah Springfield: Superfraud\"", choiceC: "\"Why Jeb Lied\"", choiceD: "\"Jebediah The Phony\"", answer: 2))
         
         // SEASON 8
         qList.append(Question(image: "steelmill.jpg", questionText: "What is the name of the club that the Ajax Steel Mill converts to at quitting time?", choiceA: "The Anvil", choiceB: "Mo's", choiceC: "The League Of Extra-Horny Gentlemen", choiceD: "Jack Hammer's", answer: 1))
@@ -364,6 +374,7 @@ class QuestionBank{
         
         
         // UNSORTED
+        
         
     }
     
