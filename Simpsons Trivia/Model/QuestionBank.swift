@@ -187,6 +187,7 @@ class QuestionBank{
         qList.append(Question(image: "bushbart.jpg", questionText: "Why does George H.W. Bush, while living across the street from the Simpsons, spank Bart?", choiceA: "Setting off fireworks on his lawn", choiceB: "Releasing frogs in his living room", choiceC: "Destroying his memoirs", choiceD: "Eating all of his cookies", answer: 3))
         qList.append(Question(image: "lisaessay.jpg", questionText: "What did Lisa title her class essay exposing Jebediah Springfield as a phony?", choiceA: "\"The Fake Springfield\"", choiceB: "\"Jebediah Springfield: Superfraud\"", choiceC: "\"Why Jeb Lied\"", choiceD: "\"Jebediah The Phony\"", answer: 2))
         qList.append(Question(image: "guaranteevoid.jpg", questionText: "In the Treehouse of Horror segment \"Attack of the 50 Ft. Eyesores,\" Lisa sings that Paul Anka's \"guarantee\" is void in which state?", choiceA: "Michigan", choiceB: "Mississippi", choiceC: "Tennessee", choiceD: "Nebraska", answer: 3))
+        qList.append(Question(image: "kwikemartroof.jpg", questionText: "The staircase that leads to the roof of the Kwik-E-Mart is hidden behind a freezer door that claims to contain which product?", choiceA: "Frozen shrimp", choiceB: "Non-alcoholic beer", choiceC: "Non-dairy milk", choiceD: "Fruit sorbet", answer: 2))
         
         // SEASON 8
         qList.append(Question(image: "steelmill.jpg", questionText: "What is the name of the club that the Ajax Steel Mill converts to at quitting time?", choiceA: "The Anvil", choiceB: "Mo's", choiceC: "The League Of Extra-Horny Gentlemen", choiceD: "Jack Hammer's", answer: 1))
@@ -220,6 +221,7 @@ class QuestionBank{
         qList.append(Question(image: "randomcharacter.jpg", questionText: "What is the name of the man living with the Simpsons in the episode \"The Itchy and Scratchy and Poochie Show\"?", choiceA: "Jesse", choiceB: "Roy", choiceC: "Jay", choiceD: "Jack", answer: 2))
         qList.append(Question(image: "lisababysit.jpg", questionText: "Chief Wiggum hires Lisa to babysit Ralph because he and his wife have tickets to watch which entertainer?", choiceA: "Eddie Murphy", choiceB: "Ray Charles", choiceC: "Huey Lewis", choiceD: "Bob Saget", answer: 4))
         qList.append(Question(image: "skinnykrabby.jpg", questionText: "Principal Skinner and Mrs. Krabappel first fall for each other at a birthday party for which student?", choiceA: "Martin", choiceB: "Milhouse", choiceC: "Nelson", choiceD: "Janey", answer: 1))
+        qList.append(Question(image: "mrsparkleorigin.jpg", questionText: "The Japanese detergent Mr. Sparkle is a joint venture of Tamaribuchi Heavy Manufacturing Concern and which other company?", choiceA: "Osaka Seafood Concern", choiceB: "Hokkaido Sparkle Company", choiceC: "Matsumura Fishworks", choiceD: "Hiroshima Toyo Carp", answer: 3))
         
         // SEASON 9
         qList.append(Question(image: "broadway.jpg", questionText: "Which Broadway musical do Marge, Lisa and Bart watch during their visit to New York?", choiceA: "Checkin' In", choiceB: "Kickin' It", choiceC: "The Itchy and Scratchy Musical", choiceD: "Planet of the Apes", answer: 2))
@@ -267,6 +269,14 @@ class QuestionBank{
         qList.append(Question(image: "americatown.jpg", questionText: "When the Simpsons visit Americatown restaurant in Tokyo, they are seated at a table shaped like which state?", choiceA: "California", choiceB: "Massachusetts", choiceC: "Texas", choiceD: "Oregon", answer: 2))
         qList.append(Question(image: "homertruckdriver.jpg", questionText: "When Homer takes over deceased trucker Red Barclay's truck, which city must he drive to?", choiceA: "Atlanta", choiceB: "Birmingham", choiceC: "Miami", choiceD: "Savannah", answer: 1))
         qList.append(Question(image: "happysmile.jpg", questionText: "What is the name of the host of the game show the Simpsons appear on during their trip to Japan?", choiceA: "Skip", choiceB: "Wink", choiceC: "Chuck", choiceD: "Bob", answer: 2))
+        qList.append(Question(image: "greasepayoff.jpg", questionText: "How much did Homer make from selling the grease left over from $27 worth of bacon?", choiceA: "$0.27", choiceB: "$0.63", choiceC: "$2.25", choiceD: "$11.00", answer: 2))
+        qList.append(Question(image: "treelizardorigin.jpg", questionText: "The invasive tree lizard reached Springfield in a shipment of what product received by the Kwik-E-Mart?", choiceA: "Hot dogs", choiceB: "Squishee mix", choiceC: "Candy bars", choiceD: "Donuts", answer: 4))
+        qList.append(Question(image: "trendygrocery.jpg", questionText: "What was the name of the grocery store at which Homer bought his lobster pet, Pinchy?", choiceA: "Skipper Jack's", choiceB: "Eatie Gourmet's", choiceC: "The 99-Dollar Store", choiceD: "Not-So-Whole Foods", answer: 2))
+        qList.append(Question(image: "grampakidneys.jpg", questionText: "What beverage did Grampa drink too much of during a family outing, eventually causing his kidneys to explode?", choiceA: "Root beer", choiceB: "Cream soda", choiceC: "Sarsaparilla", choiceD: "Cherry cola", answer: 3))
+        qList.append(Question(image: "topespennant.jpg", questionText: "Which of these characters was NOT on the bender that Homer led after the Isotopes won the pennant?", choiceA: "Moe", choiceB: "Lenny", choiceC: "Barney", choiceD: "Carl", answer: 1))
+        qList.append(Question(image: "eurodollywood.jpg", questionText: "According to travel agent Wally Kogen, in which state is Dolly Parton's \"Euro-Dollywood\" located?", choiceA: "Tennessee", choiceB: "Mississippi", choiceC: "Florida", choiceD: "Alabama", answer: 4))
+        qList.append(Question(image: "homerartist.jpg", questionText: "Which of these is NOT the title of a piece created by Homer during his time as an outsider artist?", choiceA: "\"Grand Canals of Springfield\"", choiceB: "$0.63", choiceC: "\"Attempted Birdhouse I\"", choiceD: "\"Botched Hibachi\"", answer: 2))
+        qList.append(Question(image: "beertap.jpg", questionText: "What was the final appraised value of an old beer tap Moe owned that had \"Homer rocks\" carved on the handle?", choiceA: "$15", choiceB: "$75", choiceC: "$129.99", choiceD: "$20,000", answer: 1))
         
         // SEASON 11
         qList.append(Question(image: "maudedeath.jpg", questionText: "How did Maude Flanders die?", choiceA: "Run over by Homer's car", choiceB: "Fell into Springfield Gorge", choiceC: "Struck by lightning while praying", choiceD: "Struck by barrage of T-shirts", answer: 4))
@@ -309,12 +319,12 @@ class QuestionBank{
         qList.append(Question(image: "homerbar.jpg", questionText: "When Homer converts his garage into a bar, which band does he recruit to play there?", choiceA: "Aerosmith", choiceB: "Red Hot Chili Peppers", choiceC: "R.E.M.", choiceD: "The Who", answer: 3))
         qList.append(Question(image: "brokenjaw", questionText: "Homer breaks his jaw by running into the statue of which character?", choiceA: "Monty Burns", choiceB: "Drederick Tatum", choiceC: "Jebediah Springfield", choiceD: "Mayor Quimby", answer: 2))
         qList.append(Question(image: "westspringfield.jpg", questionText: "According to Lisa, West Springfield is three times the size of which state?", choiceA: "Texas", choiceB: "California", choiceC: "Alaska", choiceD: "New York", answer: 1))
-        qList.append(Question(image: "manjulalist.jpg", questionText: "Which of these is NOT on the list of tasks Manjula gives Apu to complete after he cheated on her?", choiceA: "Eat a light bulb", choiceB: "Wear a nametag that says \"Slime Q. Slimedog\"", choiceC: "Lose weight", choiceD: "Perform favorite song in karaoke", answer: 4))
+        qList.append(Question(image: "manjulalist.jpg", questionText: "Which of these is NOT on the list of tasks Manjula gives Apu to complete after he cheated on her?", choiceA: "Eat a light bulb", choiceB: "Get cartoon in The New Yorker", choiceC: "Lose weight", choiceD: "Perform favorite song in karaoke", answer: 4))
         qList.append(Question(image: "poetryreading.jpg", questionText: "While posing as a college student, Lisa attends a poetry reading by which former U.S. Poet Laureate?", choiceA: "Stanley Kunitz", choiceB: "Kay Ryan", choiceC: "W.S. Merwin", choiceD: "Robert Pinsky", answer: 4))
         qList.append(Question(image: "screamapillar.jpg", questionText: "According to a care pamphlet the Simpsons are given, the screamapillar is sexually attracted to what?", choiceA: "Killer bees", choiceB: "Fire", choiceC: "Raging water", choiceD: "Humans", answer: 2))
         qList.append(Question(image: "homerpolice.jpg", questionText: "What is the name of the security company Homer forms after a riot in Springfield?", choiceA: "Team StrikeForce", choiceB: "SpringShield", choiceC: "Star-Spangled Goofballs", choiceD: "The New Police", answer: 2))
         qList.append(Question(image: "judgeharmhouse.jpg", questionText: "Which of these does Judge Constance Harm live in?", choiceA: "RV", choiceB: "Treehouse", choiceC: "Houseboat", choiceD: "Hotel", answer: 3))
-        qList.append(Question(image: "gloria.jpg", questionText: "Who was the ex-boyfriend of Gloria, Mr. Burns' love interest in \"A Hunka Hunka Burns In Love\"?", choiceA: "Moe", choiceB: "Snake", choiceC: "Barney", choiceD: "Lenny", answer: 2))
+        qList.append(Question(image: "gloria.jpg", questionText: "Who was the ex-boyfriend of Gloria, Mr. Burns' love interest in the episode \"A Hunka Hunka Burns In Love\"?", choiceA: "Moe", choiceB: "Snake", choiceC: "Barney", choiceD: "Lenny", answer: 2))
         qList.append(Question(image: "ultrahouse.jpg", questionText: "Who provides the voice of the UltraHouse seen in \"Treehouse of Horror XII\"?", choiceA: "Sean Connery", choiceB: "Liam Neeson", choiceC: "Daniel Craig", choiceD: "Pierce Brosnan", answer: 4))
         qList.append(Question(image: "bartbubble.jpg", questionText: "What virus forces Bart to live temporarily in a plastic bubble?", choiceA: "Hanta virus", choiceB: "Panda virus", choiceC: "The blue plague", choiceD: "Ebola virus", answer: 2))
         qList.append(Question(image: "garthmotherloving.jpg", questionText: "According to Garth Motherloving, owner of Motherloving Sugar Corp., what was his last name previously?", choiceA: "Fatherloving", choiceB: "Kidkill", choiceC: "Hitler", choiceD: "Terrible", answer: 3))
@@ -384,10 +394,6 @@ class QuestionBank{
         
         
         // UNSORTED
-        
-        
-        
-        
         
         
     }
