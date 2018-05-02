@@ -10,10 +10,14 @@ import UIKit
 import SRCountdownTimer
 
 class QuestionViewController: UIViewController {
+    // HEADER LABELS
     @IBOutlet weak var questionCounter: UILabel!
     @IBOutlet weak var correctLabel: UILabel!
+    
+    // VISIBLE TIMER
     @IBOutlet weak var countdownTimer: SRCountdownTimer!
     
+    // QUESTION LABELS
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var questionLabel: UILabel!
     @IBOutlet weak var optionA: UIButton!
@@ -86,6 +90,7 @@ class QuestionViewController: UIViewController {
     func updateHeader(){
         self.timeLeft = 15
         countdownTimer.center.x = self.view.center.x
+        countdownTimer.alpha = 1.0
         countdownTimer.labelFont = UIFont(name: "HelveticaNeue-Bold", size: 20.0)
         countdownTimer.labelTextColor = UIColor.white
         countdownTimer.lineWidth = 5
@@ -142,17 +147,23 @@ class QuestionViewController: UIViewController {
     
     @objc func updateTimer() {
         timeLeft -= 1
+        
+        if(timeLeft < 6){
+            countdownTimer.labelTextColor = UIColor.red
+            countdownTimer.pulseEffect(view: countdownTimer, animationTime: 0.3)
+        }
 
         if(timeLeft < 1){
             questionLabel.text = "TIME'S UP!"
+            questionLabel.textColor = UIColor.red
             timer.invalidate()
+            countdownTimer.fadeOutView()
 
             optionA.isEnabled = false
             optionB.isEnabled = false
             optionC.isEnabled = false
             optionD.isEnabled = false
 
-            questionLabel.textColor = UIColor.red
             questionCount += 1
             DispatchQueue.main.asyncAfter(deadline: .now() + 2.0, execute: {
                 self.updateQuestion()
@@ -174,6 +185,29 @@ extension UIButton {
     open override func draw(_ rect: CGRect) {
         self.layer.cornerRadius = 10
         self.clipsToBounds = true        
+    }
+}
+
+extension UIView {
+
+    func fadeOutView() {
+        UIView.animate(withDuration: 0.3, delay: 0.5, options: UIViewAnimationOptions.curveEaseOut, animations: {
+            self.alpha = 0.0
+        }, completion: nil)
+    }
+    
+    func pulseEffect(view: UIView, animationTime: Float)
+    {
+        UIView.animate(withDuration: TimeInterval(animationTime), animations: {
+            
+            view.transform = CGAffineTransform(scaleX: 1.1, y: 1.1)
+            
+        },completion:{completion in
+            UIView.animate(withDuration: TimeInterval(animationTime), animations: { () -> Void in
+                
+                view.transform = CGAffineTransform(scaleX: 1, y: 1)
+            })
+        })
     }
 }
 
