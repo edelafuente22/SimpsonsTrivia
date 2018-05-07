@@ -115,6 +115,7 @@ class QuestionViewController: UIViewController, GKGameCenterControllerDelegate {
     func updateHeader(){
         self.timeLeft = 15
         self.questionTotal = 1500
+        
         countdownTimer.center.x = self.view.center.x
         countdownTimer.alpha = 1.0
         countdownTimer.pulseEffect(view: countdownTimer, animationTime: 0.3)
@@ -123,6 +124,7 @@ class QuestionViewController: UIViewController, GKGameCenterControllerDelegate {
         countdownTimer.lineWidth = 5
         countdownTimer.timerFinishingText = "0"
         countdownTimer.start(beginingValue: 15, interval: 1)
+        
         questionCounter.text = "Question \(questionCount + 1)/12"
         correctLabel.text = "Score: \(pointTotal)"
         
