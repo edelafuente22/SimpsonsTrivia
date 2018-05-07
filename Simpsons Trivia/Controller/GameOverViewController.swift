@@ -10,6 +10,7 @@ import UIKit
 
 class GameOverViewController: UIViewController {
     
+    var correctTotal: Int = 0
     var score: Int = 0
     
     @IBOutlet weak var endImageView: UIImageView!
@@ -28,26 +29,26 @@ class GameOverViewController: UIViewController {
     }
     
     func finalScore() {
-        if score == 12 {
+        if correctTotal == 12 {
             endImageView.loadGif(name: "score12")
             endGameTitle.text = "PERFECTION!"
-            endGameLabel.text = "You got all 12 correct! \n\nYou really are on fire!"
-        } else if score > 8 && score < 12 {
+            endGameLabel.text = "You got all 12 correct and scored \(score) points! \n\nYou really are on fire!"
+        } else if correctTotal > 8 && correctTotal < 12 {
             endImageView.loadGif(name: "score891011")
             endGameTitle.text = "VERY GOOD!"
-            endGameLabel.text = "You got a score of \(score) out of 12! You get the Monty Burns Award for Outstanding Achievement in the Field of Excellence."
-        } else if score > 5 && score <= 8 {
+            endGameLabel.text = "You got \(correctTotal) right and scored \(score) points! You get the Monty Burns Award for Outstanding Achievement in the Field of Excellence."
+        } else if correctTotal > 5 && correctTotal <= 8 {
             endImageView.loadGif(name: "score678")
             endGameTitle.text = "NOT BAD!"
-            endGameLabel.text = "You got a score of \(score) out of 12! \n\nEvery Simpson dance now!"
-        } else if score > 2 && score <= 5 {
+            endGameLabel.text = "You got \(correctTotal) right and scored \(score) points! \n\nEvery Simpson dance now!"
+        } else if correctTotal > 2 && correctTotal <= 5 {
             endImageView.loadGif(name: "score345")
             endGameTitle.text = "IT WAS OK, I GUESS"
-            endGameLabel.text = "You got a score of \(score) out of 12! \n\nWish there was a word to describe that performance..."
+            endGameLabel.text = "You got \(correctTotal) right and scored \(score) points! \n\nWish there was a word to describe that performance..."
         } else {
             endImageView.loadGif(name: "score012")
             endGameTitle.text = "OUCH!"
-            endGameLabel.text = "You got a score of \(score) out of 12! \n\nThe lesson here is: Never try."
+            endGameLabel.text = "You got \(correctTotal) right and scored \(score) points! \n\nThe lesson here is: Never try."
         }
     }
     
