@@ -7,9 +7,11 @@
 //
 
 import UIKit
+import GameKit
 import SRCountdownTimer
 
-class QuestionViewController: UIViewController {
+class QuestionViewController: UIViewController, GKGameCenterControllerDelegate {
+    
     // HEADER LABELS
     @IBOutlet weak var questionCounter: UILabel!
     @IBOutlet weak var correctLabel: UILabel!
@@ -44,6 +46,11 @@ class QuestionViewController: UIViewController {
     var questionTotal: Int = 0
     var scoreTimerLeft: Int = 0
     var isScoreTimerRunning = false
+    
+    // GAME CENTER
+//    var gcEnabled = Bool()
+//    var gcDefaultLeaderBoard = String()
+    let LEADERBOARD_ID = "com.highscores.woohootrivia"
     
     let newGreen = UIColor(red: 0, green: 165/255, blue: 0, alpha: 1)
     
@@ -91,6 +98,16 @@ class QuestionViewController: UIViewController {
             
         } else {
             self.performSegue(withIdentifier: "Game Over", sender: Any?.self)
+            
+            let bestScoreInt = GKScore(leaderboardIdentifier: LEADERBOARD_ID)
+            bestScoreInt.value = Int64(pointTotal)
+            GKScore.report([bestScoreInt]) { (error) in
+                if error != nil {
+                    print(error!.localizedDescription)
+                } else {
+                    print("Best Score submitted to your Leaderboard!")
+                }
+            }
         }
         
     }
@@ -205,6 +222,10 @@ class QuestionViewController: UIViewController {
             GameScore?.correctTotal = correctResponses
             GameScore?.score = pointTotal
         }
+    }
+    
+    func gameCenterViewControllerDidFinish(_ gameCenterViewController: GKGameCenterViewController) {
+        gameCenterViewController.dismiss(animated: true, completion: nil)
     }
 }
 

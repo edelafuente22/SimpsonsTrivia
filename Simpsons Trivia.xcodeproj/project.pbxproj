@@ -11,6 +11,7 @@
 		7E1E1519200C15F800DDD6F7 /* GameOverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1E1518200C15F800DDD6F7 /* GameOverViewController.swift */; };
 		7E1E151B200C1E1100DDD6F7 /* UIImage+Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1E151A200C1E1100DDD6F7 /* UIImage+Gif.swift */; };
 		7E1E152720100BF400DDD6F7 /* RulesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1E152620100BF400DDD6F7 /* RulesViewController.swift */; };
+		7E40FD12209FDB5200D603D8 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E40FD11209FDB5200D603D8 /* GameKit.framework */; };
 		7E632ED020099F6F0037CDF2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E632ECF20099F6F0037CDF2 /* AppDelegate.swift */; };
 		7E632ED220099F6F0037CDF2 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E632ED120099F6F0037CDF2 /* MainViewController.swift */; };
 		7E632ED520099F6F0037CDF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E632ED320099F6F0037CDF2 /* Main.storyboard */; };
@@ -52,6 +53,7 @@
 		7E1E1518200C15F800DDD6F7 /* GameOverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverViewController.swift; sourceTree = "<group>"; };
 		7E1E151A200C1E1100DDD6F7 /* UIImage+Gif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIImage+Gif.swift"; path = "../../../../../Downloads/Swift-4-Xcode-9---How-To-Display-GIF-in-UIImage-with-One-Line-Of-Code-in-iOS-Latest-2017-Hindi.-master/UIImage+Gif.swift"; sourceTree = "<group>"; };
 		7E1E152620100BF400DDD6F7 /* RulesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RulesViewController.swift; sourceTree = "<group>"; };
+		7E40FD11209FDB5200D603D8 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
 		7E632ECC20099F6F0037CDF2 /* Simpsons Trivia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Simpsons Trivia.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E632ECF20099F6F0037CDF2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7E632ED120099F6F0037CDF2 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				395D109FCD234359BDEF5B9D /* Pods_Simpsons_Trivia.framework in Frameworks */,
+				7E40FD12209FDB5200D603D8 /* GameKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,6 +207,7 @@
 		E6980BC71F1B471241AC5F9B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7E40FD11209FDB5200D603D8 /* GameKit.framework */,
 				0F1111550AC48C069D990A6C /* Pods_Simpsons_Trivia.framework */,
 			);
 			name = Frameworks;
@@ -280,6 +284,11 @@
 					7E632ECB20099F6F0037CDF2 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.GameCenter.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					7E632EE220099F6F0037CDF2 = {
 						CreatedOnToolsVersion = 9.2;

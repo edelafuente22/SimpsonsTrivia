@@ -68,6 +68,17 @@
                                     <segue destination="2V4-8g-5D7" kind="show" identifier="Rules" id="JQR-ER-0eq"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xg7-dd-fZk">
+                                <rect key="frame" x="89" y="488" width="196" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Sign in to Game Center">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="signInToGameCenter:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IDY-F2-nBF"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -97,6 +108,7 @@
                     <nil key="simulatedTopBarMetrics"/>
                     <nil key="simulatedBottomBarMetrics"/>
                     <connections>
+                        <outlet property="signInToGC" destination="xg7-dd-fZk" id="Z4y-Tw-zYu"/>
                         <outlet property="startGame" destination="jOg-Xt-yFS" id="pI0-3m-NeL"/>
                         <outlet property="titleImage" destination="RYt-nN-av2" id="TCj-9t-Jq3"/>
                         <outlet property="titleLabel" destination="k60-3f-Rh3" id="NYg-sh-VgM"/>
@@ -339,7 +351,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="HxH-9f-nbv">
-                                <rect key="frame" x="20" y="592" width="335" height="50"/>
+                                <rect key="frame" x="20" y="527" width="335" height="50"/>
                                 <subviews>
                                     <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ix2-uB-Qwt">
                                         <rect key="frame" x="0.0" y="0.0" width="157.5" height="50"/>
@@ -368,6 +380,19 @@
                                     <constraint firstAttribute="height" constant="50" id="vMQ-Jp-Awi"/>
                                 </constraints>
                             </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qzH-h4-5zJ">
+                                <rect key="frame" x="20" y="597" width="335" height="50"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="n8M-Dg-xdA"/>
+                                </constraints>
+                                <state key="normal" title="View Game Center leaderboard">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="viewGameCenter:" destination="rba-3W-0lO" eventType="touchUpInside" id="hLa-lm-pcx"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -377,9 +402,12 @@
                             <constraint firstItem="Zc6-n4-CxN" firstAttribute="trailing" secondItem="HxH-9f-nbv" secondAttribute="trailing" constant="20" id="AKt-XE-UEE"/>
                             <constraint firstItem="Lgf-W8-X3w" firstAttribute="top" secondItem="lVa-o2-8m1" secondAttribute="bottom" constant="20" id="EUj-3s-KHJ"/>
                             <constraint firstItem="Zc6-n4-CxN" firstAttribute="trailing" secondItem="lVa-o2-8m1" secondAttribute="trailing" constant="15" id="HR7-dh-pE3"/>
+                            <constraint firstItem="Zc6-n4-CxN" firstAttribute="bottom" secondItem="qzH-h4-5zJ" secondAttribute="bottom" constant="20" id="Ilq-3Q-YSJ"/>
+                            <constraint firstItem="qzH-h4-5zJ" firstAttribute="top" secondItem="HxH-9f-nbv" secondAttribute="bottom" constant="20" id="KJ8-gP-oNI"/>
                             <constraint firstItem="Zc6-n4-CxN" firstAttribute="trailing" secondItem="9fv-66-SSL" secondAttribute="trailing" constant="28" id="Vp3-Wm-d3z"/>
-                            <constraint firstItem="Zc6-n4-CxN" firstAttribute="bottom" secondItem="HxH-9f-nbv" secondAttribute="bottom" constant="25" id="Y6q-bE-Vlq"/>
                             <constraint firstItem="9fv-66-SSL" firstAttribute="leading" secondItem="Zc6-n4-CxN" secondAttribute="leading" constant="27" id="b9Z-Jz-Pgc"/>
+                            <constraint firstItem="qzH-h4-5zJ" firstAttribute="leading" secondItem="Zc6-n4-CxN" secondAttribute="leading" constant="20" id="ce2-PD-y22"/>
+                            <constraint firstItem="Zc6-n4-CxN" firstAttribute="trailing" secondItem="qzH-h4-5zJ" secondAttribute="trailing" constant="20" id="e2c-pc-MKN"/>
                             <constraint firstItem="lVa-o2-8m1" firstAttribute="top" secondItem="9fv-66-SSL" secondAttribute="bottom" constant="22" id="fGQ-mu-Qcf"/>
                             <constraint firstItem="HxH-9f-nbv" firstAttribute="leading" secondItem="Zc6-n4-CxN" secondAttribute="leading" constant="20" id="lvR-Al-MKI"/>
                             <constraint firstItem="Zc6-n4-CxN" firstAttribute="trailing" secondItem="Lgf-W8-X3w" secondAttribute="trailing" constant="27" id="qaM-za-ffa"/>
@@ -394,7 +422,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xqR-8F-vQd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2423.1884057971015" y="132.88043478260872"/>
+            <point key="canvasLocation" x="2421.5999999999999" y="132.68365817091455"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="bQG-gl-OHP">

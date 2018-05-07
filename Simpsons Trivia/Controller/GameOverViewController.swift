@@ -7,8 +7,9 @@
 //
 
 import UIKit
+import GameKit
 
-class GameOverViewController: UIViewController {
+class GameOverViewController: UIViewController, GKGameCenterControllerDelegate {
     
     var correctTotal: Int = 0
     var score: Int = 0
@@ -16,6 +17,8 @@ class GameOverViewController: UIViewController {
     @IBOutlet weak var endImageView: UIImageView!
     @IBOutlet weak var endGameTitle: UILabel!
     @IBOutlet weak var endGameLabel: UILabel!
+    
+    let LEADERBOARD_ID = "com.highscores.woohootrivia"
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -50,6 +53,18 @@ class GameOverViewController: UIViewController {
             endGameTitle.text = "OUCH!"
             endGameLabel.text = "You got \(correctTotal) right and scored \(score) points! \n\nThe lesson here is: Never try."
         }
+    }
+    
+    @IBAction func viewGameCenter(_ sender: UIButton) {
+        let gcVC = GKGameCenterViewController()
+        gcVC.gameCenterDelegate = self
+        gcVC.viewState = .leaderboards
+        gcVC.leaderboardIdentifier = LEADERBOARD_ID
+        present(gcVC, animated: true, completion: nil)
+    }
+    
+    func gameCenterViewControllerDidFinish(_ gameCenterViewController: GKGameCenterViewController) {
+        gameCenterViewController.dismiss(animated: true, completion: nil)
     }
     
 }
