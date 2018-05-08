@@ -42,7 +42,7 @@ class GameOverViewController: UIViewController, GKGameCenterControllerDelegate {
         } else if correctTotal > 8 && correctTotal < 12 {
             endImageView.loadGif(name: "score891011")
             endGameTitle.text = "VERY GOOD!"
-            endGameLabel.text = "You got \(correctTotal) right and scored \(finalScoreString) points! You get the Monty Burns Award for Outstanding Achievement in the Field of Excellence."
+            endGameLabel.text = "You got \(correctTotal) right and scored \(finalScoreString) points! You get the award for Outstanding Achievement in the Field of Excellence."
         } else if correctTotal > 5 && correctTotal <= 8 {
             endImageView.loadGif(name: "score678")
             endGameTitle.text = "NOT BAD!"

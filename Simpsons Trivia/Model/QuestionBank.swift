@@ -39,7 +39,7 @@ class QuestionBank{
         
         // SEASON 1
         qList.append(Question(image: "greyhoundrace.jpg", questionText: "Which dog wins the greyhound race in which Homer bets on Santa's Little Helper?", choiceA: "Whirlwind", choiceB: "Dog O' War", choiceC: "Chew My Shoe", choiceD: "Fido", answer: 1))
-        qList.append(Question(image: "jacquesball.jpg", questionText: "When Marge first meets Jacques at the bowling alley, what does she mistakenly call him?", choiceA: "Mr. Wilson", choiceB: "Mr. Storm", choiceC: "Mr. Strikeforce", choiceD: "Mr. Brunswick", answer: 4))
+        qList.append(Question(image: "jacquesball.jpg", questionText: "When Marge first meets bowling instructor Jacques, what name does she mistakenly call him?", choiceA: "Mr. Wilson", choiceB: "Mr. Storm", choiceC: "Mr. Strikeforce", choiceD: "Mr. Brunswick", answer: 4))
         qList.append(Question(image: "adilhoxha.jpg", questionText: "Which country does Adil Hoxha, the foreign exchange student taken in by the Simpsons, hail from?", choiceA: "Russia", choiceB: "Albania", choiceC: "Lithuania", choiceD: "Armenia", answer: 2))
         
         // SEASON 2
@@ -65,7 +65,7 @@ class QuestionBank{
         qList.append(Question(image: "walleweasels.jpg", questionText: "What is the slogan of kids' restaurant Wall E. Weasel's?", choiceA: "\"A Good Time Had By All\"", choiceB: "\"Pizza, Tokens and Furry Things\"", choiceC: "\"Games For Kids, Alcohol For Adults\"", choiceD: "\"We Cram Fun Down Your Throat\"", answer: 4))
         qList.append(Question(image: "woodrow.jpg", questionText: "A photo of which legendary hockey player is used by Bart in one of his fake love letters to Mrs. Krabappel?", choiceA: "Maurice Richard", choiceB: "Gordie Howe", choiceC: "Guy Lafleur", choiceD: "Ken Dryden", answer: 2))
         qList.append(Question(image: "yahoo.jpg", questionText: "Which of these names is NOT in the cast of the show \"Ya Hoo!\"?", choiceA: "Country Jake", choiceB: "Yodelin' Zeke", choiceC: "Rudy", choiceD: "Big Shirtless Ron", answer: 1))
-        qList.append(Question(image: "nedindustry.jpg", questionText: "What industry was Ned Flanders in before he left it to open the Leftorium?", choiceA: "Pharmaceuticals", choiceB: "Real estate", choiceC: "Catering", choiceD: "Law", answer: 1))
+        qList.append(Question(image: "nedindustry.jpg", questionText: "What industry did Ned Flanders work in before he left it to open the Leftorium?", choiceA: "Pharmaceuticals", choiceB: "Real estate", choiceC: "Catering", choiceD: "Law", answer: 1))
         qList.append(Question(image: "washingtonmemorial.jpg", questionText: "What is the name of the fictional women's rights crusader at whose monument Lisa witnesses a congressman receiving a bribe", choiceA: "Susan B. Golden", choiceB: "Bertha Calhoun", choiceC: "Winifred Beecher Howe", choiceD: "Margaret Stowe", answer: 3))
         qList.append(Question(image: "bartbartender.jpg", questionText: "While working part-time for Fat Tony, Bart becomes good at making what cocktail?", choiceA: "Martini", choiceB: "Manhattan", choiceC: "Black Russian", choiceD: "Bloody Mary", answer: 2))
         qList.append(Question(image: "proathletes.jpg", questionText: "Who was the first professional athlete to guest star on \"The Simpsons\"?", choiceA: "Joe Montana", choiceB: "Ozzie Smith", choiceC: "Magic Johnson", choiceD: "Joe Namath", answer: 3))
