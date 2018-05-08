@@ -44,6 +44,7 @@ class MainViewController: UIViewController, GKGameCenterControllerDelegate {
         
         if gcEnabled == true {
             signInToGC.alpha = 0.0
+            signInToGC.isEnabled = false
         } else {
             self.signInToGC.fadeInButton()
         }
@@ -91,7 +92,7 @@ extension UIView {
     }
     
     func fadeInButton() {
-        UIView.animate(withDuration: 1.5, delay: 2.8, options: UIViewAnimationOptions.curveEaseIn, animations: {
+        UIView.animate(withDuration: 1.0, delay: 2.5, options: UIViewAnimationOptions.curveEaseIn, animations: {
             self.alpha = 1.0
         }, completion: nil)
     }

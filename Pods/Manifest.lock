@@ -1,16 +1,20 @@
 PODS:
   - SRCountdownTimer (1.1)
+  - UICountingLabel (1.4.1)
 
 DEPENDENCIES:
   - SRCountdownTimer
+  - UICountingLabel
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - SRCountdownTimer
+    - UICountingLabel
 
 SPEC CHECKSUMS:
   SRCountdownTimer: 9c92e444b5403c92f01dd6610299b8c634bc8562
+  UICountingLabel: faf890b505d96312e324a86718f031fafffb0ccb
 
-PODFILE CHECKSUM: cbaafd80cca64c9140ac581822bfc33b9e19803f
+PODFILE CHECKSUM: 4c7b00181f9bd0dff187596f9b61230fa0924b01
 
 COCOAPODS: 1.5.0

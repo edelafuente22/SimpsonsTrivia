@@ -7,76 +7,125 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		12C07D84D3C0D7F412318A0E4B823E11 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		2724FD44BA03A6A3303EE7C8DC284331 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		7904C711FD0EF007D02E9231E944C5CF /* SRCountdownTimer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B45CE9FB397BF15D7BCB2D3F27C8C8 /* SRCountdownTimer-dummy.m */; };
-		83935C7F9562F1D72230A3FB1A2298FD /* SRCountdownTimer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BC7D54CE76054680FF7A6BCCC4E419D2 /* SRCountdownTimer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9BA0149D71113C49DC58F9725F7F98F2 /* Pods-Simpsons Trivia-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CE0E969B48B1C1922DB319FD94212A /* Pods-Simpsons Trivia-dummy.m */; };
-		A9A28B10BFE17005B97708B8D8582F94 /* Pods-Simpsons Trivia-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 05603E077D159AE2171EBC76FE0342DE /* Pods-Simpsons Trivia-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CDB05F877FAF927A6E9795CD124D98E8 /* SRCountdownTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA75550AA1EB8B33E941E9E6409F145 /* SRCountdownTimer.swift */; };
+		0BAECF8913B183A7FDA7A8F56DFD7BD8 /* UICountingLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DEE6B56BB97F773DA9001B7566C5B5D1 /* UICountingLabel-dummy.m */; };
+		1CDB5ABB8412EE27C25D258469B7FC60 /* SRCountdownTimer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C9F53A5AC5133A7CEBE48F9504A7190 /* SRCountdownTimer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		261BE4FF4CDEA0A9B0B9180A53C0C88D /* SRCountdownTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32629B7EC44C11AC3A06FD4F19806168 /* SRCountdownTimer.swift */; };
+		97261F6E233DD27BAFC37CBA4B76D73C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		A04C6A6B56BE90B5723F3CF3A031EB69 /* UICountingLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 22CEC8FE8971E47E976B500D8393C817 /* UICountingLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC7414D02CA845E6F1A7CDB7C6A15419 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		B8446D68B70852E6B6D42DF452383C81 /* Pods-Simpsons Trivia-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 05603E077D159AE2171EBC76FE0342DE /* Pods-Simpsons Trivia-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D3650219A39EBD758D5B6A91E59917E6 /* UICountingLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C5DA401D084C294B299FB3952C1C6DEF /* UICountingLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDF4D5BFA588182DE656589116071182 /* SRCountdownTimer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 356169A5E82B4EF809F9BED11138543B /* SRCountdownTimer-dummy.m */; };
+		DFF0307B0800E60AA76235C017FF2051 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		E374FF2B49813DD4AB213E32CAD22E88 /* UICountingLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = DA01903F0BEAB256CA1CE80AC0548F7E /* UICountingLabel.m */; };
+		F591833E11DE57F65AA443DD7104096B /* Pods-Simpsons Trivia-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CE0E969B48B1C1922DB319FD94212A /* Pods-Simpsons Trivia-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1A14C4512F1FF1A122C22A543B3F598F /* PBXContainerItemProxy */ = {
+		5A6BB1AFD40E04D3EB48E8B9720AB108 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 459BE4A0DE24D31974BA2B2AF1574A1D;
+			remoteGlobalIDString = DEC5E73361090343AE74722281BF26D6;
+			remoteInfo = UICountingLabel;
+		};
+		7C53F6A20CB56C5C92B0D6BCFED3C0CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B055567CD509798F4FA02C541E793CD;
 			remoteInfo = SRCountdownTimer;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01B45CE9FB397BF15D7BCB2D3F27C8C8 /* SRCountdownTimer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SRCountdownTimer-dummy.m"; sourceTree = "<group>"; };
+		020E1CEFF4AA5E3FAFA87C159A085BC4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		05603E077D159AE2171EBC76FE0342DE /* Pods-Simpsons Trivia-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Simpsons Trivia-umbrella.h"; sourceTree = "<group>"; };
 		0C0497D6947B770D2DEBF9828F322D0D /* Pods-Simpsons Trivia.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Simpsons Trivia.modulemap"; sourceTree = "<group>"; };
-		0E6000BCC07268510AE9E71AB290B49E /* SRCountdownTimer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SRCountdownTimer.framework; path = SRCountdownTimer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		22CEC8FE8971E47E976B500D8393C817 /* UICountingLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UICountingLabel.h; sourceTree = "<group>"; };
 		29CF1F03C54C180E1BF16245367DCFF4 /* Pods-Simpsons Trivia-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Simpsons Trivia-acknowledgements.plist"; sourceTree = "<group>"; };
+		2ED770791EEF4E684F0A7475ED24A6DC /* UICountingLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = UICountingLabel.modulemap; sourceTree = "<group>"; };
+		32629B7EC44C11AC3A06FD4F19806168 /* SRCountdownTimer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SRCountdownTimer.swift; path = SRCountdownTimer/SRCountdownTimer.swift; sourceTree = "<group>"; };
+		356169A5E82B4EF809F9BED11138543B /* SRCountdownTimer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SRCountdownTimer-dummy.m"; sourceTree = "<group>"; };
 		35CE0E969B48B1C1922DB319FD94212A /* Pods-Simpsons Trivia-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Simpsons Trivia-dummy.m"; sourceTree = "<group>"; };
 		361FDDD3E8AE0422FEF04333A87A0CC5 /* Pods-Simpsons Trivia-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Simpsons Trivia-frameworks.sh"; sourceTree = "<group>"; };
 		37CFE94812DEC248B38606F9EC557D06 /* Pods-Simpsons Trivia.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Simpsons Trivia.release.xcconfig"; sourceTree = "<group>"; };
-		3924C84BF175FFA947BC18D983972BAC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		519AE4AA28505A9A8AAE9A7782E2C449 /* SRCountdownTimer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SRCountdownTimer.xcconfig; sourceTree = "<group>"; };
+		4C9F53A5AC5133A7CEBE48F9504A7190 /* SRCountdownTimer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SRCountdownTimer-umbrella.h"; sourceTree = "<group>"; };
+		4DA89C304593CD32614E18B24EDFAC93 /* SRCountdownTimer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SRCountdownTimer.framework; path = SRCountdownTimer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FE0FFBC450E13E6E9E5B27B5A940CC8 /* SRCountdownTimer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SRCountdownTimer.xcconfig; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		8DA75550AA1EB8B33E941E9E6409F145 /* SRCountdownTimer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SRCountdownTimer.swift; path = SRCountdownTimer/SRCountdownTimer.swift; sourceTree = "<group>"; };
+		688F9711BD13513B934FA7F64FD3E7EB /* SRCountdownTimer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SRCountdownTimer.modulemap; sourceTree = "<group>"; };
+		7ECA1272C3C93012926D6A9ED474A689 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		94C6440BFE14599CAD0F2B36EFD33E94 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AE1DDAFDB82223EBAFB6E424E5270B7C /* SRCountdownTimer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SRCountdownTimer-prefix.pch"; sourceTree = "<group>"; };
+		A4363EFBA3B13429FCD0E4505B86C34D /* UICountingLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UICountingLabel.framework; path = UICountingLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0BF32721103F0119690D4CDB538BA44 /* Pods-Simpsons Trivia-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Simpsons Trivia-resources.sh"; sourceTree = "<group>"; };
-		BC7D54CE76054680FF7A6BCCC4E419D2 /* SRCountdownTimer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SRCountdownTimer-umbrella.h"; sourceTree = "<group>"; };
-		D56C783966BE2065CFA46364EA2B597C /* SRCountdownTimer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SRCountdownTimer.modulemap; sourceTree = "<group>"; };
+		B8CAC829F6712CA92421F82976EE7F47 /* Pods_Simpsons_Trivia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Simpsons_Trivia.framework; path = "Pods-Simpsons Trivia.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C31D8DC57B2825DC586F9681054CD3E7 /* UICountingLabel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UICountingLabel.xcconfig; sourceTree = "<group>"; };
+		C5DA401D084C294B299FB3952C1C6DEF /* UICountingLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UICountingLabel-umbrella.h"; sourceTree = "<group>"; };
+		CD5A31F35F70871EB419BD4BAF728FCA /* SRCountdownTimer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SRCountdownTimer-prefix.pch"; sourceTree = "<group>"; };
+		DA01903F0BEAB256CA1CE80AC0548F7E /* UICountingLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UICountingLabel.m; sourceTree = "<group>"; };
+		DEE6B56BB97F773DA9001B7566C5B5D1 /* UICountingLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UICountingLabel-dummy.m"; sourceTree = "<group>"; };
 		DFB334C9566187B0C7D0262D28D1C3E4 /* Pods-Simpsons Trivia-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Simpsons Trivia-acknowledgements.markdown"; sourceTree = "<group>"; };
-		ED1533C2733E63CA5A347A05FB47EA35 /* Pods_Simpsons_Trivia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Simpsons_Trivia.framework; path = "Pods-Simpsons Trivia.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC887F23B6B73FB374EA5652C4E7F8E0 /* UICountingLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UICountingLabel-prefix.pch"; sourceTree = "<group>"; };
 		FDBF58DC7FF5ADBB212D3C3A1A374C63 /* Pods-Simpsons Trivia.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Simpsons Trivia.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4E821D4F26CC147FD338DEE4F066305B /* Frameworks */ = {
+		1452A30377924937EA1DE877F7AEED22 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2724FD44BA03A6A3303EE7C8DC284331 /* Foundation.framework in Frameworks */,
+				DFF0307B0800E60AA76235C017FF2051 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E561918784496612489DC8B0C7C50358 /* Frameworks */ = {
+		31BF2BD0E854638AE3C13A13E30228D9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				12C07D84D3C0D7F412318A0E4B823E11 /* Foundation.framework in Frameworks */,
+				AC7414D02CA845E6F1A7CDB7C6A15419 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BB4D06916324ECF75C06FA5B2B9D762 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97261F6E233DD27BAFC37CBA4B76D73C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		74E1113D259C2F6755C981EA6961CBA5 /* Products */ = {
+		46702C21CEC512F82C8DEB356D75AD06 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				ED1533C2733E63CA5A347A05FB47EA35 /* Pods_Simpsons_Trivia.framework */,
-				0E6000BCC07268510AE9E71AB290B49E /* SRCountdownTimer.framework */,
+				6D424382A26B916F7752E99E85F4330E /* SRCountdownTimer */,
+				BEA3DC81C6E46B526A37DF8B8DA92C2E /* UICountingLabel */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		62BB298A619E5B1C80880410B797B80F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B8CAC829F6712CA92421F82976EE7F47 /* Pods_Simpsons_Trivia.framework */,
+				4DA89C304593CD32614E18B24EDFAC93 /* SRCountdownTimer.framework */,
+				A4363EFBA3B13429FCD0E4505B86C34D /* UICountingLabel.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		6D424382A26B916F7752E99E85F4330E /* SRCountdownTimer */ = {
+			isa = PBXGroup;
+			children = (
+				32629B7EC44C11AC3A06FD4F19806168 /* SRCountdownTimer.swift */,
+				C031BDC43C51A06C5D57F489583B7097 /* Support Files */,
+			);
+			name = SRCountdownTimer;
+			path = SRCountdownTimer;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -84,20 +133,10 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				B78B6D7DD69F2BD34DAA5730930A0B2F /* Pods */,
-				74E1113D259C2F6755C981EA6961CBA5 /* Products */,
+				46702C21CEC512F82C8DEB356D75AD06 /* Pods */,
+				62BB298A619E5B1C80880410B797B80F /* Products */,
 				F82B40EA1D05D7331094FD262CEF5C35 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		83787CBB653DED071B220B2E4D9E5854 /* SRCountdownTimer */ = {
-			isa = PBXGroup;
-			children = (
-				8DA75550AA1EB8B33E941E9E6409F145 /* SRCountdownTimer.swift */,
-				BA87CC02F148B96C480A01273C165082 /* Support Files */,
-			);
-			name = SRCountdownTimer;
-			path = SRCountdownTimer;
 			sourceTree = "<group>";
 		};
 		A2BF6FD032A7EDF7B3DF3F0E0D2C9F21 /* Pods-Simpsons Trivia */ = {
@@ -118,28 +157,6 @@
 			path = "Target Support Files/Pods-Simpsons Trivia";
 			sourceTree = "<group>";
 		};
-		B78B6D7DD69F2BD34DAA5730930A0B2F /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				83787CBB653DED071B220B2E4D9E5854 /* SRCountdownTimer */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		BA87CC02F148B96C480A01273C165082 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				3924C84BF175FFA947BC18D983972BAC /* Info.plist */,
-				D56C783966BE2065CFA46364EA2B597C /* SRCountdownTimer.modulemap */,
-				519AE4AA28505A9A8AAE9A7782E2C449 /* SRCountdownTimer.xcconfig */,
-				01B45CE9FB397BF15D7BCB2D3F27C8C8 /* SRCountdownTimer-dummy.m */,
-				AE1DDAFDB82223EBAFB6E424E5270B7C /* SRCountdownTimer-prefix.pch */,
-				BC7D54CE76054680FF7A6BCCC4E419D2 /* SRCountdownTimer-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/SRCountdownTimer";
-			sourceTree = "<group>";
-		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -148,12 +165,51 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		BEA3DC81C6E46B526A37DF8B8DA92C2E /* UICountingLabel */ = {
+			isa = PBXGroup;
+			children = (
+				22CEC8FE8971E47E976B500D8393C817 /* UICountingLabel.h */,
+				DA01903F0BEAB256CA1CE80AC0548F7E /* UICountingLabel.m */,
+				F699035AA5E8B73719B094FCD42F65EA /* Support Files */,
+			);
+			name = UICountingLabel;
+			path = UICountingLabel;
+			sourceTree = "<group>";
+		};
+		C031BDC43C51A06C5D57F489583B7097 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7ECA1272C3C93012926D6A9ED474A689 /* Info.plist */,
+				688F9711BD13513B934FA7F64FD3E7EB /* SRCountdownTimer.modulemap */,
+				4FE0FFBC450E13E6E9E5B27B5A940CC8 /* SRCountdownTimer.xcconfig */,
+				356169A5E82B4EF809F9BED11138543B /* SRCountdownTimer-dummy.m */,
+				CD5A31F35F70871EB419BD4BAF728FCA /* SRCountdownTimer-prefix.pch */,
+				4C9F53A5AC5133A7CEBE48F9504A7190 /* SRCountdownTimer-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SRCountdownTimer";
+			sourceTree = "<group>";
+		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
 			isa = PBXGroup;
 			children = (
 				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		F699035AA5E8B73719B094FCD42F65EA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				020E1CEFF4AA5E3FAFA87C159A085BC4 /* Info.plist */,
+				2ED770791EEF4E684F0A7475ED24A6DC /* UICountingLabel.modulemap */,
+				C31D8DC57B2825DC586F9681054CD3E7 /* UICountingLabel.xcconfig */,
+				DEE6B56BB97F773DA9001B7566C5B5D1 /* UICountingLabel-dummy.m */,
+				EC887F23B6B73FB374EA5652C4E7F8E0 /* UICountingLabel-prefix.pch */,
+				C5DA401D084C294B299FB3952C1C6DEF /* UICountingLabel-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/UICountingLabel";
 			sourceTree = "<group>";
 		};
 		F82B40EA1D05D7331094FD262CEF5C35 /* Targets Support Files */ = {
@@ -167,50 +223,41 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0C4A522173FC98125A29FE23B6F74426 /* Headers */ = {
+		1DA12304C38663AF888BE4AD77FFF173 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83935C7F9562F1D72230A3FB1A2298FD /* SRCountdownTimer-umbrella.h in Headers */,
+				D3650219A39EBD758D5B6A91E59917E6 /* UICountingLabel-umbrella.h in Headers */,
+				A04C6A6B56BE90B5723F3CF3A031EB69 /* UICountingLabel.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AE17096541BFDA36F76F2A222F1A8574 /* Headers */ = {
+		26BB7008CBC547EC261B90F5B5426206 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9A28B10BFE17005B97708B8D8582F94 /* Pods-Simpsons Trivia-umbrella.h in Headers */,
+				B8446D68B70852E6B6D42DF452383C81 /* Pods-Simpsons Trivia-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		425556933B777E98205D5A3E7106A718 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CDB5ABB8412EE27C25D258469B7FC60 /* SRCountdownTimer-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		3EB09F7EC191435F9D95F3A48D9A101C /* Pods-Simpsons Trivia */ = {
+		3B055567CD509798F4FA02C541E793CD /* SRCountdownTimer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6E999C2E22211DEBF9088D58F11E7D2E /* Build configuration list for PBXNativeTarget "Pods-Simpsons Trivia" */;
+			buildConfigurationList = 4004808EE4BB0D8D7E53278635A8864B /* Build configuration list for PBXNativeTarget "SRCountdownTimer" */;
 			buildPhases = (
-				2789D77742A91F7368DA3183D744A36A /* Sources */,
-				4E821D4F26CC147FD338DEE4F066305B /* Frameworks */,
-				AE17096541BFDA36F76F2A222F1A8574 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D5DD13BB5F6C27EBDB546F017BB09CD8 /* PBXTargetDependency */,
-			);
-			name = "Pods-Simpsons Trivia";
-			productName = "Pods-Simpsons Trivia";
-			productReference = ED1533C2733E63CA5A347A05FB47EA35 /* Pods_Simpsons_Trivia.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		459BE4A0DE24D31974BA2B2AF1574A1D /* SRCountdownTimer */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5B9CEA7EE7881445A78784A06754C082 /* Build configuration list for PBXNativeTarget "SRCountdownTimer" */;
-			buildPhases = (
-				700130E1C245DB0AD34352F29EC712C7 /* Sources */,
-				E561918784496612489DC8B0C7C50358 /* Frameworks */,
-				0C4A522173FC98125A29FE23B6F74426 /* Headers */,
+				800B931EE4C83D9693BF3B57D7C0FAB5 /* Sources */,
+				8BB4D06916324ECF75C06FA5B2B9D762 /* Frameworks */,
+				425556933B777E98205D5A3E7106A718 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -218,7 +265,43 @@
 			);
 			name = SRCountdownTimer;
 			productName = SRCountdownTimer;
-			productReference = 0E6000BCC07268510AE9E71AB290B49E /* SRCountdownTimer.framework */;
+			productReference = 4DA89C304593CD32614E18B24EDFAC93 /* SRCountdownTimer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CEBBAABA7F96E91CF58ED936B1D6DC56 /* Pods-Simpsons Trivia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFA52BD2C47D929729F849D1D992CE5A /* Build configuration list for PBXNativeTarget "Pods-Simpsons Trivia" */;
+			buildPhases = (
+				E66D889A74B4E965913D2613DE791503 /* Sources */,
+				1452A30377924937EA1DE877F7AEED22 /* Frameworks */,
+				26BB7008CBC547EC261B90F5B5426206 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				35801308EECD9FA864601D0A51080081 /* PBXTargetDependency */,
+				D29C50197D7CCE08021EAB57BE1B4521 /* PBXTargetDependency */,
+			);
+			name = "Pods-Simpsons Trivia";
+			productName = "Pods-Simpsons Trivia";
+			productReference = B8CAC829F6712CA92421F82976EE7F47 /* Pods_Simpsons_Trivia.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DEC5E73361090343AE74722281BF26D6 /* UICountingLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 059D4D6C679FD7C2F70989FEF38E069F /* Build configuration list for PBXNativeTarget "UICountingLabel" */;
+			buildPhases = (
+				E0A6F2DD407FEEBD7CEB80CA97A9D91F /* Sources */,
+				31BF2BD0E854638AE3C13A13E30228D9 /* Frameworks */,
+				1DA12304C38663AF888BE4AD77FFF173 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UICountingLabel;
+			productName = UICountingLabel;
+			productReference = A4363EFBA3B13429FCD0E4505B86C34D /* UICountingLabel.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -238,143 +321,67 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 74E1113D259C2F6755C981EA6961CBA5 /* Products */;
+			productRefGroup = 62BB298A619E5B1C80880410B797B80F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3EB09F7EC191435F9D95F3A48D9A101C /* Pods-Simpsons Trivia */,
-				459BE4A0DE24D31974BA2B2AF1574A1D /* SRCountdownTimer */,
+				CEBBAABA7F96E91CF58ED936B1D6DC56 /* Pods-Simpsons Trivia */,
+				3B055567CD509798F4FA02C541E793CD /* SRCountdownTimer */,
+				DEC5E73361090343AE74722281BF26D6 /* UICountingLabel */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2789D77742A91F7368DA3183D744A36A /* Sources */ = {
+		800B931EE4C83D9693BF3B57D7C0FAB5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9BA0149D71113C49DC58F9725F7F98F2 /* Pods-Simpsons Trivia-dummy.m in Sources */,
+				DDF4D5BFA588182DE656589116071182 /* SRCountdownTimer-dummy.m in Sources */,
+				261BE4FF4CDEA0A9B0B9180A53C0C88D /* SRCountdownTimer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		700130E1C245DB0AD34352F29EC712C7 /* Sources */ = {
+		E0A6F2DD407FEEBD7CEB80CA97A9D91F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7904C711FD0EF007D02E9231E944C5CF /* SRCountdownTimer-dummy.m in Sources */,
-				CDB05F877FAF927A6E9795CD124D98E8 /* SRCountdownTimer.swift in Sources */,
+				0BAECF8913B183A7FDA7A8F56DFD7BD8 /* UICountingLabel-dummy.m in Sources */,
+				E374FF2B49813DD4AB213E32CAD22E88 /* UICountingLabel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E66D889A74B4E965913D2613DE791503 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F591833E11DE57F65AA443DD7104096B /* Pods-Simpsons Trivia-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		D5DD13BB5F6C27EBDB546F017BB09CD8 /* PBXTargetDependency */ = {
+		35801308EECD9FA864601D0A51080081 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SRCountdownTimer;
-			target = 459BE4A0DE24D31974BA2B2AF1574A1D /* SRCountdownTimer */;
-			targetProxy = 1A14C4512F1FF1A122C22A543B3F598F /* PBXContainerItemProxy */;
+			target = 3B055567CD509798F4FA02C541E793CD /* SRCountdownTimer */;
+			targetProxy = 7C53F6A20CB56C5C92B0D6BCFED3C0CC /* PBXContainerItemProxy */;
+		};
+		D29C50197D7CCE08021EAB57BE1B4521 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UICountingLabel;
+			target = DEC5E73361090343AE74722281BF26D6 /* UICountingLabel */;
+			targetProxy = 5A6BB1AFD40E04D3EB48E8B9720AB108 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		30D948AE62C04225F8DEF8734A4C5A26 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		527A4CFC04CCEF2F0A654895FAD2D1D7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 519AE4AA28505A9A8AAE9A7782E2C449 /* SRCountdownTimer.xcconfig */;
-			buildSettings = {
-				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SRCountdownTimer/SRCountdownTimer-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SRCountdownTimer/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SRCountdownTimer/SRCountdownTimer.modulemap";
-				PRODUCT_MODULE_NAME = SRCountdownTimer;
-				PRODUCT_NAME = SRCountdownTimer;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		8B17EF31E6EE32FCCE398A3E19AD3DD5 /* Release */ = {
+		07AB4BBCB285AD6644E042BB82D67DBA /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 37CFE94812DEC248B38606F9EC557D06 /* Pods-Simpsons Trivia.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -387,7 +394,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-Simpsons Trivia/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-Simpsons Trivia/Pods-Simpsons Trivia.modulemap";
@@ -406,7 +413,7 @@
 			};
 			name = Release;
 		};
-		9E88537B08ED4D6EB44DBA7BC8D56A35 /* Debug */ = {
+		199D972A13F2B4C56847F7A89CCA83BC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -459,7 +466,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -469,9 +476,9 @@
 			};
 			name = Debug;
 		};
-		A78AD32F34CE3A3E8B0A116A8206E96B /* Release */ = {
+		228A6930D671F01F6C889812312BA460 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 519AE4AA28505A9A8AAE9A7782E2C449 /* SRCountdownTimer.xcconfig */;
+			baseConfigurationReference = 4FE0FFBC450E13E6E9E5B27B5A940CC8 /* SRCountdownTimer.xcconfig */;
 			buildSettings = {
 				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -503,12 +510,44 @@
 			};
 			name = Release;
 		};
-		DC060C5C646D27EF04FFB0885F101C4A /* Debug */ = {
+		2AF4C8AB7BA2BC39CE996E54EA0BD81A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FE0FFBC450E13E6E9E5B27B5A940CC8 /* SRCountdownTimer.xcconfig */;
+			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SRCountdownTimer/SRCountdownTimer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SRCountdownTimer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SRCountdownTimer/SRCountdownTimer.modulemap";
+				PRODUCT_MODULE_NAME = SRCountdownTimer;
+				PRODUCT_NAME = SRCountdownTimer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		343F1EBB71E8333D399A66447DF94634 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FDBF58DC7FF5ADBB212D3C3A1A374C63 /* Pods-Simpsons Trivia.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -521,7 +560,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-Simpsons Trivia/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-Simpsons Trivia/Pods-Simpsons Trivia.modulemap";
@@ -540,32 +579,164 @@
 			};
 			name = Debug;
 		};
+		79257C6550459838C679F0ED701C7202 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C31D8DC57B2825DC586F9681054CD3E7 /* UICountingLabel.xcconfig */;
+			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UICountingLabel/UICountingLabel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UICountingLabel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UICountingLabel/UICountingLabel.modulemap";
+				PRODUCT_MODULE_NAME = UICountingLabel;
+				PRODUCT_NAME = UICountingLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AEEB6AD82D2D8A9AA88FF47076F4F18D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C31D8DC57B2825DC586F9681054CD3E7 /* UICountingLabel.xcconfig */;
+			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UICountingLabel/UICountingLabel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UICountingLabel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UICountingLabel/UICountingLabel.modulemap";
+				PRODUCT_MODULE_NAME = UICountingLabel;
+				PRODUCT_NAME = UICountingLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FDB2FC4A1E5891381CD9D922145497F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		059D4D6C679FD7C2F70989FEF38E069F /* Build configuration list for PBXNativeTarget "UICountingLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEEB6AD82D2D8A9AA88FF47076F4F18D /* Debug */,
+				79257C6550459838C679F0ED701C7202 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9E88537B08ED4D6EB44DBA7BC8D56A35 /* Debug */,
-				30D948AE62C04225F8DEF8734A4C5A26 /* Release */,
+				199D972A13F2B4C56847F7A89CCA83BC /* Debug */,
+				FDB2FC4A1E5891381CD9D922145497F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5B9CEA7EE7881445A78784A06754C082 /* Build configuration list for PBXNativeTarget "SRCountdownTimer" */ = {
+		4004808EE4BB0D8D7E53278635A8864B /* Build configuration list for PBXNativeTarget "SRCountdownTimer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				527A4CFC04CCEF2F0A654895FAD2D1D7 /* Debug */,
-				A78AD32F34CE3A3E8B0A116A8206E96B /* Release */,
+				2AF4C8AB7BA2BC39CE996E54EA0BD81A /* Debug */,
+				228A6930D671F01F6C889812312BA460 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6E999C2E22211DEBF9088D58F11E7D2E /* Build configuration list for PBXNativeTarget "Pods-Simpsons Trivia" */ = {
+		EFA52BD2C47D929729F849D1D992CE5A /* Build configuration list for PBXNativeTarget "Pods-Simpsons Trivia" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DC060C5C646D27EF04FFB0885F101C4A /* Debug */,
-				8B17EF31E6EE32FCCE398A3E19AD3DD5 /* Release */,
+				343F1EBB71E8333D399A66447DF94634 /* Debug */,
+				07AB4BBCB285AD6644E042BB82D67DBA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -176,12 +176,6 @@
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Correct: 11" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dWI-jH-aHU">
-                                        <rect key="frame" x="281.5" y="47" width="85.5" height="20"/>
-                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
-                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
                                     <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fti-Xb-65U" customClass="SRCountdownTimer" customModule="SRCountdownTimer">
                                         <rect key="frame" x="165" y="31" width="45" height="45"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -202,14 +196,20 @@
                                             <userDefinedRuntimeAttribute type="boolean" keyPath="isLabelHidden" value="NO"/>
                                         </userDefinedRuntimeAttributes>
                                     </view>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Score: 11000" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vjC-Gc-doQ" customClass="UICountingLabel">
+                                        <rect key="frame" x="267.5" y="47" width="99.5" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstItem="cG7-ba-lPe" firstAttribute="top" secondItem="Ldn-z7-UaJ" secondAttribute="top" constant="47" id="3zq-yu-EEl"/>
+                                    <constraint firstAttribute="trailing" secondItem="vjC-Gc-doQ" secondAttribute="trailing" constant="8" id="614-X8-kcm"/>
                                     <constraint firstAttribute="height" constant="80" id="Orh-h0-TxN"/>
-                                    <constraint firstItem="dWI-jH-aHU" firstAttribute="top" secondItem="Ldn-z7-UaJ" secondAttribute="top" constant="47" id="TBX-js-mnY"/>
                                     <constraint firstItem="cG7-ba-lPe" firstAttribute="leading" secondItem="Ldn-z7-UaJ" secondAttribute="leading" constant="8" id="dhc-vY-reU"/>
-                                    <constraint firstAttribute="trailing" secondItem="dWI-jH-aHU" secondAttribute="trailing" constant="8" id="ox3-MT-xhv"/>
+                                    <constraint firstItem="vjC-Gc-doQ" firstAttribute="top" secondItem="Ldn-z7-UaJ" secondAttribute="top" constant="47" id="pQd-uk-mVD"/>
                                 </constraints>
                             </view>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Gkz-8L-Clv">
@@ -308,7 +308,6 @@
                         <viewLayoutGuide key="safeArea" id="u6J-lb-4pg"/>
                     </view>
                     <connections>
-                        <outlet property="correctLabel" destination="dWI-jH-aHU" id="ltz-gx-dmv"/>
                         <outlet property="countdownTimer" destination="fti-Xb-65U" id="sh1-xF-KwL"/>
                         <outlet property="imageView" destination="Gkz-8L-Clv" id="ZUs-Qq-MgP"/>
                         <outlet property="optionA" destination="wyu-iH-bwH" id="adu-i6-SP3"/>
@@ -317,12 +316,13 @@
                         <outlet property="optionD" destination="TPc-Ng-DyF" id="aub-mx-fwr"/>
                         <outlet property="questionCounter" destination="cG7-ba-lPe" id="hrt-Gn-fJh"/>
                         <outlet property="questionLabel" destination="ou7-5W-nOM" id="3Z4-8l-gOR"/>
+                        <outlet property="scoreLabel" destination="vjC-Gc-doQ" id="jBu-Y8-WIX"/>
                         <segue destination="rba-3W-0lO" kind="presentation" identifier="Game Over" modalTransitionStyle="flipHorizontal" id="lah-OZ-scv"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mp6-L9-6Wu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1694" y="134"/>
+            <point key="canvasLocation" x="1693.5999999999999" y="133.5832083958021"/>
         </scene>
         <!--Game Over View Controller-->
         <scene sceneID="Hx2-Rf-ON7">
