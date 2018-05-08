@@ -294,6 +294,16 @@ class QuestionBank{
         qList.append(Question(image: "ottobecky.jpg", questionText: "At which music festival did Otto meet his former fiancée, Becky?", choiceA: "Lollapalooza", choiceB: "Tibetan Freedom Concert", choiceC: "Woodstock '99", choiceD: "Live Aid", answer: 3))
         qList.append(Question(image: "behindlaughter.jpg", questionText: "In the episode \"Behind the Laughter,\" which musician helps bring the estranged Simpson family back together?", choiceA: "Willie Nelson", choiceB: "Johnny Cash", choiceC: "Mick Jagger", choiceD: "George Strait", answer: 1))
         qList.append(Question(image: "rodtoddvideogame.jpg", questionText: "Which video game does Bart play with Rod and Todd after Maude Flanders' funeral?", choiceA: "Christian Clue", choiceB: "Bombardment ... of Bible Questions", choiceC: "Jesus vs. the Heathens", choiceD: "Billy Graham's Bible Blaster", answer: 4))
+        qList.append(Question(image: "shopperhistory.jpg", questionText: "Which of these is NOT the name of a newspaper that merged with the Springfield Shopper?", choiceA: "Springfield Times", choiceB: "Jewish News", choiceC: "Red Dress Press", choiceD: "Hot Sex Weekly", answer: 3))
+        qList.append(Question(image: "gloveslap.jpg", questionText: "What was the title of the movie that prompted Homer to begin slapping people with a glove?", choiceA: "\"Power of Glove\"", choiceB: "\"The Poke of Zorro\"", choiceC: "\"Tango de la Muerte\"", choiceD: "\"A Matrix Christmas\"", answer: 2))
+        qList.append(Question(image: "octupletshow.jpg", questionText: "Which former child star convinces Apu to allow his octuplets to become part of a show at the zoo?", choiceA: "Butch Patrick", choiceB: "Jerry Mathers", choiceC: "David Cassidy", choiceD: "David Faustino", answer: 1))
+        qList.append(Question(image: "hellssatans.jpg", questionText: "In what city is the motorcycle gang Hell's Satans based?", choiceA: "Missoula", choiceB: "Laramie", choiceC: "Bakersfield", choiceD: "Sturgis", answer: 3))
+        qList.append(Question(image: "fattonyramps.jpg", questionText: "How much does Fat Tony charge Principal Skinner for building a shoddy ramp system at Springfield Elementary?", choiceA: "$1,000", choiceB: "$25,000", choiceC: "$200,000", choiceD: "$3 million", answer: 3))
+        qList.append(Question(image: "lisaleprosy.jpg", questionText: "While Marge is in the hospital, Lisa tricks Homer and Bart into believing they have which disease?", choiceA: "The black plague", choiceB: "Leprosy", choiceC: "Hanta virus", choiceD: "Pig-pen disease", answer: 2))
+        qList.append(Question(image: "burnsyacht.jpg", questionText: "What is the name of Mr. Burns' yacht, which Homer uses to hold a party in international waters?", choiceA: "Gone Fission", choiceB: "Seas The Day", choiceC: "Monty's Deal", choiceD: "Aquaholic", answer: 1))
+        qList.append(Question(image: "missionarycouple.jpg", questionText: "What were the names of the two missionaries that preceded Homer on the South Pacific island he is sent to?", choiceA: "Jim and Nancy", choiceB: "Craig and Amy", choiceC: "Lester and Eliza", choiceD: "John and Melissa", answer: 2))
+        qList.append(Question(image: "moesoapstar.jpg", questionText: "What is the name of the character Moe plays during his brief stint on the soap opera \"It Never Ends\"?", choiceA: "Dr. Steve Foster", choiceB: "Dr. Lance Kaufman", choiceC: "Dr. Nick Riviera", choiceD: "Dr. Tad Winslow", answer: 4))
+        qList.append(Question(image: "vickicredit.jpg", questionText: "Little Miss Vicki Valentine, Lisa's tap dance teacher, says she once destroyed the credit rating of which actor?", choiceA: "Cary Grant", choiceB: "Buddy Ebsen", choiceC: "Rory Calhoun", choiceD: "Ed Asner", answer: 2))
         
         // SEASON 12
         qList.append(Question(image: "areacodes.jpg", questionText: "When Springfield is divided into two area codes, which area code did the Simpsons fall under?", choiceA: "213", choiceB: "636", choiceC: "939", choiceD: "976", answer: 3))
@@ -394,7 +404,6 @@ class QuestionBank{
         
         
         // UNSORTED
-        
         
     }
     
