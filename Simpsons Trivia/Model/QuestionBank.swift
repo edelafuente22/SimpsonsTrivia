@@ -323,6 +323,15 @@ class QuestionBank{
         qList.append(Question(image: "specialblend.jpg", questionText: "Which spice does Homer detect in Groundskeeper Willie's \"special blend\" of sawdust?", choiceA: "Allspice", choiceB: "Cloves", choiceC: "Cinnamon", choiceD: "Paprika", answer: 3))
         qList.append(Question(image: "tennismenace.jpg", questionText: "Which of these tennis stars did NOT appear in the episode \"Tennis the Menace\"?", choiceA: "Andre Agassi", choiceB: "Serena Williams", choiceC: "Steffi Graf", choiceD: "Pete Sampras", answer: 3))
         qList.append(Question(image: "sophie.jpg", questionText: "Sophie, Krusty's estranged daughter, is voiced by which actress?", choiceA: "Zooey Deschanel", choiceB: "Natalie Portman", choiceC: "Reese Witherspoon", choiceD: "Drew Barrymore", answer: 4))
+        qList.append(Question(image: "fattonyrealname.jpg", questionText: "According to the mobster Frankie the Squealer, what is Fat Tony's real first name?", choiceA: "Harold", choiceB: "Vittorio", choiceC: "Leslie", choiceD: "Marion", answer: 4))
+        qList.append(Question(image: "homercrayon.jpg", questionText: "Which \"unlicensed physician\" friend does Homer ask to reinsert a crayon in his brain in the episode \"HOMR\"?", choiceA: "Moe", choiceB: "Barney", choiceC: "Lenny", choiceD: "Dr. Nick", answer: 1))
+        qList.append(Question(image: "margeprisoner.jpg", questionText: "What is the name of the convict Marge befriends while teaching art to prisoners?", choiceA: "Dwight Shore", choiceB: "Jeff Ingalls", choiceC: "Jack Crowley", choiceD: "Cecil Terwilliger", answer: 3))
+        qList.append(Question(image: "cbgheartattack.jpg", questionText: "Which horror film figure is Comic Book Guy hosting at his store when he suffers a heart attack?", choiceA: "Wes Craven", choiceB: "Tom Savini", choiceC: "Robert Englund", choiceD: "Stan Lee", answer: 2))
+        qList.append(Question(image: "simpsonstennis.jpg", questionText: "While commenting on how easy it is to beat Marge and Homer at tennis, Lou the cop compares them to which team?", choiceA: "Cleveland Browns", choiceB: "Florida Marlins", choiceC: "Los Angeles Clippers", choiceD: "Kansas City Royals", answer: 3))
+        qList.append(Question(image: "schoolhamster.jpg", questionText: "What is the name of the hamster Principal Skinner uses to deliver a help message when Springfield Elementary is snowed in?", choiceA: "Nibbles", choiceB: "Buster", choiceC: "Sparky", choiceD: "Tiny", answer: 1))
+        qList.append(Question(image: "christopherwalken.jpg", questionText: "At the Springfield Festival of Books, Marge sees Christopher Walken giving a reading of which children's book?", choiceA: "\"Where the Wild Things Are\"", choiceB: "\"The Secret Garden\"", choiceC: "\"The Giving Tree\"", choiceD: "\"Goodnight Moon\"", answer: 4))
+        qList.append(Question(image: "homerdaycare.jpg", questionText: "What injury forces Homer to stay home from work, prompting him to begin a daycare service?", choiceA: "Broken fibula", choiceB: "Torn anterior cruciate ligament", choiceC: "Sprained ankle", choiceD: "Torn groin muscle", answer: 2))
+        qList.append(Question(image: "praiselandvision.jpg", questionText: "Which character is the first to have a vision in front of the Maude Flanders statue at Praiseland?", choiceA: "Principal Skinner", choiceB: "Moe Szyzlak", choiceC: "Edna Krabappel", choiceD: "Disco Stu", answer: 1))
         
         // SEASON 13
         qList.append(Question(image: "burlymodel.jpg", questionText: "What is the name Homer uses when he poses as the model for Burly paper towels in a prank call to Marge?", choiceA: "Chad Sexington", choiceB: "Thad Supersperm", choiceC: "Brad Burlyman", choiceD: "Tad Lover", answer: 1))
@@ -338,6 +347,7 @@ class QuestionBank{
         qList.append(Question(image: "ultrahouse.jpg", questionText: "Who provides the voice of the UltraHouse seen in \"Treehouse of Horror XII\"?", choiceA: "Sean Connery", choiceB: "Liam Neeson", choiceC: "Daniel Craig", choiceD: "Pierce Brosnan", answer: 4))
         qList.append(Question(image: "bartbubble.jpg", questionText: "What virus forces Bart to live temporarily in a plastic bubble?", choiceA: "Hanta virus", choiceB: "Panda virus", choiceC: "The blue plague", choiceD: "Ebola virus", answer: 2))
         qList.append(Question(image: "garthmotherloving.jpg", questionText: "According to Garth Motherloving, owner of Motherloving Sugar Corp., what was his last name previously?", choiceA: "Fatherloving", choiceB: "Kidkill", choiceC: "Hitler", choiceD: "Terrible", answer: 3))
+        qList.append(Question(image: "bartmilhousegreta.jpg", questionText: "After Bart and Milhouse are both rejected by Greta Wolfcastle in Toronto, they join the Canadian national team in what sport?", choiceA: "Lacrosse", choiceB: "Ice hockey", choiceC: "Basketball", choiceD: "Soccer", answer: 3))
         
         // SEASON 14
         qList.append(Question(image: "fantasycamp.jpg", questionText: "Which of these musicians was NOT an instructor at the rock 'n' roll fantasy camp Homer attends?", choiceA: "Dave Grohl", choiceB: "Lenny Kravitz", choiceC: "Tom Petty", choiceD: "Brian Setzer", answer: 1))
@@ -404,6 +414,7 @@ class QuestionBank{
         
         
         // UNSORTED
+        
         
     }
     
