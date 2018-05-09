@@ -13,6 +13,7 @@ class GameOverViewController: UIViewController, GKGameCenterControllerDelegate {
     
     var correctTotal: Int = 0
     var score: Int = 0
+    var runningQArray: [Int] = []
     
     @IBOutlet weak var endImageView: UIImageView!
     @IBOutlet weak var endGameTitle: UILabel!
@@ -57,6 +58,24 @@ class GameOverViewController: UIViewController, GKGameCenterControllerDelegate {
             endGameLabel.text = "You got \(correctTotal) right and scored \(finalScoreString) points! \n\nThe lesson here is: Never try."
         }
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.destination is QuestionViewController {
+            if runningQArray.count > 12 {
+                let questionVC = segue.destination as? QuestionViewController
+                questionVC?.questionArray = runningQArray
+            } else {
+                let questionVC = segue.destination as? QuestionViewController
+                questionVC?.questionArray = (questionVC?.questionArray)!
+            }
+        }
+    }
+    
+    @IBAction func playAgain(_ sender: UIButton) {
+        self.performSegue(withIdentifier: "playAgain", sender: Any?.self)
+    }
+    
+    
     
     @IBAction func viewGameCenter(_ sender: UIButton) {
         let gcVC = GKGameCenterViewController()

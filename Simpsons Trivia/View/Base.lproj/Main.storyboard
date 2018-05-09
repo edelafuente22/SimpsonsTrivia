@@ -366,8 +366,8 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="answerPressed:" destination="Gqc-nm-OfC" eventType="touchUpInside" id="cJQ-4M-aUg"/>
-                                            <segue destination="Gqc-nm-OfC" kind="presentation" identifier="Play Again" modalTransitionStyle="flipHorizontal" id="6XL-h7-8gZ"/>
+                                            <action selector="playAgain:" destination="rba-3W-0lO" eventType="touchUpInside" id="0kg-ne-vXh"/>
+                                            <segue destination="Gqc-nm-OfC" kind="show" identifier="playAgain" id="6rG-74-1vb"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GPN-d4-FB3">
@@ -378,7 +378,7 @@
                                         </state>
                                         <connections>
                                             <action selector="answerPressed:" destination="Gqc-nm-OfC" eventType="touchUpInside" id="x8E-8u-a2y"/>
-                                            <segue destination="6sD-LR-Vs3" kind="show" id="V6T-wP-bfg"/>
+                                            <segue destination="6sD-LR-Vs3" kind="show" identifier="imDone" id="V6T-wP-bfg"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -456,6 +456,6 @@
         <image name="title2" width="365" height="168"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="EY2-kJ-aKA"/>
+        <segue reference="6rG-74-1vb"/>
     </inferredMetricsTieBreakers>
 </document>

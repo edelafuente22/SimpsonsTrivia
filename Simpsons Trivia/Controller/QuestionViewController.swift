@@ -57,7 +57,7 @@ class QuestionViewController: UIViewController, GKGameCenterControllerDelegate {
         super.viewDidLoad()
         updateQuestion()
         updateHeader()
-        
+        print(questionArray)
         scoreLabel.format = "Score: %d"
         
     }
@@ -226,6 +226,7 @@ class QuestionViewController: UIViewController, GKGameCenterControllerDelegate {
             let GameScore = segue.destination as? GameOverViewController
             GameScore?.correctTotal = correctResponses
             GameScore?.score = pointTotal
+            GameScore?.runningQArray = questionArray
         }
     }
     
