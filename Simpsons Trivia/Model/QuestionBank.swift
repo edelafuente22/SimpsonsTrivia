@@ -25,7 +25,7 @@ class QuestionBank{
         qList.append(Question(image: "judgeharm.jpg", questionText: "Judge Constance Harm is voiced by which actress?", choiceA: "Glenn Close", choiceB: "Patricia Heaton", choiceC: "Jane Kaczmarek", choiceD: "Jane Krakowski", answer: 3))
         qList.append(Question(image: "hsprincipal.jpg", questionText: "What is the last name of Springfield High School's principal during the period that Homer and Marge were students?", choiceA: "Peterson", choiceB: "Dondelinger", choiceC: "Chalmers", choiceD: "Pennyfeather", answer: 2))
         qList.append(Question(image: "carlcarlson.jpg", questionText: "Carl Carlson spent his childhood in which European country?", choiceA: "Ireland", choiceB: "Iceland", choiceC: "Albania", choiceD: "Luxembourg", answer: 2))
-        qList.append(Question(image: "krabappel.jpg", questionText: "Which of these characters has Edna Krabappel NOT dated?", choiceA: "Comic Book Guy", choiceB: "Superintendent Chalmers", choiceC: "Ned Flanders", choiceD: "Principal Skinner", answer: 2))
+        qList.append(Question(image: "krabappel.jpg", questionText: "Which of these characters has Edna Krabappel NOT dated?", choiceA: "Comic Book Guy", choiceB: "Krusty the Clown", choiceC: "Ned Flanders", choiceD: "Principal Skinner", answer: 2))
         qList.append(Question(image: "author.jpg", questionText: "Which famous author has made several \"Simpsons\" appearances, always depicted with a bag on his head?", choiceA: "Thomas Pynchon", choiceB: "J.D. Salinger", choiceC: "Tom Wolfe", choiceD: "Michael Crichton", answer: 1))
         qList.append(Question(image: "wiggumwife.jpg", questionText: "What is the first name of Chief Wiggum's wife?", choiceA: "Sarah", choiceB: "Selma", choiceC: "Helen", choiceD: "Jane", answer: 1))
         qList.append(Question(image: "queasyfriend.jpg", questionText: "What is the name of Bart's classmate who gets queasy easily?", choiceA: "Wendell", choiceB: "Lewis", choiceC: "Douglas", choiceD: "Uter", answer: 1))
@@ -37,6 +37,7 @@ class QuestionBank{
         qList.append(Question(image: "homersector.jpg", questionText: "What sector of the Springfield Nuclear Power Plant does Homer work in?", choiceA: "5A", choiceB: "27", choiceC: "BB", choiceD: "7G", answer: 4))
         qList.append(Question(image: "simpsonneighbors.jpg", questionText: "Which of these characters has never lived next door to the Simpsons?", choiceA: "Barney Gumble", choiceB: "Sideshow Bob", choiceC: "Laura Powers", choiceD: "Ned Flanders", answer: 1))
         qList.append(Question(image: "canadiancities.jpg", questionText: "Which of these Canadian cities have the Simpsons NOT visited in an episode?", choiceA: "Edmonton", choiceB: "Toronto", choiceC: "Winnipeg", choiceD: "Vancouver", answer: 1))
+        qList.append(Question(image: "chalmersname.jpg", questionText: "What is Superintendent Chalmers' first name?", choiceA: "Gary", choiceB: "Richard", choiceC: "Jeffrey", choiceD: "Mario", answer: 1))
         
         // SEASON 1
         qList.append(Question(image: "greyhoundrace.jpg", questionText: "Which dog wins the greyhound race in which Homer bets on Santa's Little Helper?", choiceA: "Whirlwind", choiceB: "Dog O' War", choiceC: "Chew My Shoe", choiceD: "Fido", answer: 1))
@@ -279,6 +280,7 @@ class QuestionBank{
         qList.append(Question(image: "eurodollywood.jpg", questionText: "According to travel agent Wally Kogen, in which state is Dolly Parton's \"Euro-Dollywood\" located?", choiceA: "Tennessee", choiceB: "Mississippi", choiceC: "Florida", choiceD: "Alabama", answer: 4))
         qList.append(Question(image: "homerartist.jpg", questionText: "Which of these is NOT the title of a piece created by Homer during his time as an outsider artist?", choiceA: "\"Grand Canals of Springfield\"", choiceB: "\"The Grill of Anguish\"", choiceC: "\"Attempted Birdhouse I\"", choiceD: "\"Botched Hibachi\"", answer: 2))
         qList.append(Question(image: "beertap.jpg", questionText: "What was the final appraised value of an old beer tap Moe owned that had \"Homer rocks\" carved on the handle?", choiceA: "$15", choiceB: "$75", choiceC: "$129.99", choiceD: "$20,000", answer: 1))
+        qList.append(Question(image: "edenunicorn.jpg", questionText: "In the episode \"Simpsons Bible Stories\", what did God name his unicorn in the Garden of Eden?", choiceA: "Joshua", choiceB: "Paul", choiceC: "Fido", choiceD: "Gary", answer: 4))
         
         // SEASON 11
         qList.append(Question(image: "maudedeath.jpg", questionText: "How did Maude Flanders die?", choiceA: "Run over by Homer's car", choiceB: "Fell into Springfield Gorge", choiceC: "Struck by lightning while praying", choiceD: "Struck by barrage of T-shirts", answer: 4))
@@ -376,6 +378,14 @@ class QuestionBank{
         qList.append(Question(image: "ribwich.jpg", questionText: "The last Ribwich ever made was given out by Krusty in which city?", choiceA: "Los Angeles", choiceB: "Calgary", choiceC: "Phoenix", choiceD: "San Francisco", answer: 4))
         qList.append(Question(image: "oldcongressman.jpg", questionText: "What is the name of the congressman whose death results in Krusty running for Congress?", choiceA: "Horace Wilcox", choiceB: "Chester Lampwick", choiceC: "Cornelius Chapman", choiceD: "Jasper Beardley", answer: 1))
         qList.append(Question(image: "lisaspellwrong.jpg", questionText: "What word did Lisa spell incorrectly to lose the Spellympics after refusing to take a dive?", choiceA: "Uncooperative", choiceB: "Intransigence", choiceC: "Ameliorate", choiceD: "Rigged", answer: 2))
+        qList.append(Question(image: "lisahockeyadvice.jpg", questionText: "What is the last name of the Ice-O-Topes hockey player who takes in-game advice from Lisa and scores a goal?", choiceA: "Mitchell", choiceB: "Ivanov", choiceC: "Kozlov", choiceD: "Karlsson", answer: 3))
+        qList.append(Question(image: "lennystay.jpg", questionText: "When the Simpsons stay with Lenny while their house is being fumigated, they learn his apartment shares a common wall with what?", choiceA: "Steel mill", choiceB: "Jai alai court", choiceC: "Ice rink", choiceD: "Racquetball court", answer: 2))
+        qList.append(Question(image: "skinnersportscar.jpg", questionText: "Who lends their sports car to Principal Skinner so he can drive to Orlando and save his relationship with Mrs. Krabappel?", choiceA: "Superintendent Chalmers", choiceB: "Miss Hoover", choiceC: "Groundskeeper Willie", choiceD: "Mr. Largo", answer: 3))
+        qList.append(Question(image: "margemugged.jpg", questionText: "When Marge is mugged behind the Kwik-E-Mart, the assailant wears a hat that resembles which cartoon character?", choiceA: "Mickey Mouse", choiceB: "Snoopy", choiceC: "Garfield", choiceD: "Goofy", answer: 4))
+        qList.append(Question(image: "milhousechoke.jpg", questionText: "When Milhouse is given the word \"choke\" in a school spelling bee, he bungles it by saying which letter first?", choiceA: "B", choiceB: "F", choiceC: "K", choiceD: "S", answer: 2))
+        qList.append(Question(image: "sararainier.jpg", questionText: "Sara Sloane, the actress that dates Ned Flanders, says that former boyfriend Rainier Wolfcastle once beat up which actor?", choiceA: "Steve Guttenberg", choiceB: "Kevin Costner", choiceC: "Jon Lovitz", choiceD: "Kelsey Grammer", answer: 3))
+        qList.append(Question(image: "oldthreestooges.jpg", questionText: "What is the title of the \"very late\" episode of \"The Three Stooges\" that Homer and Bart watch?", choiceA: "\"Brittle Boneheads\"", choiceB: "\"Old and Cranky\"", choiceC: "\"So Very Tired\"", choiceD: "\"Fragile Follies\"", answer: 1))
+        qList.append(Question(image: "barthoodornament.jpg", questionText: "Attempting to restore his popularity, Bart attempts to steal a hood ornament off whose car?", choiceA: "Mayor Quimby", choiceB: "Fat Tony", choiceC: "Superintendent Chalmers", choiceD: "Kent Brockman", answer: 2))
         
         // SEASON 15
         qList.append(Question(image: "lisaprez.jpg", questionText: "The episode \"The President Wore Pearls,\" in which Lisa becomes class president, is a parody of which Broadway musical?", choiceA: "Evita", choiceB: "Chicago", choiceC: "The Music Man", choiceD: "Phantom of the Opera", answer: 1))
@@ -424,8 +434,6 @@ class QuestionBank{
         
         
         // UNSORTED
-        
-        
         
         
         
