@@ -36,6 +36,7 @@ class QuestionBank{
         qList.append(Question(image: "moemidge.jpg", questionText: "What name does Moe often mistakenly call Marge?", choiceA: "Madge", choiceB: "Midge", choiceC: "Minnie", choiceD: "Blanche", answer: 2))
         qList.append(Question(image: "homersector.jpg", questionText: "What sector of the Springfield Nuclear Power Plant does Homer work in?", choiceA: "5A", choiceB: "27", choiceC: "BB", choiceD: "7G", answer: 4))
         qList.append(Question(image: "simpsonneighbors.jpg", questionText: "Which of these characters has never lived next door to the Simpsons?", choiceA: "Barney Gumble", choiceB: "Sideshow Bob", choiceC: "Laura Powers", choiceD: "Ned Flanders", answer: 1))
+        qList.append(Question(image: "canadiancities.jpg", questionText: "Which of these Canadian cities have the Simpsons NOT visited in an episode?", choiceA: "Edmonton", choiceB: "Toronto", choiceC: "Winnipeg", choiceD: "Vancouver", answer: 1))
         
         // SEASON 1
         qList.append(Question(image: "greyhoundrace.jpg", questionText: "Which dog wins the greyhound race in which Homer bets on Santa's Little Helper?", choiceA: "Whirlwind", choiceB: "Dog O' War", choiceC: "Chew My Shoe", choiceD: "Fido", answer: 1))
@@ -222,6 +223,7 @@ class QuestionBank{
         qList.append(Question(image: "lisababysit.jpg", questionText: "Chief Wiggum hires Lisa to babysit Ralph because he and his wife have tickets to watch which entertainer?", choiceA: "Eddie Murphy", choiceB: "Ray Charles", choiceC: "Huey Lewis", choiceD: "Bob Saget", answer: 4))
         qList.append(Question(image: "skinnykrabby.jpg", questionText: "Principal Skinner and Mrs. Krabappel first fall for each other at a birthday party for which student?", choiceA: "Martin", choiceB: "Milhouse", choiceC: "Nelson", choiceD: "Janey", answer: 1))
         qList.append(Question(image: "mrsparkleorigin.jpg", questionText: "The Japanese detergent Mr. Sparkle is a joint venture of Tamaribuchi Heavy Manufacturing Concern and which other company?", choiceA: "Osaka Seafood Concern", choiceB: "Hokkaido Sparkle Company", choiceC: "Matsumura Fishworks", choiceD: "Hiroshima Toyo Carp", answer: 3))
+        qList.append(Question(image: "moeduff.jpg", questionText: "What punctuation does Moe write on a bottle of Duff to convince Homer that it's a foreign beer?", choiceA: "Tilde", choiceB: "Umlaut", choiceC: "Macron", choiceD: "Schwa", answer: 2))
         
         // SEASON 9
         qList.append(Question(image: "broadway.jpg", questionText: "Which Broadway musical do Marge, Lisa and Bart watch during their visit to New York?", choiceA: "Checkin' In", choiceB: "Kickin' It", choiceC: "The Itchy and Scratchy Musical", choiceD: "Planet of the Apes", answer: 2))
@@ -348,6 +350,14 @@ class QuestionBank{
         qList.append(Question(image: "bartbubble.jpg", questionText: "What virus forces Bart to live temporarily in a plastic bubble?", choiceA: "Hanta virus", choiceB: "Panda virus", choiceC: "The blue plague", choiceD: "Ebola virus", answer: 2))
         qList.append(Question(image: "garthmotherloving.jpg", questionText: "According to Garth Motherloving, owner of Motherloving Sugar Corp., what was his last name previously?", choiceA: "Fatherloving", choiceB: "Kidkill", choiceC: "Hitler", choiceD: "Terrible", answer: 3))
         qList.append(Question(image: "bartmilhousegreta.jpg", questionText: "After Bart and Milhouse are both rejected by Greta Wolfcastle in Toronto, they join the Canadian national team in what sport?", choiceA: "Lacrosse", choiceB: "Ice hockey", choiceC: "Basketball", choiceD: "Soccer", answer: 3))
+        qList.append(Question(image: "burnsaphrodisiac.jpg", questionText: "Mr. Burns uses an aphrodisiac made from what animal that he says \"only existed for three weeks in the 16th century\"?", choiceA: "Jungle squirrel", choiceB: "Wolf of Wellington", choiceC: "Pocket fox", choiceD: "Financial panther", answer: 3))
+        qList.append(Question(image: "churchmascot.jpg", questionText: "Which character is invited to speak on the \"sanctity of deliciousness\" at the commercialized First Church of Springfield?", choiceA: "The Noid", choiceB: "Ronald McDonald", choiceC: "Mr. Peanut", choiceD: "Tony the Tiger", answer: 1))
+        qList.append(Question(image: "worldsfattest.jpg", questionText: "When Springfield is declared the world's fattest town, how many pounds do its citizens weigh on a scale?", choiceA: "51,362 pounds", choiceB: "60,555 pounds", choiceC: "64,152 pounds", choiceD: "85,965 pounds", answer: 3))
+        qList.append(Question(image: "jawtalkshow.jpg", questionText: "What is the name of the talk show Homer and Marge appear on to discuss how a broken jaw made Homer a better man?", choiceA: "\"Gentle Ben\"", choiceB: "\"Afternoon Yak\"", choiceC: "\"Smartline\"", choiceD: "\"The Blew\"", answer: 2))
+        qList.append(Question(image: "halfdecentproposal.jpg", questionText: "What issue of Homer's causes Marge to accept a $1 million proposal to spend a weekend with Artie Ziff?", choiceA: "Sleepwalking", choiceB: "Heartburn", choiceC: "Flatulence", choiceD: "Snoring", answer: 4))
+        qList.append(Question(image: "buckmccoy.jpg", questionText: "Which actor voices Buck McCoy, a retired Western actor that Bart comes to idolize?", choiceA: "Lee Marvin", choiceB: "Clint Eastwood", choiceC: "Paul Newman", choiceD: "Dennis Weaver", answer: 4))
+        qList.append(Question(image: "brazilorphan.jpg", questionText: "What is the name of the orphaned boy that Lisa and the Simpsons travel to Brazil to find?", choiceA: "Eduardo", choiceB: "Ronaldo", choiceC: "Cesar", choiceD: "Pedro", answer: 2))
+        qList.append(Question(image: "homerpot.jpg", questionText: "Homer is prescribed medicinal marijuana after suffering injuries to which body part?", choiceA: "Eyes", choiceB: "Feet", choiceC: "Ears", choiceD: "Hands", answer: 1))
         
         // SEASON 14
         qList.append(Question(image: "fantasycamp.jpg", questionText: "Which of these musicians was NOT an instructor at the rock 'n' roll fantasy camp Homer attends?", choiceA: "Dave Grohl", choiceB: "Lenny Kravitz", choiceC: "Tom Petty", choiceD: "Brian Setzer", answer: 1))
@@ -405,7 +415,7 @@ class QuestionBank{
         qList.append(Question(image: "quimbyrecall.jpg", questionText: "Which of these characters was NOT a candidate for mayor of Springfield when Mayor Quimby faced a recall?", choiceA: "Crazy Cat Lady", choiceB: "Ned Flanders", choiceC: "Rainier Wolfcastle", choiceD: "Jimbo Jones", answer: 2))
         qList.append(Question(image: "italianbob.jpg", questionText: "What is the name of the Italian village where Sideshow Bob became mayor?", choiceA: "Salsiccia", choiceB: "Mortadella", choiceC: "Fasterossa", choiceD: "Florencia", answer: 1))
         qList.append(Question(image: "masonfairbanks.jpg", questionText: "Which actor provides the voice of Mason Fairbanks, the man that Homer believes might be his real father?", choiceA: "Michael Caine", choiceB: "Eric Idle", choiceC: "Ricky Gervais", choiceD: "Michael York", answer: 4))
-        qList.append(Question(image: "bartairplane.jpg", questionText: "Bart once forced a jet to fly back to which city because he removed his seat belt too early?", choiceA: "Atlanta", choiceB: "New York", choiceC: "Minneapolis", choiceD: "San Francisco", answer: 3))
+        qList.append(Question(image: "bartairplane.jpg", questionText: "Bart once forced a jet to fly back to which city because he unbuckled his seat belt too early?", choiceA: "Atlanta", choiceB: "New York", choiceC: "Minneapolis", choiceD: "San Francisco", answer: 3))
         qList.append(Question(image: "burnsscavenger.jpg", questionText: "Mr. Burns briefly lost all his possessions after losing a scavenger hunt to whom?", choiceA: "Artie Ziff", choiceB: "The Rich Texan", choiceC: "Kent Brockman", choiceD: "Aristotle Amadopolis", answer: 2))
         qList.append(Question(image: "marriagecounseling.jpg", questionText: "What is the name of the Isotopes player who seeks marriage counseling from Homer and Marge?", choiceA: "Harry Bonds", choiceB: "Biff Maguire", choiceC: "Babe Ruth III", choiceD: "Buck Mitchell", answer: 4))
         
@@ -414,6 +424,10 @@ class QuestionBank{
         
         
         // UNSORTED
+        
+        
+        
+        
         
         
     }
