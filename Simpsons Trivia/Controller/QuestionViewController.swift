@@ -235,35 +235,7 @@ class QuestionViewController: UIViewController, GKGameCenterControllerDelegate {
     }
 }
 
-extension UIButton {
-    open override func draw(_ rect: CGRect) {
-        self.layer.cornerRadius = bounds.size.height / 2
-        self.clipsToBounds = true        
-    }
-}
 
-extension UIView {
-
-    func fadeOutView() {
-        UIView.animate(withDuration: 0.3, delay: 0.5, options: UIViewAnimationOptions.curveEaseOut, animations: {
-            self.alpha = 0.0
-        }, completion: nil)
-    }
-    
-    func pulseEffect(view: UIView, animationTime: Float)
-    {
-        UIView.animate(withDuration: TimeInterval(animationTime), animations: {
-            
-            view.transform = CGAffineTransform(scaleX: 1.1, y: 1.1)
-            
-        },completion:{completion in
-            UIView.animate(withDuration: TimeInterval(animationTime), animations: { () -> Void in
-                
-                view.transform = CGAffineTransform(scaleX: 1, y: 1)
-            })
-        })
-    }
-}
 
 extension UIFont {
     var bold: UIFont {

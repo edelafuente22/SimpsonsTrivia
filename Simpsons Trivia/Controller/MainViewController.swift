@@ -77,25 +77,3 @@ class MainViewController: UIViewController, GKGameCenterControllerDelegate {
     }
     
 }
-
-extension UIView {
-    func fadeInTitle() {
-        UIView.animate(withDuration: 1.0, delay: 1.0, options: UIViewAnimationOptions.curveEaseIn, animations: {
-            self.alpha = 1.0
-        }, completion: nil)
-    }
-    
-    func fadeInLabel() {
-        UIView.animate(withDuration: 0.2, delay: 2.0, options: UIViewAnimationOptions.curveEaseIn, animations: {
-            self.alpha = 1.0
-        }, completion: nil)
-    }
-    
-    func fadeInButton() {
-        UIView.animate(withDuration: 1.0, delay: 2.5, options: UIViewAnimationOptions.curveEaseIn, animations: {
-            self.alpha = 1.0
-        }, completion: nil)
-    }
-
-}
-

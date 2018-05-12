@@ -122,7 +122,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="815.20000000000005" y="133.5832083958021"/>
+            <point key="canvasLocation" x="858" y="134"/>
         </scene>
         <!--Game Information-->
         <scene sceneID="3Nt-Ad-a1h">
@@ -163,7 +163,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ItY-Fa-gOY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="813.04347826086962" y="965.21739130434787"/>
+            <point key="canvasLocation" x="857" y="912"/>
         </scene>
         <!--Question View Controller-->
         <scene sceneID="cdf-FM-8w3">
@@ -339,7 +339,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="9fv-66-SSL">
-                                <rect key="frame" x="27" y="45" width="320" height="214"/>
+                                <rect key="frame" x="27" y="40" width="320" height="214"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="9fv-66-SSL" secondAttribute="height" multiplier="359:240" id="N11-zm-Pob"/>
                                 </constraints>
@@ -402,7 +402,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="9fv-66-SSL" firstAttribute="top" secondItem="Zc6-n4-CxN" secondAttribute="top" constant="25" id="0Gm-z1-gPw"/>
+                            <constraint firstItem="9fv-66-SSL" firstAttribute="top" secondItem="Zc6-n4-CxN" secondAttribute="top" constant="20" id="0Gm-z1-gPw"/>
                             <constraint firstItem="Lgf-W8-X3w" firstAttribute="leading" secondItem="Zc6-n4-CxN" secondAttribute="leading" constant="27" id="4i0-1g-ON4"/>
                             <constraint firstItem="lVa-o2-8m1" firstAttribute="leading" secondItem="Zc6-n4-CxN" secondAttribute="leading" constant="15" id="8Xh-Sn-ZCA"/>
                             <constraint firstItem="Zc6-n4-CxN" firstAttribute="trailing" secondItem="HxH-9f-nbv" secondAttribute="trailing" constant="20" id="AKt-XE-UEE"/>
@@ -414,10 +414,10 @@
                             <constraint firstItem="9fv-66-SSL" firstAttribute="leading" secondItem="Zc6-n4-CxN" secondAttribute="leading" constant="27" id="b9Z-Jz-Pgc"/>
                             <constraint firstItem="qzH-h4-5zJ" firstAttribute="leading" secondItem="Zc6-n4-CxN" secondAttribute="leading" constant="20" id="ce2-PD-y22"/>
                             <constraint firstItem="Zc6-n4-CxN" firstAttribute="trailing" secondItem="qzH-h4-5zJ" secondAttribute="trailing" constant="20" id="e2c-pc-MKN"/>
-                            <constraint firstItem="lVa-o2-8m1" firstAttribute="top" secondItem="9fv-66-SSL" secondAttribute="bottom" constant="22" id="fGQ-mu-Qcf"/>
+                            <constraint firstItem="lVa-o2-8m1" firstAttribute="top" secondItem="9fv-66-SSL" secondAttribute="bottom" constant="20" id="fGQ-mu-Qcf"/>
                             <constraint firstItem="HxH-9f-nbv" firstAttribute="leading" secondItem="Zc6-n4-CxN" secondAttribute="leading" constant="20" id="lvR-Al-MKI"/>
                             <constraint firstItem="Zc6-n4-CxN" firstAttribute="trailing" secondItem="Lgf-W8-X3w" secondAttribute="trailing" constant="27" id="qaM-za-ffa"/>
-                            <constraint firstItem="HxH-9f-nbv" firstAttribute="top" secondItem="Lgf-W8-X3w" secondAttribute="bottom" priority="999" constant="130" id="tYT-tE-nKE"/>
+                            <constraint firstItem="HxH-9f-nbv" firstAttribute="top" relation="lessThanOrEqual" secondItem="Lgf-W8-X3w" secondAttribute="bottom" priority="999" constant="125" id="tYT-tE-nKE"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Zc6-n4-CxN"/>
                     </view>
