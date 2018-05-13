@@ -57,7 +57,7 @@ class QuestionViewController: UIViewController, GKGameCenterControllerDelegate {
         super.viewDidLoad()
         updateQuestion()
         updateHeader()
-        print(questionArray)
+        
         scoreLabel.format = "Score: %d"
         
     }
@@ -180,6 +180,7 @@ class QuestionViewController: UIViewController, GKGameCenterControllerDelegate {
         }
     }
     
+    // FOR BACKGROUND TIMER
     func startTimer() {
          timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: (#selector(QuestionViewController.updateTimer)), userInfo: nil, repeats: true)
     }
@@ -211,6 +212,7 @@ class QuestionViewController: UIViewController, GKGameCenterControllerDelegate {
         }
     }
     
+    // FOR CALCULATING SCORE
     func startScoreTimer() {
         scoreTimer = Timer.scheduledTimer(timeInterval: 0.01, target: self, selector: (#selector(QuestionViewController.updateScoreTimer)), userInfo: nil, repeats: true)
     }
@@ -233,29 +235,4 @@ class QuestionViewController: UIViewController, GKGameCenterControllerDelegate {
     func gameCenterViewControllerDidFinish(_ gameCenterViewController: GKGameCenterViewController) {
         gameCenterViewController.dismiss(animated: true, completion: nil)
     }
-}
-
-
-
-extension UIFont {
-    var bold: UIFont {
-        return with(traits: .traitBold)
-    } // bold
-    
-    var italic: UIFont {
-        return with(traits: .traitItalic)
-    } // italic
-    
-    var boldItalic: UIFont {
-        return with(traits: [.traitBold, .traitItalic])
-    } // boldItalic
-    
-    
-    func with(traits: UIFontDescriptorSymbolicTraits) -> UIFont {
-        guard let descriptor = self.fontDescriptor.withSymbolicTraits(traits) else {
-            return self
-        } // guard
-        
-        return UIFont(descriptor: descriptor, size: 0)
-    } // with(traits:)
 }

@@ -344,14 +344,17 @@
                                     <constraint firstAttribute="width" secondItem="9fv-66-SSL" secondAttribute="height" multiplier="359:240" id="N11-zm-Pob"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="PERFECTION!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lVa-o2-8m1">
-                                <rect key="frame" x="15" y="281" width="345" height="36"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PERFECTION!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lVa-o2-8m1">
+                                <rect key="frame" x="15" y="274" width="345" height="36"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="36" id="LR3-Y7-gDn"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
                                 <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="You got a score of 8 out of 12! You get the Monty Burns Award for Outstanding Achievement in the Field of Excellence." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lgf-W8-X3w">
-                                <rect key="frame" x="27" y="337" width="321" height="59.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You got a score of 8 out of 12! You get the Monty Burns Award for Outstanding Achievement in the Field of Excellence." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lgf-W8-X3w">
+                                <rect key="frame" x="27" y="330" width="321" height="82"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -417,7 +420,7 @@
                             <constraint firstItem="lVa-o2-8m1" firstAttribute="top" secondItem="9fv-66-SSL" secondAttribute="bottom" constant="20" id="fGQ-mu-Qcf"/>
                             <constraint firstItem="HxH-9f-nbv" firstAttribute="leading" secondItem="Zc6-n4-CxN" secondAttribute="leading" constant="20" id="lvR-Al-MKI"/>
                             <constraint firstItem="Zc6-n4-CxN" firstAttribute="trailing" secondItem="Lgf-W8-X3w" secondAttribute="trailing" constant="27" id="qaM-za-ffa"/>
-                            <constraint firstItem="HxH-9f-nbv" firstAttribute="top" relation="lessThanOrEqual" secondItem="Lgf-W8-X3w" secondAttribute="bottom" priority="999" constant="125" id="tYT-tE-nKE"/>
+                            <constraint firstItem="HxH-9f-nbv" firstAttribute="top" relation="lessThanOrEqual" secondItem="Lgf-W8-X3w" secondAttribute="bottom" constant="125" id="tYT-tE-nKE"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Zc6-n4-CxN"/>
                     </view>
@@ -456,6 +459,7 @@
         <image name="title2" width="365" height="168"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="lah-OZ-scv"/>
         <segue reference="6rG-74-1vb"/>
     </inferredMetricsTieBreakers>
 </document>
