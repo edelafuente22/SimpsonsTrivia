@@ -45,7 +45,6 @@ class QuestionViewController: UIViewController, GKGameCenterControllerDelegate {
     var scoreTimer = Timer()
     var questionTotal: Int = 0
     var pointTotal: Int = 0
-    var scoreTimerLeft: Int = 0
     var isScoreTimerRunning = false
     
     // GAME CENTER
@@ -88,6 +87,7 @@ class QuestionViewController: UIViewController, GKGameCenterControllerDelegate {
             optionC.setTitle(allQuestions.qList[questionNumber].optionC, for: .normal)
             optionD.setTitle(allQuestions.qList[questionNumber].optionD, for: .normal)
             
+            // ENABLING BUTTONS
             optionA.isEnabled = true
             optionB.isEnabled = true
             optionC.isEnabled = true
@@ -118,6 +118,7 @@ class QuestionViewController: UIViewController, GKGameCenterControllerDelegate {
         self.timeLeft = 15
         self.questionTotal = 1500
         
+        // SETUP CODE FOR COUNTDOWN TIMER COCOAPOD
         countdownTimer.center.x = self.view.center.x
         countdownTimer.alpha = 1.0
         countdownTimer.pulseEffect(view: countdownTimer, animationTime: 0.3)
