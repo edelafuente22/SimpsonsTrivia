@@ -387,7 +387,7 @@ class QuestionBank{
         qList.append(Question(image: "oldthreestooges.jpg", questionText: "What is the title of the \"very late\" episode of \"The Three Stooges\" that Homer and Bart watch?", choiceA: "\"Brittle Boneheads\"", choiceB: "\"Old and Cranky\"", choiceC: "\"So Very Tired\"", choiceD: "\"Fragile Follies\"", answer: 1))
         qList.append(Question(image: "barthoodornament.jpg", questionText: "Attempting to restore his popularity, Bart attempts to steal a hood ornament off whose car?", choiceA: "Mayor Quimby", choiceB: "Fat Tony", choiceC: "Superintendent Chalmers", choiceD: "Kent Brockman", answer: 2))
         
-        // SEASON 15 - 12
+        // SEASON 15 - 22
         qList.append(Question(image: "lisaprez.jpg", questionText: "The episode \"The President Wore Pearls,\" in which Lisa becomes class president, is a parody of which Broadway musical?", choiceA: "Evita", choiceB: "Chicago", choiceC: "The Music Man", choiceD: "Phantom of the Opera", answer: 1))
         qList.append(Question(image: "secondhoneymoon.jpg", questionText: "What is the name of the airline Homer and Marge board for a flight to Miami and an impromptu second honeymoon?", choiceA: "Crazy Clown Airlines", choiceB: "Budget SkyBus", choiceC: "Suntan Airlines", choiceD: "United Airlines", answer: 3))
         qList.append(Question(image: "classprez.jpg", questionText: "Which of Springfield Elementary's students is forced to resign as class president after a disastrous casino night?", choiceA: "Bart", choiceB: "Martin", choiceC: "Nelson", choiceD: "Janey", answer: 2))
@@ -400,6 +400,16 @@ class QuestionBank{
         qList.append(Question(image: "pieman.jpg", questionText: "Which of these characters was NOT a recipient of a pie to the face by Pie Man?", choiceA: "Comic Book Guy", choiceB: "Krusty", choiceC: "The Rich Texan", choiceD: "Chief Wiggum", answer: 4))
         qList.append(Question(image: "younghomermarge.jpg", questionText: "Homer and Marge discover that they met – and kissed – as kids while Homer was attending which camp?", choiceA: "Camp See-A-Tree", choiceB: "Kamp Krusty", choiceC: "Camp Land-A-Man", choiceD: "Camp Flab-Away", answer: 1))
         qList.append(Question(image: "reddresspress.jpg", questionText: "Which of the kids who worked with Lisa on the \"Red Dress Press\" wound up writing for the Chicago Tribune?", choiceA: "Bart", choiceB: "Milhouse", choiceC: "Ralph", choiceD: "Martin", answer: 3))
+        qList.append(Question(image: "monahitchhike.jpg", questionText: "After Mona Simpson eluded police capture and was picked up as a hitchhiker, what dish did she say they ate?", choiceA: "Macaroni and cheese", choiceB: "Lobster rolls", choiceC: "Rhode Island clam chowder", choiceD: "Chicken cacciatore", answer: 3))
+        qList.append(Question(image: "studentstrike.jpg", questionText: "When Lisa calls for a general student strike at Springfield Elementary, which of these unions does NOT join in the cause?", choiceA: "United Federation of Theme Park Zombies", choiceB: "Piano Tuners Local 412", choiceC: "Springfield Goat Milkers", choiceD: "Association of Newsroom Cue Card Holders", answer: 2))
+        qList.append(Question(image: "homerqueen.jpg", questionText: "What does Homer think the \"H.R.H.\" on the Queen of England's luggage stands for?", choiceA: "Harriet Rae Highness", choiceB: "Homerina R. Hotrod", choiceC: "Henrietta R. Hippo", choiceD: "Her Royal Heartbreaker", answer: 3))
+        qList.append(Question(image: "homersecretsanta.jpg", questionText: "During Secret Santa exchanges at the nuclear power plant, Mr. Burns gives Homer a baseball card of which player?", choiceA: "Tris Speaker", choiceB: "Ty Cobb", choiceC: "Ernie Banks", choiceD: "Joe DiMaggio", answer: 4))
+        qList.append(Question(image: "sistercity.jpg", questionText: "After a riot breaks out at a children's concert, which city refuses to continue as Springfield's sister city?", choiceA: "Kabul", choiceB: "Baghdad", choiceC: "Jerusalem", choiceD: "Venice", answer: 1))
+        qList.append(Question(image: "robotrumble.jpg", questionText: "What is the name of the robot Bart and Homer build for the show \"Robot Rumble\"?", choiceA: "The Bart Masher", choiceB: "Buzzkill", choiceC: "Chief Knock-A-Homer", choiceD: "Smashus Clay", answer: 3))
+        qList.append(Question(image: "lisarunaway.jpg", questionText: "When Lisa runs away after finding out Maggie has a higher IQ than her, where does she stay?", choiceA: "Milhouse's house", choiceB: "Springfield Elementary School", choiceC: "Professor Frink's lab", choiceD: "Natural History Museum", answer: 4))
+        qList.append(Question(image: "homerfirstclass.jpg", questionText: "When Homer and Marge are upgraded to first class on a flight, what magazine does Homer boast about reading?", choiceA: "The New Yorker", choiceB: "The Economist", choiceC: "The Atlantic", choiceD: "Vanity Fair", answer: 2))
+        qList.append(Question(image: "burnspieman.jpg", questionText: "When Homer, as the Pie Man, is forced to work for Mr. Burns, who is the first person he must pie?", choiceA: "Himself", choiceB: "Lisa", choiceC: "The Rich Texan", choiceD: "The Dalai Lama", answer: 1))
+        qList.append(Question(image: "reeducation.jpg", questionText: "At the re-education center where the Simpsons are taken for being unpatriotic, which children's character is seen as a prisoner?", choiceA: "Dora the Explorer", choiceB: "Big Bird", choiceC: "Barney the dinosaur", choiceD: "Elmo", answer: 4))
         
         // SEASON 16 - 12
         qList.append(Question(image: "homerathletes.jpg", questionText: "Which of these athletes did NOT attend Homer's Showboating Academy?", choiceA: "Tom Brady", choiceB: "LeBron James", choiceC: "Stephen Curry", choiceD: "Michelle Kwan", answer: 3))
@@ -408,7 +418,7 @@ class QuestionBank{
         qList.append(Question(image: "bakeoff.jpg", questionText: "Despite sabotaging most of the entries, Marge loses the Auntie Ovenfresh Bake-Off to whom?", choiceA: "Brandine Spuckler", choiceB: "Agnes Skinner", choiceC: "Cookie Kwan", choiceD: "Luigi Risotto", answer: 1))
         qList.append(Question(image: "chloeboyfriend.jpg", questionText: "Who is the ex-boyfriend of Chloe Talbot, the former Springfielder who became a famous journalist?", choiceA: "Moe Szyzlak", choiceB: "Sideshow Mel", choiceC: "Barney Gumble", choiceD: "Lenny Leonard", answer: 3))
         qList.append(Question(image: "britishpub.jpg", questionText: "When Marge partners with Moe to rebrand his bar as a British pub, what do they name it?", choiceA: "Tom O'Flanagan's", choiceB: "The Nag and Weasel", choiceC: "Moe's British Brewing Co.", choiceD: "The Union Jack", answer: 2))
-        qList.append(Question(image: "showboater.jpg", questionText: "What is the name of the (fictional) football player that seeks Homer's help to learn how to showboat?", choiceA: "Stan Taylor", choiceB: "Warren Snapp", choiceC: "Anton Lubchenko", choiceD: "Deion Overstreet", answer: 4))
+        qList.append(Question(image: "showboater.jpg", questionText: "What is the name of the fictional football player that seeks Homer's help to learn how to showboat?", choiceA: "Stan Taylor", choiceB: "Warren Snapp", choiceC: "Anton Lubchenko", choiceD: "Deion Overstreet", answer: 4))
         qList.append(Question(image: "bartkidnap.jpg", questionText: "When Bart fakes his kidnapping after attending a rap concert, who gets arrested for the crime?", choiceA: "Barney Gumble", choiceB: "Kirk Van Houten", choiceC: "Cletus Spuckler", choiceD: "Rainier Wolfcastle", answer: 2))
         qList.append(Question(image: "homerray.jpg", questionText: "What is the name of the bar at which Homer meets roofer Ray Magini?", choiceA: "The Little Black Box", choiceB: "Beer 'N' Brawl", choiceC: "Knockers", choiceD: "The Whiny Dog", answer: 3))
         qList.append(Question(image: "selmamenopause.jpg", questionText: "When Selma finds out she has reached menopause, Dr. Hibbert shows her a video hosted by which actor?", choiceA: "Ray Romano", choiceB: "Ben Stiller", choiceC: "Gary Busey", choiceD: "Robert Wagner", answer: 4))
@@ -434,8 +444,6 @@ class QuestionBank{
         
         
         // UNSORTED
-        
-        
         
         
     }
