@@ -433,9 +433,9 @@ class QuestionBank{
         qList.append(Question(image: "catholicschool.jpg", questionText: "What is the name of the Catholic school Bart enrolls in after being expelled from Springfield Elementary?", choiceA: "St. Paul's", choiceB: "Mother Teresa's", choiceC: "Pope Pius IX's", choiceD: "St. Jerome's", answer: 4))
         qList.append(Question(image: "medievalfestival.jpg", questionText: "When Springfield Elementary holds a medieval festival, which student is named king?", choiceA: "Bart", choiceB: "Nelson", choiceC: "Martin", choiceD: "Jimbo", answer: 3))
         qList.append(Question(image: "muntzdad.jpg", questionText: "Nelson's father reveals that his absence from the Muntz family was triggered by an allergy to which food?", choiceA: "Shrimp", choiceB: "Eggs", choiceC: "Cashews", choiceD: "Peanuts", answer: 4))
-        qList.append(Question(image: "jendavoice.jpg", questionText: "Which actress provides the voice of Jenda, Bart's girlfriend as a high schooler?", choiceA: "Reese Witherspoon", choiceB: "Amy Poehler", choiceC: "Natalie Portman", choiceD: "Tina Fey", answer: 2))
+        qList.append(Question(image: "jendavoice.jpg", questionText: "Which actress provides the voice of Jenda, Bart's girlfriend in high school?", choiceA: "Reese Witherspoon", choiceB: "Amy Poehler", choiceC: "Natalie Portman", choiceD: "Tina Fey", answer: 2))
         
-        // SEASON 17 - 12
+        // SEASON 17 - 22
         qList.append(Question(image: "bartchimp.jpg", questionText: "What is the name of the chimpanzee that kidnaps Bart?", choiceA: "Jub-Jub", choiceB: "Wimpy", choiceC: "Toot-Toot", choiceD: "Mrs. Teeny", answer: 3))
         qList.append(Question(image: "lisaboy.jpg", questionText: "When Springfield Elementary is divided by gender, Lisa adopts which pseudonym in order to attend the boys' school?", choiceA: "Jimmy Toilet", choiceB: "Jake Boyman", choiceC: "Rembrandt Q. Einstein", choiceD: "Johnny Rainbow", answer: 2))
         qList.append(Question(image: "carltattoo.jpg", questionText: "According to Carl, he has a tattoo of which Looney Tunes character on his right thigh?", choiceA: "Yosemite Sam", choiceB: "Foghorn Leghorn", choiceC: "Elmer Fudd", choiceD: "Daffy Duck", answer: 2))
@@ -448,12 +448,23 @@ class QuestionBank{
         qList.append(Question(image: "bartairplane.jpg", questionText: "Bart once forced a jet to fly back to which city because he unbuckled his seat belt too early?", choiceA: "Atlanta", choiceB: "New York", choiceC: "Minneapolis", choiceD: "San Francisco", answer: 3))
         qList.append(Question(image: "burnsscavenger.jpg", questionText: "Mr. Burns briefly lost all his possessions after losing a scavenger hunt to whom?", choiceA: "Artie Ziff", choiceB: "The Rich Texan", choiceC: "Kent Brockman", choiceD: "Aristotle Amadopolis", answer: 2))
         qList.append(Question(image: "marriagecounseling.jpg", questionText: "What is the name of the Isotopes player who seeks marriage counseling from Homer and Marge?", choiceA: "Harry Bonds", choiceB: "Biff Maguire", choiceC: "Babe Ruth III", choiceD: "Buck Mitchell", answer: 4))
+        qList.append(Question(image: "santasvillage.jpg", questionText: "When Marge and the kids visit Santa's Village, Bart encounters a man dressed as Santa reading what novel?", choiceA: "\"The Corrections\" by Jonathan Franzen", choiceB: "\"Op-Center\" by Tom Clancy", choiceC: "\"Gravity's Rainbow\" by Thomas Pynchon", choiceD: "\"It\" by Stephen King", answer: 2))
+        qList.append(Question(image: "milhousenana.jpg", questionText: "What is the name of Milhouse's grandmother who lives in Italy?", choiceA: "Julia", choiceB: "Diana", choiceC: "Louisa", choiceD: "Sophie", answer: 4))
+        qList.append(Question(image: "lefthanders.jpg", questionText: "Which famous left-handed athlete does Ned Flanders meet at the Left-Handers Convention?", choiceA: "Steve Young", choiceB: "Sandy Koufax", choiceC: "Randy Johnson", choiceD: "Ken Stabler", answer: 3))
+        qList.append(Question(image: "williewaiter.jpg", questionText: "After Lisa transforms Groundskeeper Willie into a \"perfect gentleman,\" he gets a job at which restaurant?", choiceA: "The Gilded Truffle", choiceB: "The Pimento Grove", choiceC: "The Singing Sirloin", choiceD: "Madame Chao's", answer: 1))
+        qList.append(Question(image: "indiabook.jpg", questionText: "What is the title of the book about management Marge gives Homer after his job is transferred to India?", choiceA: "\"7 Habits of Highly Effective Nerds\"", choiceB: "\"The Answer\"", choiceC: "\"The Outsourcer's Dilemma\"", choiceD: "\"The Cereal Is The Prize\"", answer: 4))
+        qList.append(Question(image: "pattyselmarda.jpg", questionText: "Patty and Selma bore Richard Dean Anderson by showing him slides from their visit to a museum of what type of vehicle?", choiceA: "Locomotives", choiceB: "Carriages", choiceC: "Bulldozers", choiceD: "Police cars", answer: 2))
+        qList.append(Question(image: "lisaboyfight.jpg", questionText: "While dressed as a boy at the all-boys side of Springfield Elementary, Lisa wins respect after picking a fight with whom?", choiceA: "Nelson", choiceB: "Database", choiceC: "Ralph", choiceD: "Martin", answer: 3))
+        qList.append(Question(image: "curbaddress.jpg", questionText: "Homer turns an unfinished address number on his curb into a tribute to which baseball team?", choiceA: "Oakland Athletics", choiceB: "New York Yankees", choiceC: "Los Angeles Dodgers", choiceD: "Boston Red Sox", answer: 1))
+        qList.append(Question(image: "snakeson.jpg", questionText: "What is the name of Snake's son?", choiceA: "Joseph", choiceB: "Jeremy", choiceC: "Jackson", choiceD: "Jonathan", answer: 2))
+        qList.append(Question(image: "largoschool.jpg", questionText: "Music teacher Mr. Largo learns from a long-lost letter that he had been accepted into which prestigious school?", choiceA: "Harvard", choiceB: "Peabody Institute", choiceC: "Oxford College", choiceD: "Juilliard", answer: 4))
         
         // SEASON 22
 //        qList.append(Question(image: "nobelprize.jpg", questionText: "Which figure named in a Nobel Prize betting pool actually did win the Nobel Prize several years later?", choiceA: "Vers Rubin", choiceB: "Bengt Holmstrom", choiceC: "Richard Zare", choiceD: "Jagdish Bhagwati", answer: 2))
         
         
         // UNSORTED
+        
         
     }
     
