@@ -124,10 +124,10 @@
             </objects>
             <point key="canvasLocation" x="858" y="134"/>
         </scene>
-        <!--Game Information-->
+        <!--FAQ-->
         <scene sceneID="3Nt-Ad-a1h">
             <objects>
-                <viewController storyboardIdentifier="Rules" title="Game Information" id="2V4-8g-5D7" customClass="RulesViewController" customModule="Simpsons_Trivia" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Rules" title="FAQ" id="2V4-8g-5D7" customClass="RulesViewController" customModule="Simpsons_Trivia" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="jOG-GG-Ha1">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -459,7 +459,6 @@
         <image name="title2" width="365" height="168"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="lah-OZ-scv"/>
         <segue reference="6rG-74-1vb"/>
     </inferredMetricsTieBreakers>
 </document>

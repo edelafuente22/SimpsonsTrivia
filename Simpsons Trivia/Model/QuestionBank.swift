@@ -16,7 +16,7 @@ class QuestionBank{
         qList.append(Question(image: "misshoover.jpg", questionText: "What is the first name of Miss Hoover, Lisa's teacher at Springfield Elementary?", choiceA: "Jane", choiceB: "Elizabeth", choiceC: "Edna", choiceD: "Agnes", answer: 2))
         qList.append(Question(image: "lifelongdream.jpg", questionText: "Which of these is NOT a lifelong dream that Homer has achieved (and Marge has reminded him about)?", choiceA: "Run onto the field at a baseball game", choiceB: "Own the Denver Broncos", choiceC: "Eat the world's biggest hoagie", choiceD: "Appear on \"The Gong Show\"", answer: 2))
         qList.append(Question(image: "fattony.jpg", questionText: "Fat Tony is voiced by which actor?", choiceA: "Al Pacino", choiceB: "Joe Mantegna", choiceC: "Andy Garcia", choiceD: "Benicio del Toro", answer: 2))
-        qList.append(Question(image: "troymcclure.jpg", questionText: "Which of these is NOT a movie Troy McClure has starred in?", choiceA: "The Greatest Story Ever Hula-ed", choiceB: "The Verdict Was Mail Fraud", choiceC: "Dial M For Murderousness", choiceD: "McBain 4: Fatal Discharge", answer: 4))
+        qList.append(Question(image: "troymcclure.jpg", questionText: "Which of these is NOT a movie Troy McClure has starred in?", choiceA: "\"The Greatest Story Ever Hula-ed\"", choiceB: "\"The Verdict Was Mail Fraud\"", choiceC: "\"Dial M For Murderousness\"", choiceD: "\"McBain 4: Fatal Discharge\"", answer: 4))
         qList.append(Question(image: "margeruth.jpg", questionText: "Which of these activities has Marge NOT done with neighbor Ruth Powers?", choiceA: "Watch a demolition derby", choiceB: "Shoot guns", choiceC: "Enter a bodybuilding contest", choiceD: "Attend an opera", answer: 1))
         qList.append(Question(image: "sherriterri.jpg", questionText: "What is the last name of twin sisters Sherri and Terri?", choiceA: "Mackleberry", choiceB: "Boberry", choiceC: "McErrey", choiceD: "Gary", answer: 1))
         qList.append(Question(image: "documentarian.jpg", questionText: "What is the name of the film director who has made documentaries about Springfield's residents?", choiceA: "Blair Rottenberry", choiceB: "Nigel Pennyfeather", choiceC: "Declan Desmond", choiceD: "Desmond Kensington", answer: 3))
@@ -280,7 +280,7 @@ class QuestionBank{
         qList.append(Question(image: "eurodollywood.jpg", questionText: "According to travel agent Wally Kogen, in which state is Dolly Parton's \"Euro-Dollywood\" located?", choiceA: "Tennessee", choiceB: "Mississippi", choiceC: "Florida", choiceD: "Alabama", answer: 4))
         qList.append(Question(image: "homerartist.jpg", questionText: "Which of these is NOT the title of a piece created by Homer during his time as an outsider artist?", choiceA: "\"Grand Canals of Springfield\"", choiceB: "\"The Grill of Anguish\"", choiceC: "\"Attempted Birdhouse I\"", choiceD: "\"Botched Hibachi\"", answer: 2))
         qList.append(Question(image: "beertap.jpg", questionText: "What was the final appraised value of an old beer tap Moe owned that had \"Homer rocks\" carved on the handle?", choiceA: "$15", choiceB: "$75", choiceC: "$129.99", choiceD: "$20,000", answer: 1))
-        qList.append(Question(image: "edenunicorn.jpg", questionText: "In the episode \"Simpsons Bible Stories\", what did God name his unicorn in the Garden of Eden?", choiceA: "Joshua", choiceB: "Paul", choiceC: "Fido", choiceD: "Gary", answer: 4))
+        qList.append(Question(image: "edenunicorn.jpg", questionText: "In the episode \"Simpsons Bible Stories,\" what did God name his unicorn in the Garden of Eden?", choiceA: "Joshua", choiceB: "Paul", choiceC: "Fido", choiceD: "Gary", answer: 4))
         
         // SEASON 11 - 25
         qList.append(Question(image: "maudedeath.jpg", questionText: "How did Maude Flanders die?", choiceA: "Run over by Homer's car", choiceB: "Fell into Springfield Gorge", choiceC: "Struck by lightning while praying", choiceD: "Struck by barrage of T-shirts", answer: 4))
@@ -411,7 +411,7 @@ class QuestionBank{
         qList.append(Question(image: "burnspieman.jpg", questionText: "When Homer, as the Pie Man, is forced to work for Mr. Burns, who is the first person he must pie?", choiceA: "Himself", choiceB: "Lisa", choiceC: "The Rich Texan", choiceD: "The Dalai Lama", answer: 1))
         qList.append(Question(image: "reeducation.jpg", questionText: "At the re-education center where the Simpsons are taken for being unpatriotic, which children's character is seen as a prisoner?", choiceA: "Dora the Explorer", choiceB: "Big Bird", choiceC: "Barney the dinosaur", choiceD: "Elmo", answer: 4))
         
-        // SEASON 16 - 12
+        // SEASON 16 - 22
         qList.append(Question(image: "homerathletes.jpg", questionText: "Which of these athletes did NOT attend Homer's Showboating Academy?", choiceA: "Tom Brady", choiceB: "LeBron James", choiceC: "Stephen Curry", choiceD: "Michelle Kwan", answer: 3))
         qList.append(Question(image: "comicbookguy.jpg", questionText: "What is Comic Book Guy's real name?", choiceA: "Langdon Alger", choiceB: "Louis Lane", choiceC: "Jeff Albertson", choiceD: "Armin Tamzarian", answer: 3))
         qList.append(Question(image: "nedmove.jpg", questionText: "When Ned Flanders gets fed up with Homer and moves away, which town does he relocate to?", choiceA: "Humbleton, Pennsylvania", choiceB: "Flanders, Illinois", choiceC: "Okilly, Oklahoma", choiceD: "Hollywood, California", answer: 1))
@@ -424,6 +424,16 @@ class QuestionBank{
         qList.append(Question(image: "selmamenopause.jpg", questionText: "When Selma finds out she has reached menopause, Dr. Hibbert shows her a video hosted by which actor?", choiceA: "Ray Romano", choiceB: "Ben Stiller", choiceC: "Gary Busey", choiceD: "Robert Wagner", answer: 4))
         qList.append(Question(image: "youthhostel.jpg", questionText: "After the Simpsons turn their home into a youth hostel, citizens from which country come to stay there?", choiceA: "Austria", choiceB: "Germany", choiceC: "Switzerland", choiceD: "Russia", answer: 2))
         qList.append(Question(image: "johnnyrainbow.jpg", questionText: "What is the first name of the \"Li'l Starmaker\" contestant Homer begins managing after a falling out with Lisa?", choiceA: "Cameron", choiceB: "Lance", choiceC: "Joseph", choiceD: "Chase", answer: 1))
+        qList.append(Question(image: "playdudeparty.jpg", questionText: "When Bart and Milhouse throw a \"Playdude party\" at the treehouse, which actor attends?", choiceA: "Al Pacino", choiceB: "James Caan", choiceC: "Gary Busey", choiceD: "Abe Vigoda", answer: 2))
+        qList.append(Question(image: "hsjournalists.jpg", questionText: "As high school journalists, Marge and classmate Chloe Talbot caught which cafeteria worker spitting in soup?", choiceA: "Luigi Risotto", choiceB: "Lenny Leonard", choiceC: "Moe Szyzlak", choiceD: "Groundskeeper Willie", answer: 3))
+        qList.append(Question(image: "tshirtsalesman.jpg", questionText: "What is the name of the salesman who helps Bart launch a T-shirt business?", choiceA: "Goose Gladwell", choiceB: "Billy Bonka", choiceC: "Jack Crowley", choiceD: "Langdon Alger", answer: 1))
+        qList.append(Question(image: "barconvention.jpg", questionText: "When Marge and Moe partner to run his bar, to where do they travel for the Tavern and Restaurant Owners convention?", choiceA: "Hawaii", choiceB: "London", choiceC: "Bermuda", choiceD: "Aruba", answer: 4))
+        qList.append(Question(image: "thruhole.jpg", questionText: "To get to the Springfield Mesa, the Simpsons and others must pass through a \"through-hole\" named for what president?", choiceA: "Warren G. Harding", choiceB: "Herbert Hoover", choiceC: "William Howard Taft", choiceD: "Calvin Coolidge", answer: 1))
+        qList.append(Question(image: "coachneighbor.jpg", questionText: "What is the name of the coach that moves into the Flanders home after Ned, disgusted with Homer, moves away?", choiceA: "Stan Taylor", choiceB: "Clay Roberts", choiceC: "Don Brodka", choiceD: "Garth Motherloving", answer: 2))
+        qList.append(Question(image: "catholicschool.jpg", questionText: "What is the name of the Catholic school Bart enrolls in after being expelled from Springfield Elementary?", choiceA: "St. Paul's", choiceB: "Mother Teresa's", choiceC: "Pope Pius IX's", choiceD: "St. Jerome's", answer: 4))
+        qList.append(Question(image: "medievalfestival.jpg", questionText: "When Springfield Elementary holds a medieval festival, which student is named king?", choiceA: "Bart", choiceB: "Nelson", choiceC: "Martin", choiceD: "Jimbo", answer: 3))
+        qList.append(Question(image: "muntzdad.jpg", questionText: "Nelson's father reveals that his absence from the Muntz family was triggered by an allergy to which food?", choiceA: "Shrimp", choiceB: "Eggs", choiceC: "Cashews", choiceD: "Peanuts", answer: 4))
+        qList.append(Question(image: "jendavoice.jpg", questionText: "Which actress provides the voice of Jenda, Bart's girlfriend as a high schooler?", choiceA: "Reese Witherspoon", choiceB: "Amy Poehler", choiceC: "Natalie Portman", choiceD: "Tina Fey", answer: 2))
         
         // SEASON 17 - 12
         qList.append(Question(image: "bartchimp.jpg", questionText: "What is the name of the chimpanzee that kidnaps Bart?", choiceA: "Jub-Jub", choiceB: "Wimpy", choiceC: "Toot-Toot", choiceD: "Mrs. Teeny", answer: 3))
@@ -444,7 +454,6 @@ class QuestionBank{
         
         
         // UNSORTED
-        
         
     }
     
