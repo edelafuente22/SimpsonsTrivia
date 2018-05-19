@@ -12,7 +12,7 @@ class QuestionBank{
     var qList = [Question]()
     
     init() {
-        // GENERAL - 25
+        // GENERAL - 26
         qList.append(Question(image: "misshoover.jpg", questionText: "What is the first name of Miss Hoover, Lisa's teacher at Springfield Elementary?", choiceA: "Jane", choiceB: "Elizabeth", choiceC: "Edna", choiceD: "Agnes", answer: 2))
         qList.append(Question(image: "lifelongdream.jpg", questionText: "Which of these is NOT a lifelong dream that Homer has achieved (and Marge has reminded him about)?", choiceA: "Run onto the field at a baseball game", choiceB: "Own the Denver Broncos", choiceC: "Eat the world's biggest hoagie", choiceD: "Appear on \"The Gong Show\"", answer: 2))
         qList.append(Question(image: "fattony.jpg", questionText: "Fat Tony is voiced by which actor?", choiceA: "Al Pacino", choiceB: "Joe Mantegna", choiceC: "Andy Garcia", choiceD: "Benicio del Toro", answer: 2))
@@ -38,13 +38,14 @@ class QuestionBank{
         qList.append(Question(image: "simpsonneighbors.jpg", questionText: "Which of these characters has never lived next door to the Simpsons?", choiceA: "Barney Gumble", choiceB: "Sideshow Bob", choiceC: "Laura Powers", choiceD: "Ned Flanders", answer: 1))
         qList.append(Question(image: "canadiancities.jpg", questionText: "Which of these Canadian cities have the Simpsons NOT visited in an episode?", choiceA: "Edmonton", choiceB: "Toronto", choiceC: "Winnipeg", choiceD: "Vancouver", answer: 1))
         qList.append(Question(image: "chalmersname.jpg", questionText: "What is Superintendent Chalmers' first name?", choiceA: "Gary", choiceB: "Richard", choiceC: "Jeffrey", choiceD: "Mario", answer: 1))
+        qList.append(Question(image: "stategovernor.jpg", questionText: "What is the name of the governor of the state Springfield is in?", choiceA: "Harvard", choiceB: "Mary Bailey", choiceC: "Oxford College", choiceD: "Juilliard", answer: 2))
         
         // SEASON 1 - 3
         qList.append(Question(image: "greyhoundrace.jpg", questionText: "Which dog wins the greyhound race in which Homer bets on Santa's Little Helper?", choiceA: "Whirlwind", choiceB: "Dog O' War", choiceC: "Chew My Shoe", choiceD: "Fido", answer: 1))
         qList.append(Question(image: "jacquesball.jpg", questionText: "When Marge first meets bowling instructor Jacques, what name does she mistakenly call him?", choiceA: "Mr. Wilson", choiceB: "Mr. Storm", choiceC: "Mr. Strikeforce", choiceD: "Mr. Brunswick", answer: 4))
         qList.append(Question(image: "adilhoxha.jpg", questionText: "Which country does Adil Hoxha, the foreign exchange student taken in by the Simpsons, hail from?", choiceA: "Russia", choiceB: "Albania", choiceC: "Lithuania", choiceD: "Armenia", answer: 2))
         
-        // SEASON 2 - 7
+        // SEASON 2 - 16
         qList.append(Question(image: "hooverlyme.jpg", questionText: "Lisa's teacher, Miss Hoover, took an extended leave of absence because she thought she had which ailment?", choiceA: "Lyme disease", choiceB: "Flesh-eating bacteria", choiceC: "Severe butt-rot", choiceD: "Ebola virus", answer: 1))
         qList.append(Question(image: "krabappelpen.jpg", questionText: "What did Mrs. Krabappel nickname her pen for grading tests?", choiceA: "Mr. Sharpie", choiceB: "Old Red", choiceC: "The Enforcer", choiceD: "The D Maker", answer: 2))
         qList.append(Question(image: "homerhair.jpg", questionText: "What is the name of the hair growth formula Homer uses to regain a head of hair?", choiceA: "Bald Buster", choiceB: "Hair Master", choiceC: "Dimoxinil", choiceD: "Rogaine", answer: 3))
@@ -52,6 +53,15 @@ class QuestionBank{
         qList.append(Question(image: "hansmolemanfirst.jpg", questionText: "In Hans Moleman's first appearance (in \"Principal Charming\"), what name is seen on his driver's license?", choiceA: "Gerald Merman", choiceB: "John J. Burns", choiceC: "Jasper Beardley", choiceD: "Ralph Melish", answer: 4))
         qList.append(Question(image: "herbpowell.jpg", questionText: "Which actor voices Herb Powell, Homer's long-lost half-brother?", choiceA: "Jon Lovitz", choiceB: "Danny DeVito", choiceC: "Phil Hartman", choiceD: "Dustin Hoffman", answer: 2))
         qList.append(Question(image: "slhshoes.jpg", questionText: "What is the name of the shoes Santa's Little Helper destroys, prompting Homer to demand the dog attend obedience school?", choiceA: "Air Jacksons", choiceB: "Trailblazers", choiceC: "Assassins", choiceD: "Violators", answer: 3))
+        qList.append(Question(image: "barttest.jpg", questionText: "In what subject is the test Bart must retake in order to pass the fourth grade?", choiceA: "Multiplication tables", choiceB: "Basic science", choiceC: "Colonial America", choiceD: "The Renaissance", answer: 3))
+        qList.append(Question(image: "firsttreehouse.jpg", questionText: "Which of these works is the basis of a segment in the first \"Treehouse of Horror\" episode?", choiceA: "\"The Raven\"", choiceB: "\"The Shining\"", choiceC: "\"Dracula\"", choiceD: "\"The Telltale Heart\"", answer: 1))
+        qList.append(Question(image: "hauntbart.jpg", questionText: "Which of these is NOT one of the three things Homer told Bart would haunt him after Bart spilled his hair tonic?", choiceA: "\"You've crippled your family\"", choiceB: "\"Baldness is hereditary\"", choiceC: "\"You've lost your allowance\"", choiceD: "\"You've ruined your father\"", answer: 3))
+        qList.append(Question(image: "capitalcitysong.jpg", questionText: "Which musician sang the song \"Capital City\" as a guest star in the episode \"Dancin' Homer\"?", choiceA: "Robert Goulet", choiceB: "Andy Williams", choiceC: "Jimmy Buffett", choiceD: "Tony Bennett", answer: 4))
+        qList.append(Question(image: "snuh.jpg", questionText: "In the acronym \"S.N.U.H.,\" the organization Marge starts to stage protests against \"Itchy and Scratchy,\" what does the \"N\" stand for?", choiceA: "Noble", choiceB: "Non-violence", choiceC: "Nursing", choiceD: "Nagging", answer: 2))
+        qList.append(Question(image: "deathlist.jpg", questionText: "Which of these is NOT on the list of things Homer hopes to do when he believes he has 24 hours to live?", choiceA: "Tell off boss", choiceB: "Plant a tree", choiceC: "Go bowling with pals", choiceD: "Eat a hearty breakfast", answer: 3))
+        qList.append(Question(image: "homerstickerprice.jpg", questionText: "What is the sticker price of the Homer, the car that puts Homer's half-brother Herb Powell's car company out of business?", choiceA: "$45,000", choiceB: "$76,000", choiceC: "$82,000", choiceD: "$99,000", answer: 3))
+        qList.append(Question(image: "margeportraits.jpg", questionText: "Which musician did Marge create several paintings of as a high school student?", choiceA: "Micky Dolenz", choiceB: "Ringo Starr", choiceC: "Jimi Hendrix", choiceD: "Paul McCartney", answer: 2))
+        qList.append(Question(image: "tdaypoem.jpg", questionText: "What is the title of the poem Lisa writes after a fight with Bart at Thanksgiving dinner?", choiceA: "\"My Brother's Madness\"", choiceB: "\"Death of a Centerpiece\"", choiceC: "\"Howl of the Unappreciated\"", choiceD: "\"The Sour Taste of Turkey\"", answer: 3))
         
         // SEASON 3 - 20
         qList.append(Question(image: "homerlurleen.jpg", questionText: "What is the name of the bar in which Homer meets aspiring country singer Lurleen Lumpkin?", choiceA: "Moe's Tavern", choiceB: "The Redneck Riviera", choiceC: "The Little Black Box", choiceD: "The Beer 'n' Brawl", answer: 4))
@@ -457,7 +467,7 @@ class QuestionBank{
         qList.append(Question(image: "lisaboyfight.jpg", questionText: "While dressed as a boy at the all-boys side of Springfield Elementary, Lisa wins respect after picking a fight with whom?", choiceA: "Nelson", choiceB: "Database", choiceC: "Ralph", choiceD: "Martin", answer: 3))
         qList.append(Question(image: "curbaddress.jpg", questionText: "Homer turns an unfinished address number on his curb into a tribute to which baseball team?", choiceA: "Oakland Athletics", choiceB: "New York Yankees", choiceC: "Los Angeles Dodgers", choiceD: "Boston Red Sox", answer: 1))
         qList.append(Question(image: "snakeson.jpg", questionText: "What is the name of Snake's son?", choiceA: "Joseph", choiceB: "Jeremy", choiceC: "Jackson", choiceD: "Jonathan", answer: 2))
-        qList.append(Question(image: "largoschool.jpg", questionText: "Music teacher Mr. Largo learns from a long-lost letter that he had been accepted into which prestigious school?", choiceA: "Harvard", choiceB: "Peabody Institute", choiceC: "Oxford College", choiceD: "Juilliard", answer: 4))
+        qList.append(Question(image: "largoschool.jpg", questionText: "Music teacher Mr. Largo learns from a long-lost letter that he had been accepted into which prestigious school?", choiceA: "Harvard", choiceB: "Peabody Institute", choiceC: "Oxford College", choiceD: "Juilliard School", answer: 4))
         
         // SEASON 22
 //        qList.append(Question(image: "nobelprize.jpg", questionText: "Which figure named in a Nobel Prize betting pool actually did win the Nobel Prize several years later?", choiceA: "Vers Rubin", choiceB: "Bengt Holmstrom", choiceC: "Richard Zare", choiceD: "Jagdish Bhagwati", answer: 2))
