@@ -12,7 +12,7 @@ class QuestionBank{
     var qList = [Question]()
     
     init() {
-        // GENERAL - 26
+        // GENERAL - 27
         qList.append(Question(image: "misshoover.jpg", questionText: "What is the first name of Miss Hoover, Lisa's teacher at Springfield Elementary?", choiceA: "Jane", choiceB: "Elizabeth", choiceC: "Edna", choiceD: "Agnes", answer: 2))
         qList.append(Question(image: "lifelongdream.jpg", questionText: "Which of these is NOT a lifelong dream that Homer has achieved (and Marge has reminded him about)?", choiceA: "Run onto the field at a baseball game", choiceB: "Own the Denver Broncos", choiceC: "Eat the world's biggest hoagie", choiceD: "Appear on \"The Gong Show\"", answer: 2))
         qList.append(Question(image: "fattony.jpg", questionText: "Fat Tony is voiced by which actor?", choiceA: "Al Pacino", choiceB: "Joe Mantegna", choiceC: "Andy Garcia", choiceD: "Benicio del Toro", answer: 2))
@@ -39,11 +39,19 @@ class QuestionBank{
         qList.append(Question(image: "canadiancities.jpg", questionText: "Which of these Canadian cities have the Simpsons NOT visited in an episode?", choiceA: "Edmonton", choiceB: "Toronto", choiceC: "Winnipeg", choiceD: "Vancouver", answer: 1))
         qList.append(Question(image: "chalmersname.jpg", questionText: "What is Superintendent Chalmers' first name?", choiceA: "Gary", choiceB: "Richard", choiceC: "Jeffrey", choiceD: "Mario", answer: 1))
         qList.append(Question(image: "stategovernor.jpg", questionText: "What is the name of the governor of the state Springfield is in?", choiceA: "Harvard", choiceB: "Mary Bailey", choiceC: "Oxford College", choiceD: "Juilliard", answer: 2))
+        qList.append(Question(image: "kbblfrequency.jpg", questionText: "What is the frequency of KBBL-FM, home of radio deejays Bill and Marty?", choiceA: "93.1", choiceB: "102.5", choiceC: "104.3", choiceD: "106.7", answer: 2))
         
-        // SEASON 1 - 3
+        // SEASON 1 - 10
         qList.append(Question(image: "greyhoundrace.jpg", questionText: "Which dog wins the greyhound race in which Homer bets on Santa's Little Helper?", choiceA: "Whirlwind", choiceB: "Dog O' War", choiceC: "Chew My Shoe", choiceD: "Fido", answer: 1))
         qList.append(Question(image: "jacquesball.jpg", questionText: "When Marge first meets bowling instructor Jacques, what name does she mistakenly call him?", choiceA: "Mr. Wilson", choiceB: "Mr. Storm", choiceC: "Mr. Strikeforce", choiceD: "Mr. Brunswick", answer: 4))
         qList.append(Question(image: "adilhoxha.jpg", questionText: "Which country does Adil Hoxha, the foreign exchange student taken in by the Simpsons, hail from?", choiceA: "Russia", choiceB: "Albania", choiceC: "Lithuania", choiceD: "Armenia", answer: 2))
+        qList.append(Question(image: "firstchalkboardgag.jpg", questionText: "What was the message in the first \"Simpsons\" chalkboard gag?", choiceA: "\"I did not see Elvis\"", choiceB: "\"I will not waste chalk\"", choiceC: "\"I will not burp in class\"", choiceD: "\"I will not teach others to fly\"", answer: 2))
+        qList.append(Question(image: "nuclearcharacter.jpg", questionText: "What is the name of this character, seen in a filmstrip shown to schoolkids on a field trip at the nuclear power plant?", choiceA: "Atom the Proton", choiceB: "Nuclear Power Man", choiceC: "Smokin' Jack Nucleon", choiceD: "Smilin' Joe Fission", answer: 4))
+        qList.append(Question(image: "princesskashmir.jpg", questionText: "What is the name of the restaurant where Homer is caught dancing with a belly dancer named Princess Kashmir?", choiceA: "The Frying Dutchman", choiceB: "Johnny Fiesta's", choiceC: "The Rusty Barnacle", choiceD: "Up, Up and Buffet!", answer: 3))
+        qList.append(Question(image: "cesarugolin.jpg", questionText: "César and Ugolin, the unscrupulous French winemakers who take Bart in as an exchange student, are what relation to each other?", choiceA: "Uncle and nephew", choiceB: "Brothers", choiceC: "Father and son", choiceD: "Second cousins", answer: 1))
+        qList.append(Question(image: "kwikemartrob.jpg", questionText: "What is Homer purchasing at the Kwik-E-Mart when Sideshow Bob commits his Krusty-framing armed robbery?", choiceA: "Beer", choiceB: "Donuts", choiceC: "Ice cream", choiceD: "Eggs", answer: 3))
+        qList.append(Question(image: "grampaletter.jpg", questionText: "Which of these is NOT one of the words Grampa states he never wants to hear on TV again in a typed letter?", choiceA: "Horny", choiceB: "Family jewels", choiceC: "Bra", choiceD: "Crotch", answer: 4))
+        qList.append(Question(image: "boxinggame.jpg", questionText: "What is the name of the boxing video game that Bart \"retires\" from holding an undefeated record against Homer?", choiceA: "Punch and Jab", choiceB: "Super Slugfest", choiceC: "Friday Night Fights", choiceD: "Drederick Tatum's Punch-Out", answer: 2))
         
         // SEASON 2 - 16
         qList.append(Question(image: "hooverlyme.jpg", questionText: "Lisa's teacher, Miss Hoover, took an extended leave of absence because she thought she had which ailment?", choiceA: "Lyme disease", choiceB: "Flesh-eating bacteria", choiceC: "Severe butt-rot", choiceD: "Ebola virus", answer: 1))
@@ -63,9 +71,10 @@ class QuestionBank{
         qList.append(Question(image: "margeportraits.jpg", questionText: "Which musician did Marge create several paintings of as a high school student?", choiceA: "Micky Dolenz", choiceB: "Ringo Starr", choiceC: "Jimi Hendrix", choiceD: "Paul McCartney", answer: 2))
         qList.append(Question(image: "tdaypoem.jpg", questionText: "What is the title of the poem Lisa writes after a fight with Bart at Thanksgiving dinner?", choiceA: "\"My Brother's Madness\"", choiceB: "\"Death of a Centerpiece\"", choiceC: "\"Howl of the Unappreciated\"", choiceD: "\"The Sour Taste of Turkey\"", answer: 3))
         
-        // SEASON 3 - 20
+        // SEASON 3 - 21
         qList.append(Question(image: "homerlurleen.jpg", questionText: "What is the name of the bar in which Homer meets aspiring country singer Lurleen Lumpkin?", choiceA: "Moe's Tavern", choiceB: "The Redneck Riviera", choiceC: "The Little Black Box", choiceD: "The Beer 'n' Brawl", answer: 4))
         qList.append(Question(image: "michaeljackson.jpg", questionText: "Michael Jackson was credited for his guest appearance in \"Stark Raving Dad\" under which pseudonym?", choiceA: "Jack Michaels", choiceB: "Alan Smithee", choiceC: "John Jay Smith", choiceD: "John Doe", answer: 3))
+        qList.append(Question(image: "leonkompowsky.jpg", questionText: "What city does Leon Kompowsky, the Michael Jackson impersonator Homer meets at a mental hospital, say he's from?", choiceA: "San Jose, California", choiceB: "Dearborn, Michigan", choiceC: "Paterson, New Jersey", choiceD: "Fort Worth, Texas", answer: 3))
         qList.append(Question(image: "softball.jpg", questionText: "Which Major League Baseball player was NOT a member of Mr. Burns' power plant softball team?", choiceA: "Darryl Strawberry", choiceB: "Eddie Murray", choiceC: "Steve Sax", choiceD: "Mike Scioscia", answer: 2))
         qList.append(Question(image: "bobarnold.jpg", questionText: "Congressman Bob Arnold accepted a bribe to allow drilling on which president's head at Mount Rushmore?", choiceA: "Teddy Roosevelt", choiceB: "George Washington", choiceC: "Abraham Lincoln", choiceD: "Thomas Jefferson", answer: 1))
         qList.append(Question(image: "bartmovie.jpg", questionText: "Which actor played Bart in the TV miniseries about his mob experience?", choiceA: "Fred Savage", choiceB: "David Faustino", choiceC: "Joey Lawrence", choiceD: "Neil Patrick Harris", answer: 4))
@@ -138,7 +147,7 @@ class QuestionBank{
         qList.append(Question(image: "besharpsremove.jpg", questionText: "Which character was an original member of the Be Sharps, only to be kicked out in favor of Barney?", choiceA: "Lenny", choiceB: "Professor Frink", choiceC: "Chief Wiggum", choiceD: "Superintendent Chalmers", answer: 3))
         qList.append(Question(image: "ralphstate.jpg", questionText: "What state is Ralph representing when he, along with Lisa, wins a \"special prize\" for a school geography pageant?", choiceA: "Iowa", choiceB: "Idaho", choiceC: "Vermont", choiceD: "New Mexico", answer: 2))
         
-        // SEASON 6 - 28
+        // SEASON 6 - 29
         qList.append(Question(image: "treehouse5.jpg", questionText: "In \"Treehouse of Horror V\", which character is killed in all three segments?", choiceA: "Principal Skinner", choiceB: "Groundskeeper Willie", choiceC: "Hans Moleman", choiceD: "Jimbo Jones", answer: 2))
         qList.append(Question(image: "collectcall.jpg", questionText: "What is the name of the Australian boy who answers a collect phone call from Bart?", choiceA: "Tobias", choiceB: "Jackson", choiceC: "Ethan", choiceD: "Andy", answer: 1))
         qList.append(Question(image: "manfootball.jpg", questionText: "Which actor starred in the Oscar-winning remake of Hans Moleman's \"Man Getting Hit By Football\"?", choiceA: "Charles Bronson", choiceB: "Charlton Heston", choiceC: "Jimmy Stewart", choiceD: "George C. Scott", answer: 4))
@@ -167,6 +176,7 @@ class QuestionBank{
         qList.append(Question(image: "australiaprime.jpg", questionText: "What is the first name of the Prime Minister of Australia, as depicted in the episode \"Bart vs. Australia\"?", choiceA: "Jerry", choiceB: "Jocko", choiceC: "Andy", choiceD: "Paul", answer: 3))
         qList.append(Question(image: "stonecuttersnumber.jpg", questionText: "What is the \"real\" emergency services number given out only to members of the Stonecutters?", choiceA: "119", choiceB: "912", choiceC: "919", choiceD: "976-HELP", answer: 2))
         qList.append(Question(image: "babysittervideogame.jpg", questionText: "What is the title of the video game babysitter Ashley Grant uses to entice Bart to behave?", choiceA: "Bonestorm", choiceB: "Bar Brawl 4: Final Fracas", choiceC: "Disemboweler IV", choiceD: "Hockey Dad", answer: 3))
+        qList.append(Question(image: "bleedinggumshabit.jpg", questionText: "What object causes the \"$1,500-a-day habit\" that resulted in Bleeding Gums Murphy losing all his money?", choiceA: "Vinyl record players", choiceB: "Solid gold donuts", choiceC: "Crystal saxophones", choiceD: "Faberge eggs", answer: 4))
         
         // SEASON 7 - 31
         qList.append(Question(image: "moerascals.jpg", questionText: "As a child, Moe performed with the Little Rascals under what stage name?", choiceA: "Smelly", choiceB: "Dopey", choiceC: "Chubby", choiceD: "Alfalfa", answer: 1))
@@ -474,6 +484,7 @@ class QuestionBank{
         
         
         // UNSORTED
+        
         
         
     }
