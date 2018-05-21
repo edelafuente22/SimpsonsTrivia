@@ -94,7 +94,7 @@ class QuestionBank{
         qList.append(Question(image: "weddingchapel.jpg", questionText: "What is the name of the roadside chapel where Homer and Marge got married?", choiceA: "Buffalo Bill's", choiceB: "Whiskey Joe's", choiceC: "Shotgun Pete's", choiceD: "Priest John's", answer: 3))
         qList.append(Question(image: "fastfood.jpg", questionText: "Which fast food restaurant did Homer work at while Marge was pregnant with Bart?", choiceA: "Lard Lad Donuts", choiceB: "Krustyburger", choiceC: "Der Krazy Kraut", choiceD: "Gulp N' Blow", answer: 4))
         
-        // SEASON 4 - 27
+        // SEASON 4 - 31
         qList.append(Question(image: "lylelanley.jpg", questionText: "Monorail shyster Lyle Lanley gets his comeuppance after his flight to Tahiti makes a stop in which city?", choiceA: "Ogdenville", choiceB: "North Haverbrook", choiceC: "Brockway", choiceD: "Shelbyville", answer: 2))
         qList.append(Question(image: "plowking.jpg", questionText: "Which musician does Barney team up with to record a commercial and jingle for the Plow King?", choiceA: "Carole King", choiceB: "Bette Midler", choiceC: "David Crosby", choiceD: "Linda Ronstadt", answer: 4))
         qList.append(Question(image: "coreyhotline.jpg", questionText: "Which of these is NOT cited on teen heartthrob Corey's hotline as a word that rhymes with his name?", choiceA: "Story", choiceB: "Hunky-Dory", choiceC: "Allegory", choiceD: "Montessori", answer: 2))
@@ -122,8 +122,12 @@ class QuestionBank{
         qList.append(Question(image: "duffbrewerytour.jpg", questionText: "Which of these beer varieties is NOT available for sampling when Homer and Barney take the Duff Brewery tour?", choiceA: "Summer Shandy Duff", choiceB: "Lady Duff", choiceC: "Tartar Control Duff", choiceD: "Raspberry Duff", answer: 1))
         qList.append(Question(image: "lisaguitar.jpg", questionText: "What song does Lenny ask Lisa to play on her guitar during the Springfield Nuclear Power Plant workers' strike?", choiceA: "\"Freebird\"", choiceB: "\"Stairway to Heaven\"", choiceC: "\"Classical Gas\"", choiceD: "\"Afternoon Delight\"", answer: 3))
         qList.append(Question(image: "margeshoplifting.jpg", questionText: "Marge is arrested for shoplifting from the Kwik-E-Mart after forgetting to pay for what item?", choiceA: "Pacifier", choiceB: "Tub of ice cream", choiceC: "Sliced American cheese", choiceD: "Bottle of bourbon", answer: 4))
+        qList.append(Question(image: "hsdiploma.jpg", questionText: "What is the subject Homer must retake as an adult in order to get his high school diploma?", choiceA: "Algebra I", choiceB: "Colonial History", choiceC: "English Nouns and Verbs", choiceD: "Remedial Science 1A", answer: 4))
+        qList.append(Question(image: "nedadventures.jpg", questionText: "What is the title of the episode that ends with the short \"The Adventures of Ned Flanders\"?", choiceA: "\"Rosebud\"", choiceB: "\"The Front\"", choiceC: "\"Home Sweet Home-Diddly-Dum-Doodily\"", choiceD: "\"When Flanders Failed\"", answer: 2))
+        qList.append(Question(image: "barthomeschool.jpg", questionText: "After Marge begins home-schooling Bart, she gets him to read – and enjoy – which novel?", choiceA: "\"Treasure Island\"", choiceB: "\"Johnny Tremain\"", choiceC: "\"Huckleberry Finn\"", choiceD: "\"Little Women\"", answer: 2))
+        qList.append(Question(image: "krustyanniversary.jpg", questionText: "How many years is Krusty celebrating in the anniversary show that Ralph Wiggum takes Lisa to?", choiceA: "25th", choiceB: "27th", choiceC: "29th", choiceD: "37th", answer: 3))
         
-        // SEASON 5 - 22
+        // SEASON 5 - 25
         qList.append(Question(image: "malibustacy.jpg", questionText: "What is the name of the doll Lisa designs to compete with Malibu Stacy?", choiceA: "Lisa the Brain", choiceB: "Lovely Lisa", choiceC: "Lisa Lionheart", choiceD: "Malibu Lisa", answer: 3))
         qList.append(Question(image: "bartkrusty.jpg", questionText: "What type of pastry does Bart steal from Kent Brockman to give to Krusty?", choiceA: "Donut", choiceB: "Scone", choiceC: "Danish", choiceD: "Croissant", answer: 3))
         qList.append(Question(image: "molloy.jpg", questionText: "Which actor provides the voice of Molloy, the charming burglar in the episode \"Homer The Vigilante\"?", choiceA: "Liam Neeson", choiceB: "Sam Neill", choiceC: "Kelsey Grammer", choiceD: "Gary Oldman", answer: 2))
@@ -146,6 +150,9 @@ class QuestionBank{
         qList.append(Question(image: "newname.jpg", questionText: "When the Simpson family is placed in the Witness Protection Program to escape Sideshow Bob, what new surname are they given?", choiceA: "Samson", choiceB: "Johnson", choiceC: "Michaelson", choiceD: "Thompson", answer: 4))
         qList.append(Question(image: "besharpsremove.jpg", questionText: "Which character was an original member of the Be Sharps, only to be kicked out in favor of Barney?", choiceA: "Lenny", choiceB: "Professor Frink", choiceC: "Chief Wiggum", choiceD: "Superintendent Chalmers", answer: 3))
         qList.append(Question(image: "ralphstate.jpg", questionText: "What state is Ralph representing when he, along with Lisa, wins a \"special prize\" for a school geography pageant?", choiceA: "Iowa", choiceB: "Idaho", choiceC: "Vermont", choiceD: "New Mexico", answer: 2))
+        qList.append(Question(image: "juniorcampers.jpg", questionText: "What is the first rank Bart attains as a member of the Junior Campers?", choiceA: "Sunflower", choiceB: "Pussy willow", choiceC: "Cringing squirrel", choiceD: "Tenderfoot", answer: 2))
+        qList.append(Question(image: "freetrampoline.jpg", questionText: "When Homer answers an ad for a free trampoline, he finds that it's being given away by whom?", choiceA: "Sideshow Bob", choiceB: "Kent Brockman", choiceC: "Principal Skinner", choiceD: "Krusty the Clown", answer: 4))
+        qList.append(Question(image: "boxfactory.jpg", questionText: "Which of these is NOT one of the more appealing locations Springfield Elementary's school bus passes on its way to the box factory?", choiceA: "Slide factory", choiceB: "Fireworks testing range", choiceC: "Toy Town", choiceD: "Fireworks, Candy and Puppy Dog Store", answer: 4))
         
         // SEASON 6 - 29
         qList.append(Question(image: "treehouse5.jpg", questionText: "In \"Treehouse of Horror V\", which character is killed in all three segments?", choiceA: "Principal Skinner", choiceB: "Groundskeeper Willie", choiceC: "Hans Moleman", choiceD: "Jimbo Jones", answer: 2))
@@ -178,7 +185,7 @@ class QuestionBank{
         qList.append(Question(image: "babysittervideogame.jpg", questionText: "What is the title of the video game babysitter Ashley Grant uses to entice Bart to behave?", choiceA: "Bonestorm", choiceB: "Bar Brawl 4: Final Fracas", choiceC: "Disemboweler IV", choiceD: "Hockey Dad", answer: 3))
         qList.append(Question(image: "bleedinggumshabit.jpg", questionText: "What object causes the \"$1,500-a-day habit\" that resulted in Bleeding Gums Murphy losing all his money?", choiceA: "Vinyl record players", choiceB: "Solid gold donuts", choiceC: "Crystal saxophones", choiceD: "Faberge eggs", answer: 4))
         
-        // SEASON 7 - 31
+        // SEASON 7 - 34
         qList.append(Question(image: "moerascals.jpg", questionText: "As a child, Moe performed with the Little Rascals under what stage name?", choiceA: "Smelly", choiceB: "Dopey", choiceC: "Chubby", choiceD: "Alfalfa", answer: 1))
         qList.append(Question(image: "nachosflanders.jpg", questionText: "What ingredients does Ned Flanders use in his version of nachos?", choiceA: "Potato chips with Velveeta", choiceB: "Broccoli with salt", choiceC: "Crackers with tomatoes", choiceD: "Cucumbers with cottage cheese", answer: 4))
         qList.append(Question(image: "lisavegetarian.jpg", questionText: "Lisa is teased for her vegetarianism by being asked if she will marry which vegetable?", choiceA: "Beet", choiceB: "Celery", choiceC: "Turnip", choiceD: "Carrot", answer: 4))
@@ -210,6 +217,9 @@ class QuestionBank{
         qList.append(Question(image: "lisaessay.jpg", questionText: "What did Lisa title her class essay exposing Jebediah Springfield as a phony?", choiceA: "\"The Fake Springfield\"", choiceB: "\"Jebediah Springfield: Superfraud\"", choiceC: "\"Why Jeb Lied\"", choiceD: "\"Jebediah The Phony\"", answer: 2))
         qList.append(Question(image: "guaranteevoid.jpg", questionText: "In the Treehouse of Horror segment \"Attack of the 50 Ft. Eyesores,\" Lisa sings that Paul Anka's \"guarantee\" is void in which state?", choiceA: "Michigan", choiceB: "Mississippi", choiceC: "Tennessee", choiceD: "Nebraska", answer: 3))
         qList.append(Question(image: "kwikemartroof.jpg", questionText: "The staircase that leads to the roof of the Kwik-E-Mart is hidden behind a freezer door that claims to contain which product?", choiceA: "Frozen shrimp", choiceB: "Non-alcoholic beer", choiceC: "Non-dairy milk", choiceD: "Fruit sorbet", answer: 2))
+        qList.append(Question(image: "chanelbuy.jpg", questionText: "In which town is the outlet store where Marge purchases a deeply discounted Chanel suit?", choiceA: "Ogdenville", choiceB: "Shelbyville", choiceC: "Capital City", choiceD: "Outlands", answer: 1))
+        qList.append(Question(image: "newtv.jpg", questionText: "Which of these is NOT one of the features of the new TV purchased by Homer at an outlet mall store?", choiceA: "Durable outer casing", choiceB: "Corded remote control", choiceC: "Pre-molded hand grip well", choiceD: "Two-pronged wall plug", answer: 2))
+        qList.append(Question(image: "jimboname.jpg", questionText: "Because Bart pays Jimbo Jones via check, he finds out that Jimbo's real first name is what?", choiceA: "Jiminy", choiceB: "Nigel", choiceC: "Corky", choiceD: "Robin", answer: 3))
         
         // SEASON 8 - 33
         qList.append(Question(image: "steelmill.jpg", questionText: "What is the name of the club that the Ajax Steel Mill converts to at quitting time?", choiceA: "The Anvil", choiceB: "Mo's", choiceC: "The League Of Extra-Horny Gentlemen", choiceD: "Jack Hammer's", answer: 1))
