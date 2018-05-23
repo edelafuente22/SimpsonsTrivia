@@ -12,7 +12,7 @@ class QuestionBank{
     var qList = [Question]()
     
     init() {
-        // GENERAL - 27
+        // GENERAL - 28
         qList.append(Question(image: "misshoover.jpg", questionText: "What is the first name of Miss Hoover, Lisa's teacher at Springfield Elementary?", choiceA: "Jane", choiceB: "Elizabeth", choiceC: "Edna", choiceD: "Agnes", answer: 2))
         qList.append(Question(image: "lifelongdream.jpg", questionText: "Which of these is NOT a lifelong dream that Homer has achieved (and Marge has reminded him about)?", choiceA: "Run onto the field at a baseball game", choiceB: "Own the Denver Broncos", choiceC: "Eat the world's biggest hoagie", choiceD: "Appear on \"The Gong Show\"", answer: 2))
         qList.append(Question(image: "fattony.jpg", questionText: "Fat Tony is voiced by which actor?", choiceA: "Al Pacino", choiceB: "Joe Mantegna", choiceC: "Andy Garcia", choiceD: "Benicio del Toro", answer: 2))
@@ -40,6 +40,7 @@ class QuestionBank{
         qList.append(Question(image: "chalmersname.jpg", questionText: "What is Superintendent Chalmers' first name?", choiceA: "Gary", choiceB: "Richard", choiceC: "Jeffrey", choiceD: "Mario", answer: 1))
         qList.append(Question(image: "stategovernor.jpg", questionText: "What is the name of the governor of the state Springfield is in?", choiceA: "Harvard", choiceB: "Mary Bailey", choiceC: "Oxford College", choiceD: "Juilliard", answer: 2))
         qList.append(Question(image: "kbblfrequency.jpg", questionText: "What is the frequency of KBBL-FM, home of radio deejays Bill and Marty?", choiceA: "93.1", choiceB: "102.5", choiceC: "104.3", choiceD: "106.7", answer: 2))
+        qList.append(Question(image: "castellaneta.jpg", questionText: "Which of these \"Simpsons\" voice actors was NOT a regular cast member of another early-1990s TV series on the Fox network?", choiceA: "Dan Castellaneta", choiceB: "Nancy Cartwright", choiceC: "Yeardley Smith", choiceD: "Hank Azaria", answer: 2))
         
         // SEASON 1 - 10
         qList.append(Question(image: "greyhoundrace.jpg", questionText: "Which dog wins the greyhound race in which Homer bets on Santa's Little Helper?", choiceA: "Whirlwind", choiceB: "Dog O' War", choiceC: "Chew My Shoe", choiceD: "Fido", answer: 1))
@@ -185,7 +186,7 @@ class QuestionBank{
         qList.append(Question(image: "babysittervideogame.jpg", questionText: "What is the title of the video game babysitter Ashley Grant uses to entice Bart to behave?", choiceA: "Bonestorm", choiceB: "Bar Brawl 4: Final Fracas", choiceC: "Disemboweler IV", choiceD: "Hockey Dad", answer: 3))
         qList.append(Question(image: "bleedinggumshabit.jpg", questionText: "What object causes the \"$1,500-a-day habit\" that resulted in Bleeding Gums Murphy losing all his money?", choiceA: "Vinyl record players", choiceB: "Solid gold donuts", choiceC: "Crystal saxophones", choiceD: "Faberge eggs", answer: 4))
         
-        // SEASON 7 - 34
+        // SEASON 7 - 35
         qList.append(Question(image: "moerascals.jpg", questionText: "As a child, Moe performed with the Little Rascals under what stage name?", choiceA: "Smelly", choiceB: "Dopey", choiceC: "Chubby", choiceD: "Alfalfa", answer: 1))
         qList.append(Question(image: "nachosflanders.jpg", questionText: "What ingredients does Ned Flanders use in his version of nachos?", choiceA: "Potato chips with Velveeta", choiceB: "Broccoli with salt", choiceC: "Crackers with tomatoes", choiceD: "Cucumbers with cottage cheese", answer: 4))
         qList.append(Question(image: "lisavegetarian.jpg", questionText: "Lisa is teased for her vegetarianism by being asked if she will marry which vegetable?", choiceA: "Beet", choiceB: "Celery", choiceC: "Turnip", choiceD: "Carrot", answer: 4))
@@ -220,8 +221,9 @@ class QuestionBank{
         qList.append(Question(image: "chanelbuy.jpg", questionText: "In which town is the outlet store where Marge purchases a deeply discounted Chanel suit?", choiceA: "Ogdenville", choiceB: "Shelbyville", choiceC: "Capital City", choiceD: "Outlands", answer: 1))
         qList.append(Question(image: "newtv.jpg", questionText: "Which of these is NOT one of the features of the new TV purchased by Homer at an outlet mall store?", choiceA: "Durable outer casing", choiceB: "Corded remote control", choiceC: "Pre-molded hand grip well", choiceD: "Two-pronged wall plug", answer: 2))
         qList.append(Question(image: "jimboname.jpg", questionText: "Because Bart pays Jimbo Jones via check, he finds out that Jimbo's real first name is what?", choiceA: "Jiminy", choiceB: "Nigel", choiceC: "Corky", choiceD: "Robin", answer: 3))
+        qList.append(Question(image: "homerccgolf.jpg", questionText: "Which pro golfer does Homer encounter while playing at the Springfield Country Club?", choiceA: "Tom Kite", choiceB: "Greg Norman", choiceC: "Tiger Woods", choiceD: "Arnold Palmer", answer: 1))
         
-        // SEASON 8 - 33
+        // SEASON 8 - 41
         qList.append(Question(image: "steelmill.jpg", questionText: "What is the name of the club that the Ajax Steel Mill converts to at quitting time?", choiceA: "The Anvil", choiceB: "Mo's", choiceC: "The League Of Extra-Horny Gentlemen", choiceD: "Jack Hammer's", answer: 1))
         qList.append(Question(image: "gladiator.jpg", questionText: "Which American Gladiator does Luann Van Houten date after breaking up with husband Kirk?", choiceA: "Pyro", choiceB: "Gyro", choiceC: "Golden", choiceD: "Blaze", answer: 1))
         qList.append(Question(image: "crackerfactory.jpg", questionText: "What is the slogan of Southern Cracker, the factory that Kirk Van Houten used to work at?", choiceA: "The secret ingredient is salt", choiceB: "Deliciously dry", choiceC: "The dryyyyyy cracker", choiceD: "You CAN eat just one", answer: 3))
@@ -255,6 +257,14 @@ class QuestionBank{
         qList.append(Question(image: "skinnykrabby.jpg", questionText: "Principal Skinner and Mrs. Krabappel first fall for each other at a birthday party for which student?", choiceA: "Martin", choiceB: "Milhouse", choiceC: "Nelson", choiceD: "Janey", answer: 1))
         qList.append(Question(image: "mrsparkleorigin.jpg", questionText: "The Japanese detergent Mr. Sparkle is a joint venture of Tamaribuchi Heavy Manufacturing Concern and which other company?", choiceA: "Osaka Seafood Concern", choiceB: "Hokkaido Sparkle Company", choiceC: "Matsumura Fishworks", choiceD: "Hiroshima Toyo Carp", answer: 3))
         qList.append(Question(image: "moeduff.jpg", questionText: "What punctuation mark does Moe write on a bottle of Duff to convince Homer that it's a foreign beer?", choiceA: "Tilde (~)", choiceB: "Umlaut (¨)", choiceC: "Macron (¯)", choiceD: "Schwa (ə)", answer: 2))
+        qList.append(Question(image: "bigdaddy.jpg", questionText: "In the Simpsons spinoff \"Chief Wiggum, P.I.,\" what magazine does Big Daddy's calling card say he has been seen in?", choiceA: "People", choiceB: "MAD", choiceC: "Parade", choiceD: "Highlights", answer: 3))
+        qList.append(Question(image: "lovematic.jpg", questionText: "In the Simpsons spinoff \"The Love-Matic Grampa,\" which of these is NOT a level on the love tester Grampa haunts?", choiceA: "Cold Fish", choiceB: "Naughty But Nice", choiceC: "Hubba-Hubba", choiceD: "Hot Tamale", answer: 2))
+        qList.append(Question(image: "boxingmoe.jpg", questionText: "Which of these was NOT a nickname Moe had as a competitive boxer?", choiceA: "Kid Presentable", choiceB: "Kid Appalling", choiceC: "Kid Gruesome", choiceD: "Kid Moe", answer: 2))
+        qList.append(Question(image: "burnsyale.jpg", questionText: "Officials from Yale tell Mr. Burns that to accept his son Larry, they would need him to donate what type of facility?", choiceA: "Hospital", choiceB: "Bus station", choiceC: "Student union", choiceD: "Airport", answer: 4))
+        qList.append(Question(image: "santoslhalper.jpg", questionText: "When Bart fills out a credit card application, what does he put under \"occupation\"?", choiceA: "Dog walker", choiceB: "Sleep ninja", choiceC: "Principal tormentor", choiceD: "Butt doctor", answer: 4))
+        qList.append(Question(image: "nedgas.jpg", questionText: "What is the name of the gas station where Ned Flanders observes that the gas costs $1.49 8/10?", choiceA: "The Seething Sisters", choiceB: "Donny's Discount Gas", choiceC: "Filler Up Cheap", choiceD: "Guzzle 'N' Go", answer: 2))
+        qList.append(Question(image: "homerautodialer.jpg", questionText: "Homer acquires an auto-dialer after witnessing the arrest of what criminal?", choiceA: "Fat Tony", choiceB: "Frankie the Squealer", choiceC: "Jimmy the Scumbag", choiceD: "Snake Jailbird", answer: 3))
+        qList.append(Question(image: "thinninghallway.jpg", questionText: "In the home rebuilt for the Flanders family after a hurricane, an impossibly narrow hallway leads to which room?", choiceA: "Kitchen", choiceB: "Todd's bedroom", choiceC: "Rumpus room", choiceD: "Master bedroom", answer: 4))
         
         // SEASON 9 - 24
         qList.append(Question(image: "broadway.jpg", questionText: "Which Broadway musical do Marge, Lisa and Bart watch during their visit to New York?", choiceA: "Checkin' In", choiceB: "Kickin' It", choiceC: "The Itchy and Scratchy Musical", choiceD: "Planet of the Apes", answer: 2))
@@ -494,7 +504,6 @@ class QuestionBank{
         
         
         // UNSORTED
-        
         
         
     }

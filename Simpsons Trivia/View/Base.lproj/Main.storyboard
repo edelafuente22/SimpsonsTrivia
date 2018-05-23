@@ -176,9 +176,9 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ldn-z7-UaJ">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Question 12/12" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cG7-ba-lPe">
-                                        <rect key="frame" x="8" y="47" width="117" height="20"/>
-                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Q 12/12" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cG7-ba-lPe">
+                                        <rect key="frame" x="15" y="47" width="66" height="21.5"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="18"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -202,9 +202,9 @@
                                             <userDefinedRuntimeAttribute type="boolean" keyPath="isLabelHidden" value="NO"/>
                                         </userDefinedRuntimeAttributes>
                                     </view>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Score: 11000" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vjC-Gc-doQ" customClass="UICountingLabel">
-                                        <rect key="frame" x="267.5" y="47" width="99.5" height="20.5"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="11000" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vjC-Gc-doQ" customClass="UICountingLabel">
+                                        <rect key="frame" x="306.5" y="47" width="53.5" height="21.5"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -212,9 +212,9 @@
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstItem="cG7-ba-lPe" firstAttribute="top" secondItem="Ldn-z7-UaJ" secondAttribute="top" constant="47" id="3zq-yu-EEl"/>
-                                    <constraint firstAttribute="trailing" secondItem="vjC-Gc-doQ" secondAttribute="trailing" constant="8" id="614-X8-kcm"/>
+                                    <constraint firstAttribute="trailing" secondItem="vjC-Gc-doQ" secondAttribute="trailing" constant="15" id="614-X8-kcm"/>
                                     <constraint firstAttribute="height" constant="80" id="Orh-h0-TxN"/>
-                                    <constraint firstItem="cG7-ba-lPe" firstAttribute="leading" secondItem="Ldn-z7-UaJ" secondAttribute="leading" constant="8" id="dhc-vY-reU"/>
+                                    <constraint firstItem="cG7-ba-lPe" firstAttribute="leading" secondItem="Ldn-z7-UaJ" secondAttribute="leading" constant="15" id="dhc-vY-reU"/>
                                     <constraint firstItem="vjC-Gc-doQ" firstAttribute="top" secondItem="Ldn-z7-UaJ" secondAttribute="top" constant="47" id="pQd-uk-mVD"/>
                                 </constraints>
                             </view>
@@ -459,6 +459,7 @@
         <image name="title2" width="365" height="168"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="lah-OZ-scv"/>
         <segue reference="6rG-74-1vb"/>
     </inferredMetricsTieBreakers>
 </document>
