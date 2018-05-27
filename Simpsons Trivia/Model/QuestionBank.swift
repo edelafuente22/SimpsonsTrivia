@@ -155,7 +155,7 @@ class QuestionBank{
         qList.append(Question(image: "freetrampoline.jpg", questionText: "When Homer answers an ad for a free trampoline, he finds that it's being given away by whom?", choiceA: "Sideshow Bob", choiceB: "Kent Brockman", choiceC: "Principal Skinner", choiceD: "Krusty the Clown", answer: 4))
         qList.append(Question(image: "boxfactory.jpg", questionText: "Which of these is NOT one of the more appealing locations Springfield Elementary's school bus passes on its way to the box factory?", choiceA: "Slide factory", choiceB: "Fireworks testing range", choiceC: "Toy Town", choiceD: "Fireworks, Candy and Puppy Dog Store", answer: 4))
         
-        // SEASON 6 - 29
+        // SEASON 6 - 30
         qList.append(Question(image: "treehouse5.jpg", questionText: "In \"Treehouse of Horror V\", which character is killed in all three segments?", choiceA: "Principal Skinner", choiceB: "Groundskeeper Willie", choiceC: "Hans Moleman", choiceD: "Jimbo Jones", answer: 2))
         qList.append(Question(image: "collectcall.jpg", questionText: "What is the name of the Australian boy who answers a collect phone call from Bart?", choiceA: "Tobias", choiceB: "Jackson", choiceC: "Ethan", choiceD: "Andy", answer: 1))
         qList.append(Question(image: "manfootball.jpg", questionText: "Which actor starred in the Oscar-winning remake of Hans Moleman's \"Man Getting Hit By Football\"?", choiceA: "Charles Bronson", choiceB: "Charlton Heston", choiceC: "Jimmy Stewart", choiceD: "George C. Scott", answer: 4))
@@ -185,8 +185,9 @@ class QuestionBank{
         qList.append(Question(image: "stonecuttersnumber.jpg", questionText: "What is the \"real\" emergency services number given out only to members of the Stonecutters?", choiceA: "119", choiceB: "912", choiceC: "919", choiceD: "976-HELP", answer: 2))
         qList.append(Question(image: "babysittervideogame.jpg", questionText: "What is the title of the video game babysitter Ashley Grant uses to entice Bart to behave?", choiceA: "Bonestorm", choiceB: "Bar Brawl 4: Final Fracas", choiceC: "Disemboweler IV", choiceD: "Hockey Dad", answer: 3))
         qList.append(Question(image: "bleedinggumshabit.jpg", questionText: "What object causes the \"$1,500-a-day habit\" that resulted in Bleeding Gums Murphy losing all his money?", choiceA: "Vinyl record players", choiceB: "Solid gold donuts", choiceC: "Crystal saxophones", choiceD: "Faberge eggs", answer: 4))
+        qList.append(Question(image: "superfriends.jpg", questionText: "Because Springfield Elementary’s “Super Friends” are impressed that Bart discovered a comet, they give him what nickname?", choiceA: "Astro", choiceB: "Cosmos", choiceC: "Asimov", choiceD: "Starman", answer: 2))
         
-        // SEASON 7 - 35
+        // SEASON 7 - 40
         qList.append(Question(image: "moerascals.jpg", questionText: "As a child, Moe performed with the Little Rascals under what stage name?", choiceA: "Smelly", choiceB: "Dopey", choiceC: "Chubby", choiceD: "Alfalfa", answer: 1))
         qList.append(Question(image: "nachosflanders.jpg", questionText: "What ingredients does Ned Flanders use in his version of nachos?", choiceA: "Potato chips with Velveeta", choiceB: "Broccoli with salt", choiceC: "Crackers with tomatoes", choiceD: "Cucumbers with cottage cheese", answer: 4))
         qList.append(Question(image: "lisavegetarian.jpg", questionText: "Lisa is teased for her vegetarianism by being asked if she will marry which vegetable?", choiceA: "Beet", choiceB: "Celery", choiceC: "Turnip", choiceD: "Carrot", answer: 4))
@@ -222,6 +223,11 @@ class QuestionBank{
         qList.append(Question(image: "newtv.jpg", questionText: "Which of these is NOT one of the features of the new TV purchased by Homer at an outlet mall store?", choiceA: "Durable outer casing", choiceB: "Corded remote control", choiceC: "Pre-molded hand grip well", choiceD: "Two-pronged wall plug", answer: 2))
         qList.append(Question(image: "jimboname.jpg", questionText: "Because Bart pays Jimbo Jones via check, he finds out that Jimbo's real first name is what?", choiceA: "Jiminy", choiceB: "Nigel", choiceC: "Corky", choiceD: "Robin", answer: 3))
         qList.append(Question(image: "homerccgolf.jpg", questionText: "Which pro golfer does Homer encounter while playing at the Springfield Country Club?", choiceA: "Tom Kite", choiceB: "Greg Norman", choiceC: "Tiger Woods", choiceD: "Arnold Palmer", answer: 1))
+        qList.append(Question(image: "krustyplane.jpg", questionText: "Krusty’s plane, which he uses to fake his death, had a name inspired by what famous real-life plane?", choiceA: "Spirit of St. Louis", choiceB: "Spruce Goose", choiceC: "Concorde", choiceD: "Enola Gay", answer: 4))
+        qList.append(Question(image: "laughtersoul.jpg", questionText: "Lisa quotes which renowned poet when she says to Bart, “Laughter is the language of the soul”?", choiceA: "Robert Frost", choiceB: "Maya Angelou", choiceC: "Pablo Neruda", choiceD: "John Keats", answer: 3))
+        qList.append(Question(image: "flyinghellfish.jpg", questionText: "Which of these characters' fathers was NOT a member of the Flying Hellfish, Grampa Simpson's World War II regiment?", choiceA: "Barney Gumble", choiceB: "Principal Skinner", choiceC: "Chief Wiggum", choiceD: "Moe Szyzlak", answer: 4))
+        qList.append(Question(image: "bartsoulback.jpg", questionText: "After Bart gets his soul back, he dreams that he and his soul crash into the boat of which fellow student?", choiceA: "Milhouse", choiceB: "Martin", choiceC: "Ralph", choiceD: "Janey", answer: 2))
+        qList.append(Question(image: "bearpatroltax.jpg", questionText: "How much money is taken out of Homer's paycheck because of Springfield's bear patrol tax?", choiceA: "$5", choiceB: "$6.95", choiceC: "$17", choiceD: "$25", answer: 1))
         
         // SEASON 8 - 41
         qList.append(Question(image: "steelmill.jpg", questionText: "What is the name of the club that the Ajax Steel Mill converts to at quitting time?", choiceA: "The Anvil", choiceB: "Mo's", choiceC: "The League Of Extra-Horny Gentlemen", choiceD: "Jack Hammer's", answer: 1))
@@ -292,7 +298,7 @@ class QuestionBank{
         qList.append(Question(image: "movementariansong.jpg", questionText: "The Movementarians, the cult the Simpsons join, lure Homer in after singing a version of the theme to which old TV show?", choiceA: "\"Batman\"", choiceB: "\"Bewitched\"", choiceC: "\"The Brady Bunch\"", choiceD: "\"Dragnet\"", answer: 1))
         qList.append(Question(image: "comedyfestival.jpg", questionText: "Which of these comedians was NOT present at the comedy festival organized by Jay Leno in which Krusty bombs?", choiceA: "Janeane Garofalo", choiceB: "Bobcat Goldthwait", choiceC: "Steven Wright", choiceD: "George Carlin", answer: 4))
         
-        // SEASON 10 - 28
+        // SEASON 10 - 29
         qList.append(Question(image: "nelsonhuckleberries.jpg", questionText: "What is Nelson's suggestion for how to handle huckleberries that are too tart?", choiceA: "Drizzle honey on them", choiceB: "Mix in chocolate sprinkles", choiceC: "Dust them with confectioner's sugar", choiceD: "Huck them at cars", answer: 3))
         qList.append(Question(image: "superbowl.jpg", questionText: "Which two NFL teams played in the Super Bowl that preceded the premiere airing of the episode \"Sunday, Cruddy Sunday\"?", choiceA: "Patriots and Rams", choiceB: "Broncos and Seahawks", choiceC: "Broncos and Falcons", choiceD: "Packers and Patriots", answer: 3))
         qList.append(Question(image: "celltower.jpg", questionText: "What is the name of the company that installs a cell phone tower on the Simpsons' roof?", choiceA: "Qualbiz", choiceB: "OmniTouch", choiceC: "AirTouch", choiceD: "AT&T", answer: 2))
@@ -321,8 +327,9 @@ class QuestionBank{
         qList.append(Question(image: "homerartist.jpg", questionText: "Which of these is NOT the title of a piece created by Homer during his time as an outsider artist?", choiceA: "\"Grand Canals of Springfield\"", choiceB: "\"The Grill of Anguish\"", choiceC: "\"Attempted Birdhouse I\"", choiceD: "\"Botched Hibachi\"", answer: 2))
         qList.append(Question(image: "beertap.jpg", questionText: "What was the final appraised value of an old beer tap Moe owned that had \"Homer rocks\" carved on the handle?", choiceA: "$15", choiceB: "$75", choiceC: "$129.99", choiceD: "$20,000", answer: 1))
         qList.append(Question(image: "edenunicorn.jpg", questionText: "In the episode \"Simpsons Bible Stories,\" what did God name his unicorn in the Garden of Eden?", choiceA: "Joshua", choiceB: "Paul", choiceC: "Fido", choiceD: "Gary", answer: 4))
+        qList.append(Question(image: "greaseinfo.jpg", questionText: "Which character first informs Homer that used grease can be sold for cash?", choiceA: "Principal Skinner", choiceB: "Apu", choiceC: "Chief Wiggum", choiceD: "Groundskeeper Willie", answer: 2))
         
-        // SEASON 11 - 25
+        // SEASON 11 - 26
         qList.append(Question(image: "maudedeath.jpg", questionText: "How did Maude Flanders die?", choiceA: "Run over by Homer's car", choiceB: "Fell into Springfield Gorge", choiceC: "Struck by lightning while praying", choiceD: "Struck by barrage of T-shirts", answer: 4))
         qList.append(Question(image: "springfieldu.jpg", questionText: "What is the nickname of the football team at Springfield University?", choiceA: "Wildcats", choiceB: "Roughriders", choiceC: "Snortin' Swine", choiceD: "Nittany Tide", answer: 4))
         qList.append(Question(image: "pbsshow.jpg", questionText: "What is the name of the British sitcom Homer discovers on PBS?", choiceA: "\"Absolutely Crapulous\"", choiceB: "\"Do Shut Up\"", choiceC: "\"Shut Your Gob\"", choiceD: "\"Fawlty Towers\"", answer: 2))
@@ -348,6 +355,7 @@ class QuestionBank{
         qList.append(Question(image: "missionarycouple.jpg", questionText: "What were the names of the two missionaries that preceded Homer on the South Pacific island he is sent to?", choiceA: "Jim and Nancy", choiceB: "Craig and Amy", choiceC: "Lester and Eliza", choiceD: "John and Melissa", answer: 2))
         qList.append(Question(image: "moesoapstar.jpg", questionText: "What is the name of the character Moe plays during his brief stint on the soap opera \"It Never Ends\"?", choiceA: "Dr. Steve Foster", choiceB: "Dr. Lance Kaufman", choiceC: "Dr. Nick Riviera", choiceD: "Dr. Tad Winslow", answer: 4))
         qList.append(Question(image: "vickicredit.jpg", questionText: "Little Miss Vicki Valentine, Lisa's tap dance teacher, says she once destroyed the credit rating of which actor?", choiceA: "Cary Grant", choiceB: "Buddy Ebsen", choiceC: "Rory Calhoun", choiceD: "Ed Asner", answer: 2))
+        qList.append(Question(image: "powerplantaccident.jpg", questionText: "As an excuse to go bowling, Homer tells Marge that which colleague was injured in a power plant accident?", choiceA: "Lenny", choiceB: "Carl", choiceC: "Smithers", choiceD: "Mr. Burns", answer: 1))
         
         // SEASON 12 - 26
         qList.append(Question(image: "areacodes.jpg", questionText: "When Springfield is divided into two area codes, which area code did the Simpsons fall under?", choiceA: "213", choiceB: "636", choiceC: "939", choiceD: "976", answer: 3))
@@ -377,7 +385,7 @@ class QuestionBank{
         qList.append(Question(image: "homerdaycare.jpg", questionText: "What injury forces Homer to stay home from work, prompting him to begin a daycare service?", choiceA: "Broken fibula", choiceB: "Torn anterior cruciate ligament", choiceC: "Sprained ankle", choiceD: "Torn groin muscle", answer: 2))
         qList.append(Question(image: "praiselandvision.jpg", questionText: "Which character is the first to have a vision in front of the Maude Flanders statue at Praiseland?", choiceA: "Principal Skinner", choiceB: "Moe Szyzlak", choiceC: "Edna Krabappel", choiceD: "Disco Stu", answer: 1))
         
-        // SEASON 13 - 22
+        // SEASON 13 - 23
         qList.append(Question(image: "burlymodel.jpg", questionText: "What is the name Homer uses when he poses as the model for Burly paper towels in a prank call to Marge?", choiceA: "Chad Sexington", choiceB: "Thad Supersperm", choiceC: "Brad Burlyman", choiceD: "Tad Lover", answer: 1))
         qList.append(Question(image: "homerbar.jpg", questionText: "When Homer converts his garage into a bar, which band does he recruit to play there?", choiceA: "Aerosmith", choiceB: "Red Hot Chili Peppers", choiceC: "R.E.M.", choiceD: "The Who", answer: 3))
         qList.append(Question(image: "brokenjaw", questionText: "Homer breaks his jaw by running into the statue of which character?", choiceA: "Monty Burns", choiceB: "Drederick Tatum", choiceC: "Jebediah Springfield", choiceD: "Mayor Quimby", answer: 2))
@@ -400,6 +408,7 @@ class QuestionBank{
         qList.append(Question(image: "buckmccoy.jpg", questionText: "Which actor voices Buck McCoy, a retired Western actor that Bart comes to idolize?", choiceA: "Lee Marvin", choiceB: "Clint Eastwood", choiceC: "Paul Newman", choiceD: "Dennis Weaver", answer: 4))
         qList.append(Question(image: "brazilorphan.jpg", questionText: "What is the name of the orphaned boy that Lisa and the Simpsons travel to Brazil to find?", choiceA: "Eduardo", choiceB: "Ronaldo", choiceC: "Cesar", choiceD: "Pedro", answer: 2))
         qList.append(Question(image: "homerpot.jpg", questionText: "Homer is prescribed medicinal marijuana after suffering injuries to which body part?", choiceA: "Eyes", choiceB: "Feet", choiceC: "Ears", choiceD: "Hands", answer: 1))
+        qList.append(Question(image: "lennynewyorker.jpg", questionText: "Photos of Lenny that appeared in The New Yorker were taken by which renowned photographer?", choiceA: "Annie Leibovitz", choiceB: "Richard Avedon", choiceC: "Steve McCurry", choiceD: "Bruce Weber", answer: 2))
         
         // SEASON 14 - 24
         qList.append(Question(image: "fantasycamp.jpg", questionText: "Which of these musicians was NOT an instructor at the rock 'n' roll fantasy camp Homer attends?", choiceA: "Dave Grohl", choiceB: "Lenny Kravitz", choiceC: "Tom Petty", choiceD: "Brian Setzer", answer: 1))
@@ -427,7 +436,7 @@ class QuestionBank{
         qList.append(Question(image: "oldthreestooges.jpg", questionText: "What is the title of the \"very late\" episode of \"The Three Stooges\" that Homer and Bart watch?", choiceA: "\"Brittle Boneheads\"", choiceB: "\"Old and Cranky\"", choiceC: "\"So Very Tired\"", choiceD: "\"Fragile Follies\"", answer: 1))
         qList.append(Question(image: "barthoodornament.jpg", questionText: "Attempting to restore his popularity, Bart attempts to steal a hood ornament off whose car?", choiceA: "Mayor Quimby", choiceB: "Fat Tony", choiceC: "Superintendent Chalmers", choiceD: "Kent Brockman", answer: 2))
         
-        // SEASON 15 - 22
+        // SEASON 15 - 23
         qList.append(Question(image: "lisaprez.jpg", questionText: "The episode \"The President Wore Pearls,\" in which Lisa becomes class president, is a parody of which Broadway musical?", choiceA: "Evita", choiceB: "Chicago", choiceC: "The Music Man", choiceD: "Phantom of the Opera", answer: 1))
         qList.append(Question(image: "secondhoneymoon.jpg", questionText: "What is the name of the airline Homer and Marge board for a flight to Miami and an impromptu second honeymoon?", choiceA: "Crazy Clown Airlines", choiceB: "Budget SkyBus", choiceC: "Suntan Airlines", choiceD: "United Airlines", answer: 3))
         qList.append(Question(image: "classprez.jpg", questionText: "Which of Springfield Elementary's students is forced to resign as class president after a disastrous casino night?", choiceA: "Bart", choiceB: "Martin", choiceC: "Nelson", choiceD: "Janey", answer: 2))
@@ -450,6 +459,7 @@ class QuestionBank{
         qList.append(Question(image: "homerfirstclass.jpg", questionText: "When Homer and Marge are upgraded to first class on a flight, what magazine does Homer boast about reading?", choiceA: "The New Yorker", choiceB: "The Economist", choiceC: "The Atlantic", choiceD: "Vanity Fair", answer: 2))
         qList.append(Question(image: "burnspieman.jpg", questionText: "When Homer, as the Pie Man, is forced to work for Mr. Burns, who is the first person he must pie?", choiceA: "Himself", choiceB: "Lisa", choiceC: "The Rich Texan", choiceD: "The Dalai Lama", answer: 1))
         qList.append(Question(image: "reeducation.jpg", questionText: "At the re-education center where the Simpsons are taken for being unpatriotic, which children's character is seen as a prisoner?", choiceA: "Dora the Explorer", choiceB: "Big Bird", choiceC: "Barney the dinosaur", choiceD: "Elmo", answer: 4))
+        qList.append(Question(image: "helpfulbear.jpg", questionText: "In the lyrics of a song by children’s entertainer Roofi, on what floor does a helpful bear reside?", choiceA: "17th", choiceB: "19th", choiceC: "28th", choiceD: "35th", answer: 3))
         
         // SEASON 16 - 22
         qList.append(Question(image: "homerathletes.jpg", questionText: "Which of these athletes did NOT attend Homer's Showboating Academy?", choiceA: "Tom Brady", choiceB: "LeBron James", choiceC: "Stephen Curry", choiceD: "Michelle Kwan", answer: 3))
@@ -504,6 +514,16 @@ class QuestionBank{
         
         
         // UNSORTED
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         
         
     }

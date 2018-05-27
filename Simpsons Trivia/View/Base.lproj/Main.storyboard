@@ -135,14 +135,18 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T8K-ss-ds1">
                                 <rect key="frame" x="0.0" y="81" width="375" height="530"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" link="YES"/>
+                                </accessibility>
                                 <attributedString key="attributedText">
                                     <fragment content="Game Rules:">
                                         <attributes>
-                                            <font key="NSFont" metaFont="system" size="14"/>
+                                            <font key="NSFont" size="15" name="HelveticaNeue"/>
                                         </attributes>
                                     </fragment>
                                 </attributedString>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
                             </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -459,7 +463,6 @@
         <image name="title2" width="365" height="168"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="lah-OZ-scv"/>
         <segue reference="6rG-74-1vb"/>
     </inferredMetricsTieBreakers>
 </document>
