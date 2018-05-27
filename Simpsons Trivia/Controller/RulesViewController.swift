@@ -34,7 +34,7 @@ class RulesViewController: UIViewController, UITextViewDelegate {
         attributedString.addAttributes(boldFontAttribute, range: string.range(of: "Can I suggest some questions to include in the game?"))
         
         // HYPERLINKS
-        attributedString.addAttribute(.link, value: NSURL(string: "http://www.edwarddelafuente.com")!, range: string.range(of: "my website"))
+        attributedString.addAttribute(.link, value: "http://www.edwarddelafuente.com", range: string.range(of: "my website"))
         attributedString.addAttribute(.link, value: "http://www.foxmovies.com", range: string.range(of: "20th Century Fox"))
         attributedString.addAttribute(.link, value: "http://www.frinkiac.com", range: string.range(of: "Frinkiac"))
         attributedString.addAttribute(.link, value: "mailto:woohootrivia@gmail.com", range: string.range(of: "via email"))
@@ -57,6 +57,7 @@ class RulesViewController: UIViewController, UITextViewDelegate {
         self.rulesTextView.delegate = self
         self.rulesTextView.isUserInteractionEnabled = true
         self.rulesTextView.isEditable = false
+        self.rulesTextView.isSelectable = true
     }
 
 
